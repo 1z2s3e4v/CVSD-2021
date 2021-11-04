@@ -1,0 +1,8 @@
+//
+// File created by:  irun
+// Do not modify this file
+
+s1::(12Oct2021:17:03:26):( ncverilog Lab1_alu.v )
+s2::(12Oct2021:17:04:10):( ncverilog Lab1_alu.v )
+s3::(12Oct2021:17:06:09):( ncverilog Lab1_test_alu_file.v Lab1_alu.v )
+s4::(12Oct2021:17:07:24):( ncverilog -f Lab1_alu_run.f )

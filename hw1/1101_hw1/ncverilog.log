@@ -1,0 +1,74 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Oct 25, 2021 at 23:29:25 CST
+ncverilog
+	testbench.v
+	alu.v
+	+define+I1
+	+access+rw
+file: testbench.v
+	module worklib.tb:v
+		errors: 0, warnings: 0
+file: alu.v
+	module worklib.alu:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.alu:v <0x0e3c8af1>
+			streams:   6, words:  5324
+		worklib.tb:v <0x21cf027e>
+			streams:  14, words: 19098
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              30      30
+		Scalar wires:            5       -
+		Vectored wires:          4       -
+		Always blocks:           4       4
+		Initial blocks:          6       6
+		Cont. assignments:       0       3
+		Pseudo assignments:      6       6
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb:v
+Loading snapshot worklib.tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_R-2020.12, Linux, 11/19/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'tb.fsdb'
+*Verdi* : Begin traversing the scope (tb), layer (0).
+*Verdi* : Enable +mda dumping.
+*Verdi* : End of traversing.
+Test[          0]: Correct!
+Test[          1]: Correct!
+Test[          2]: Correct!
+Test[          3]: Correct!
+Test[          4]: Correct!
+Test[          5]: Correct!
+Test[          6]: Correct!
+Test[          7]: Correct!
+Test[          8]: Correct!
+Test[          9]: Correct!
+Test[         10]: Correct!
+Test[         11]: Correct!
+Test[         12]: Correct!
+Test[         13]: Correct!
+Test[         14]: Correct!
+Test[         15]: Correct!
+Test[         16]: Correct!
+Test[         17]: Correct!
+Test[         18]: Correct!
+Test[         19]: Correct!
+Pattern: ./pattern/INST1_I.dat
+----------------------------------------------
+-                 ALL PASS!                  -
+----------------------------------------------
+Simulation complete via $finish(1) at time 360 NS + 0
+./testbench.v:174         $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Oct 25, 2021 at 23:29:27 CST  (total: 00:00:02)

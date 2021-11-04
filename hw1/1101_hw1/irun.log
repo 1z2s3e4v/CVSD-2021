@@ -1,0 +1,108 @@
+irun: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	irun	15.20-s084: Started on Oct 25, 2021 at 19:54:24 CST
+irun
+	testbench.v
+	alu.v
+file: testbench.v
+	module worklib.tb:v
+		errors: 0, warnings: 0
+file: alu.v
+	module worklib.alu:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		tb
+	Building instance overlay tables: ..........
+        $readmemb(`Inst_I, inst_idata);
+                                    |
+ncelab: *W,MEMODR (./testbench.v,82|36): $readmem default memory order incompatible with IEEE1364.
+        $readmemb(`Inst_O, inst_odata);
+                                    |
+ncelab: *W,MEMODR (./testbench.v,83|36): $readmem default memory order incompatible with IEEE1364.
+.......... Done
+	Generating native compiled code:
+		worklib.alu:v <0x15606fa6>
+			streams:   4, words:  3969
+		worklib.tb:v <0x421d9f7e>
+			streams:   9, words:  9464
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:              28      28
+		Scalar wires:            5       -
+		Vectored wires:          4       -
+		Always blocks:           3       3
+		Initial blocks:          6       6
+		Cont. assignments:       0       3
+		Pseudo assignments:      1       1
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: worklib.tb:v
+Loading snapshot worklib.tb:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "".
+            File: ./testbench.v, line = 82, pos = 36
+           Scope: tb
+            Time: 0 FS + 0
+
+ncsim: *W,RMEMNOF: $readmem error: open failed on file "".
+            File: ./testbench.v, line = 83, pos = 36
+           Scope: tb
+            Time: 0 FS + 0
+
+FSDB Dumper for IUS, Release Verdi_R-2020.12, Linux, 11/19/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'tb.fsdb'
+*Verdi* : Begin traversing the scope (tb), layer (0).
+*Verdi* : Enable +mda dumping.
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.i_clk(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.i_rst_n(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.i_valid(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.i_data_a(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.i_data_b(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.i_inst(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.i(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.j(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.error(25)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.test_inA(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.test_inB(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.test_inst(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.test_outO(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.test_outD(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.o_valid(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.o_data(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.o_overflow(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_data_w(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_data_r(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_valid_w(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_valid_r(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_overflow_w(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_overflow_r(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.data_old(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.abs_a(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.abs_b(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.data_add(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.data_mac(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.data_multi(48)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.i_clk(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.i_rst_n(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.i_valid(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.i_data_a(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.i_data_b(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.i_inst(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_valid(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_data(36)
+*Verdi* WARNING: [NoReadAccess][FilterOut]Name:tb.u_alu.o_overflow(36)
+*Verdi* : End of traversing.
+Pattern: 
+----------------------------------------------
+-                 ALL PASS!                  -
+----------------------------------------------
+Simulation complete via $finish(1) at time 20 NS + 0
+./testbench.v:174         $finish;
+ncsim> exit
+TOOL:	irun	15.20-s084: Exiting on Oct 25, 2021 at 19:54:26 CST  (total: 00:00:02)

@@ -1,0 +1,54 @@
+module props (
+ input clk, rstN,
+ input eg_valid, eg_ready,
+ input valid0, valid1, valid2, valid3,
+ input ready0, ready1, ready2, ready3,
+ input [1:0] size0, size1, size2, size3
+);
+ reg eg_is_odd;
+always @(posedge clk or negedge rstN)
+ if (!rstN) eg_is_odd <= 1'b1; // first is odd
+ else if (eg_valid && eg_ready) eg_is_odd <= ~eg_is_odd;
+ // Byte count logic
+ reg [6:0] byte_cnt, byte_cnt_nx;
+ always @(posedge clk or negedge rstN)
+ if (!rstN) byte_cnt <= 0;
+ else byte_cnt <= byte_cnt_nx;
+ always_comb begin
+ byte_cnt_nx = byte_cnt;
+ // Increment if bytes are valid at ingress
+ if (valid0 && ready0) byte_cnt_nx = byte_cnt_nx + (1 <<
+size0);
+if (valid1 && ready1) byte_cnt_nx = byte_cnt_nx + (1 << 
+size1);
+if (valid2 && ready2) byte_cnt_nx = byte_cnt_nx + (1 << size2);
+if (valid3 && ready3) byte_cnt_nx = byte_cnt_nx + (1 << size3);
+ // Decrement after every data word on egress
+if (eg_valid && eg_ready && !eg_is_odd) byte_cnt_nx = 
+byte_cnt_nx-1;
+ end
+ ast_output_count: assert property (
+ byte_cnt == 0 // if there are no outstanding bytes...
+ |-> // then in the same cycle
+ !eg_valid // eg_valid must be low
+ );
+
+// Size cannot be 2'b11 //******
+asm_size0: assume property (valid0 |-> size0 != 2'b11);
+asm_size1: assume property (valid1 |-> size1 != 2'b11);
+asm_size2: assume property (valid2 |-> size2 != 2'b11);
+asm_size3: assume property (valid3 |-> size3 != 2'b11);
+
+// Covers for interface //************
+ cov_eg_valid_odd: cover property (eg_valid && eg_ready && eg_is_odd);
+ cov_eg_valid_even: cover property (eg_valid && eg_ready && !eg_is_odd);
+// Covers for internal signals //**************
+ cov_eg_state_ADDR: cover property (top.eg.cur_state == `EG_ADDR);
+ cov_eg_state_DATA: cover property (top.eg.cur_state == `EG_DATA);
+cov_fifo_8: cover property ($countones(top.brdg.fifo_entry_valid)==8);
+cov_fifo_16: cover property ($countones(top.brdg.fifo_entry_valid)==16);
+
+ endmodule
+ // Connect module to design
+bind top props props_i (.*);
+

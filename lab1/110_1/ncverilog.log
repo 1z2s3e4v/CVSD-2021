@@ -1,0 +1,42 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Oct 12, 2021 at 17:07:24 CST
+ncverilog
+	-f Lab1_alu_run.f
+		Lab1_test_alu_file.v
+		Lab1_alu.v
+Recompiling... reason: file './Lab1_alu.v' is newer than expected.
+	expected: Tue Oct 12 17:03:58 2021
+	actual:   Tue Oct 12 17:07:02 2021
+file: Lab1_alu.v
+	module worklib.ALU:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.ALU:v <0x34f71949>
+			streams:   3, words:   597
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                   2       2
+		Registers:                15      15
+		Scalar wires:              3       -
+		Vectored wires:            3       -
+		Always blocks:             3       3
+		Initial blocks:            1       1
+		Pseudo assignments:        2       2
+		Simulation timescale:  100ps
+	Writing initial simulation snapshot: worklib.test_alu:v
+Loading snapshot worklib.test_alu:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+
+Congratulations!! Your Verilog Code is correct!!
+
+Simulation complete via $finish(1) at time 10260 NS + 0
+./Lab1_test_alu_file.v:72   #10 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Oct 12, 2021 at 17:07:28 CST  (total: 00:00:04)

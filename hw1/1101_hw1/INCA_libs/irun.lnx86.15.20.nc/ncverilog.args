@@ -1,0 +1,8 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+testbench.v
+alu.v
++define+I1
++access+rw

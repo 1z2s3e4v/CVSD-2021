@@ -1,0 +1,113 @@
+2021-11-02 16:39:50.375022 (36679) main____ INFO    ----------------------------------------
+2021-11-02 16:39:50.375111 (36679) main____ INFO    JasperGold version info
+2021-11-02 16:39:50.375122 (36679) main____ INFO      tool      : JasperGold 2021.03
+2021-11-02 16:39:50.375142 (36679) main____ INFO      version   : 2021.03 FCS 64 bits
+2021-11-02 16:39:50.375148 (36679) main____ INFO      build date: 2021.03.23 02:50:43 UTC
+2021-11-02 16:39:50.375153 (36679) main____ INFO    ----------------------------------------
+2021-11-02 16:39:50.375158 (36679) main____ INFO    Runtime info:
+2021-11-02 16:39:50.375163 (36679) main____ INFO      platform  : Linux 2.6.32-754.27.1.el6.x86_64 x86_64
+2021-11-02 16:39:50.375169 (36679) main____ INFO      hostname  : cad29
+2021-11-02 16:39:50.375174 (36679) main____ INFO      pid       : 36679
+2021-11-02 16:39:50.375191 (36679) main____ INFO      arguments : '-style' 'windows'
+2021-11-02 16:39:50.375197 (36679) main____ INFO      locale    : UTF-8
+2021-11-02 16:39:50.375201 (36679) main____ INFO    ----------------------------------------
+2021-11-02 16:39:50.375206 (36679) main____ INFO    System resource limits info:
+2021-11-02 16:39:50.375212 (36679) main____ INFO      virtual memory: unlimited
+2021-11-02 16:39:50.375217 (36679) main____ INFO      cpu time      : unlimited
+2021-11-02 16:39:50.375229 (36679) main____ INFO      stack size    : 10485760 B
+2021-11-02 16:39:50.375236 (36679) main____ INFO      core file size: 0 B
+2021-11-02 16:39:50.375255 (36679) main____ INFO      open files    : 1024
+2021-11-02 16:39:50.375263 (36679) main____ INFO      file size     : unlimited
+2021-11-02 16:39:50.375276 (36679) main____ INFO    ----------------------------------------
+2021-11-02 16:39:50.375287 (36679) main____ INFO    Memory statistics:
+2021-11-02 16:39:50.375311 (36679) main____ INFO      total physical memory  : 347044044 kB
+2021-11-02 16:39:50.375331 (36679) main____ INFO      free physical memory   : 1225804 kB
+2021-11-02 16:39:50.375338 (36679) main____ INFO      committed address space: 135819056 kB
+2021-11-02 16:39:50.375344 (36679) main____ INFO    ----------------------------------------
+2021-11-02 16:39:50.376383 (36679) main____ INFO    Important environment variables:
+2021-11-02 16:39:50.376406 (36679) main____ INFO      CDS_LIC_FILE       : '/usr/cad/cadence/IC/cur/share/license/license.dat'
+2021-11-02 16:39:50.376418 (36679) main____ INFO      CDS_Netlisting_Mode: 'Analog'
+2021-11-02 16:39:50.376425 (36679) main____ INFO      DISPLAY            : 'localhost:56.0'
+2021-11-02 16:39:50.376431 (36679) main____ INFO      JASPER_INSTALL_DIR : '/home/raid7_4/raid1_1/linux/cadence2012/JASPER/jasper_2021.03'
+2021-11-02 16:39:50.376437 (36679) main____ INFO      LANG               : 'en_US.UTF-8'
+2021-11-02 16:39:50.376443 (36679) main____ INFO      LM_LICENSE_FILE    : '5288@cad43:5280@lshc:1717@lsntu:26585@lsntu:5288@cad43:5288@cad43:5288@cad43:5288@cad43:5288@cad43:5288@cad43:5288@cad43:5288@cad43:5288@cad43:'
+2021-11-02 16:39:50.376449 (36679) main____ INFO    ----------------------------------------
+2021-11-02 16:39:50.377838 (36679) lic_core INFO    Initializing license system ...
+2021-11-02 16:39:50.379919 (36679) lic_core INFO    ... license system initialized.
+2021-11-02 16:39:50.380994 (36679) lic__man INFO    Claim 'main' for <ui>.
+2021-11-02 16:39:50.381032 (36679) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2021-11-02 16:39:50.452752 (36679) lic_core INFO    ... (1) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2021-11-02 16:39:50.452786 (36679) lic_core INFO    (2) checking out 'jasper_pint' ...
+2021-11-02 16:39:50.557635 (36679) lic_core INFO    ... (2) checkout succeeded
+2021-11-02 16:39:50.557700 (36679) lic__man INFO    Claim 'fpv' for <ui>.
+2021-11-02 16:39:50.557722 (36679) lic_core INFO    (3) checking out 'jasper_fpv' ...
+2021-11-02 16:39:50.624507 (36679) lic_core INFO    ... (3) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2021-11-02 16:39:50.624529 (36679) lic_core INFO    (4) checking out 'jasper_fao' ...
+2021-11-02 16:39:50.731989 (36679) lic_core INFO    ... (4) checkout succeeded
+2021-11-02 16:39:50.732640 (36679) main____ INFO    Tool inactivity delay is 480000 ms.
+2021-11-02 16:39:51.525387 (36679) lic__man INFO    Claim 'fpv' for <ui>.
+2021-11-02 16:39:51.752355 (36679) lic__man INFO    Unclaim 'fpv' for <ui>.
+2021-11-02 16:39:51.752389 (36679) lic__man INFO    Claim 'fpv' for <ui>.
+2021-11-02 16:39:51.762103 (36679) session_ INFO    Starting analysis session with session id 'session_0' (launcher: <local>) ...
+2021-11-02 16:39:51.764378 (36679) session_ INFO    Analysis session with session id 'session_0' started (pid: 36819)
+2021-11-02 16:39:57.387385 (36679) session_ INFO    Analysis session 'session_0' connected to the console (host: 127.0.0.1:51976)
+2021-11-02 16:40:56.316334 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:40:56.733956 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:42:14.015884 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:42:14.015935 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:42:15.088736 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:43:06.276746 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:47:35.454240 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:47:35.865632 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:47:41.868326 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:47:41.868369 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:47:48.590009 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:47:51.297233 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:47:51.828533 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:47:55.034401 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:48:19.936239 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:48:20.363908 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:48:22.755546 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:48:22.755578 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:48:23.854760 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:48:44.187505 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:48:44.751543 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:48:47.176075 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:48:47.176113 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:48:54.132843 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:51:29.183474 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:51:29.721557 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:51:45.939103 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:51:45.939141 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:51:50.649382 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:54:03.264591 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:54:03.833105 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:54:20.142577 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:54:20.142611 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:57:20.390334 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:58:01.447911 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:58:02.033210 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:58:07.723091 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:58:07.723132 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:59:22.794224 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:59:23.148899 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:59:23.818209 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:59:24.120625 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:59:24.700061 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:59:28.632286 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 16:59:28.632324 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 16:59:32.496782 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 16:59:34.663872 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 16:59:35.216990 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 17:00:30.904123 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 17:00:31.501994 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 17:01:00.868853 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 17:01:01.457327 (36679) lic__man INFO    Unclaim everything for 'session_0'.
+2021-11-02 17:01:06.640950 (36679) lic__man INFO    Claim 'fpv' for 'session_0'.
+2021-11-02 17:01:06.640995 (36679) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2021-11-02 17:04:09.361315 (36679) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2021-11-02 17:13:43.246121 (36679) main____ INFO    About to exit: requested from GUI
+2021-11-02 17:13:43.425565 (36679) session_ INFO    Analysis session 'session_0' disconnected.
+2021-11-02 17:13:43.437311 (36679) lic_core INFO    (2) checkin jasper_pint
+2021-11-02 17:13:43.447002 (36679) lic_core INFO    (4) checkin jasper_fao
+2021-11-02 17:13:43.459019 (36679) main____ INFO    Exiting with status 0.

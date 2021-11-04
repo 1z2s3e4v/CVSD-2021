@@ -1,0 +1,2 @@
+s1(25Oct2021:19:54:14):  irun alu.v 
+s2(25Oct2021:19:54:24):  irun testbench.v alu.v 
