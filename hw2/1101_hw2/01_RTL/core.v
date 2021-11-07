@@ -119,39 +119,39 @@ always@(cur_state) begin
 			case (opcode)
 				// R-type
 				`OP_ADD: begin
-					$display("	add $%d  $%d  $%d",rd,rs,rt);
+					$display("	add $%d  $%d  $%d",rs,rt,rd);
 					{flag_OF, registers[rd]} = registers[rs] + registers[rt]; // s1 = s2 + s3
 					$display("	$%d(%d) = $%d(%d) + $%d(%d)",rd,registers[rd],rs,registers[rs],rt,registers[rt]);
 				end
 				`OP_SUB: begin
-					$display("	sub $%d  $%d  $%d",rd,rs,rt);
+					$display("	sub $%d  $%d  $%d",rs,rt,rd);
 					registers[rd] = registers[rs] - registers[rt]; // s1 = s2 - s3
 					$display("	$%d(%d) = $%d(%d) - $%d(%d)",rd,registers[rd],rs,registers[rs],rt,registers[rt]);
 					flag_OF = (registers[rs] < registers[rt]);
 				end
 				`OP_AND: begin
-					$display("	and $%d  $%d  $%d",rd,rs,rt);
+					$display("	and $%d  $%d  $%d",rs,rt,rd);
 					registers[rd] = registers[rs] & registers[rt]; // s1 = s2 & s3
 					$display("	$%d(%d) = $%d(%d) & $%d(%d)",rd,registers[rd],rs,registers[rs],rt,registers[rt]);
 				end
 				`OP_OR:	begin
-					$display("	or $%d  $%d  $%d",rd,rs,rt);
+					$display("	or $%d  $%d  $%d",rs,rt,rd);
 					registers[rd] = registers[rs] | registers[rt]; // s1 = s2 | s3
 					$display("	$%d(%d) = $%d(%d) | $%d(%d)",rd,registers[rd],rs,registers[rs],rt,registers[rt]);
 				end
 				`OP_NOR: begin
-					$display("	nor $%d  $%d  $%d",rd,rs,rt);
+					$display("	nor $%d  $%d  $%d",rs,rt,rd);
 					registers[rd] = ~(registers[rs] | registers[rt]); // s1 = ~(s2 | s3)
 					$display("	$%d(%d) = ~( $%d(%d) | $%d(%d) )",rd,registers[rd],rs,registers[rs],rt,registers[rt]);
 				end
 				`OP_SLT: begin
-					$display("	slt $%d  $%d  $%d",rd,rs,rt);
+					$display("	slt $%d  $%d  $%d",rs,rt,rd);
 					registers[rd] = (registers[rs] < registers[rt])? 1 : 0; // s1 = (s2 < s3)? 1 : 0
 					$display("	$%d(%d) = ( $%d(%d) < $%d(%d) )? 1 : 0",rd,registers[rd],rs,registers[rs],rt,registers[rt]);
 				end
 				// I-type
 				`OP_ADDI: begin
-					$display("	addi $%d  $%d  %d",rt,rs,im);
+					$display("	addi $%d  $%d  %d",rs,rt,im);
 					{flag_OF, registers[rt]} = registers[rs] + im; // s1 = s2 + im
 					$display("	$%d(%d) = $%d(%d) - im(%d)",rt,registers[rt],rs,registers[rs],im);
 				end
@@ -159,7 +159,7 @@ always@(cur_state) begin
 					$display("	lw $%d  %d($%d)",rt,im,rs);
 					o_d_wen_w = 0;
 					{flag_OF, o_d_addr_w} = registers[rs] + im;
-					$display("	load mem[$%d(%d)+%d=%d]",rs,registers[rs],im,registers[rs]+im);
+					$display("	load mem[$%d(%d)+%d=%d] to $%d",rs,registers[rs],im,registers[rs]+im,rt);
 				end
 				`OP_SW: begin
 					$display("	sw $%d  %d($%d)",rt,im,rs);
