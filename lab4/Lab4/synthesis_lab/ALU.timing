@@ -1,0 +1,46 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ALU
+Version: R-2020.09-SP5
+Date   : Tue Nov  9 17:43:28 2021
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: segmented
+
+  Startpoint: alu_out_reg[0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: alu_out[0] (output port clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ALU                ForQA                 typical
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  alu_out_reg[0]/CK (DFFRX1)               0.00       0.00 r
+  alu_out_reg[0]/Q (DFFRX1)                0.28       0.28 f
+  alu_out[0] (out)                         0.00       0.28 f
+  data arrival time                                   0.28
+
+  clock clk (rise edge)                   10.00      10.00
+  clock network delay (ideal)              0.00      10.00
+  output external delay                   -8.00       2.00
+  data required time                                  2.00
+  -----------------------------------------------------------
+  data required time                                  2.00
+  data arrival time                                  -0.28
+  -----------------------------------------------------------
+  slack (MET)                                         1.72
+
+
+1

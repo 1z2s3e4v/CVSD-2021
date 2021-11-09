@@ -1,0 +1,268 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Nov 09, 2021 at 17:45:45 CST
+ncverilog
+	Lab4_test_alu.v
+	ALU_syn.v
+	-v
+	/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v
+file: Lab4_test_alu.v
+	module worklib.test_alu:v
+		errors: 0, warnings: 0
+file: ALU_syn.v
+	module worklib.ALU_DW01_sub_0:v
+		errors: 0, warnings: 0
+	module worklib.ALU_DW01_add_0:v
+		errors: 0, warnings: 0
+	module worklib.ALU:v
+		errors: 0, warnings: 0
+file: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v
+	module tsmc13_neg.AND2X2:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI221XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.AOI32X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND3X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NAND3BX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.NOR3X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI21XL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.OAI32X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.XOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.XOR3X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.XNOR2X1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.CLKBUFX3:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.CLKINVX1:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.ADDFXL:v
+		errors: 0, warnings: 0
+	module tsmc13_neg.DFFRX1:v
+		errors: 0, warnings: 0
+	primitive tsmc13_neg.udp_dff:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+		Caching library 'tsmc13_neg' ....... Done
+	Elaborating the design hierarchy:
+  ALU_DW01_sub_0 sub_43 ( .A(reg_A), .B(reg_B), .CI(1'b0), .DIFF({N54, N53, 
+                      |
+ncelab: *W,CUVWSP (./ALU_syn.v,80|22): 1 output port was not connected:
+ncelab: (./ALU_syn.v,8): CO
+
+  ALU_DW01_add_0 add_42 ( .A(reg_A), .B(reg_B), .CI(1'b0), .SUM({N46, N45, N44, 
+                      |
+ncelab: *W,CUVWSP (./ALU_syn.v,82|22): 1 output port was not connected:
+ncelab: (./ALU_syn.v,37): CO
+
+  DFFRX1 \reg_ins_reg[1]  ( .D(instruction[1]), .CK(clk), .RN(n68), .Q(
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,90|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[1]  ( .D(X[1]), .CK(clk), .RN(n66), .Q(alu_out[1]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,124|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[2]  ( .D(X[2]), .CK(clk), .RN(n66), .Q(alu_out[2]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,125|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[3]  ( .D(X[3]), .CK(clk), .RN(n66), .Q(alu_out[3]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,126|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[4]  ( .D(X[4]), .CK(clk), .RN(n66), .Q(alu_out[4]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,127|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[5]  ( .D(X[5]), .CK(clk), .RN(n66), .Q(alu_out[5]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,128|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[6]  ( .D(X[6]), .CK(clk), .RN(n66), .Q(alu_out[6]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,129|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[7]  ( .D(X[7]), .CK(clk), .RN(n66), .Q(alu_out[7]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,130|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 \alu_out_reg[0]  ( .D(X[0]), .CK(clk), .RN(n66), .Q(alu_out[0]) );
+                        |
+ncelab: *W,CUVWSP (./ALU_syn.v,131|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/Verilog/tsmc13_neg.v,18307): QN
+
+	Reading SDF file from location "ALU.sdf"
+	Writing compiled SDF file to "ALU.sdf.X".
+	Annotating SDF timing data:
+		Compiled SDF file:     ALU.sdf.X
+		Log file:              
+		Backannotation scope:  test_alu.my_alu
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test_alu.my_alu.add_42.U2 of module XOR2X1 <./ALU.sdf, line 1622>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test_alu.my_alu.add_42.U2 of module XOR2X1 <./ALU.sdf, line 1623>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test_alu.my_alu.add_42.U2 of module XOR2X1 <./ALU.sdf, line 1626>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test_alu.my_alu.add_42.U2 of module XOR2X1 <./ALU.sdf, line 1627>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.add_42.U1_1 of module ADDFXL <./ALU.sdf, line 1657>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.add_42.U1_1 of module ADDFXL <./ALU.sdf, line 1658>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.add_42.U1_1 of module ADDFXL <./ALU.sdf, line 1663>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.add_42.U1_1 of module ADDFXL <./ALU.sdf, line 1664>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.add_42.U1_1 of module ADDFXL <./ALU.sdf, line 1667>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.add_42.U1_1 of module ADDFXL <./ALU.sdf, line 1668>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.add_42.U1_6 of module ADDFXL <./ALU.sdf, line 1688>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.add_42.U1_6 of module ADDFXL <./ALU.sdf, line 1689>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.add_42.U1_6 of module ADDFXL <./ALU.sdf, line 1694>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.add_42.U1_6 of module ADDFXL <./ALU.sdf, line 1695>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.add_42.U1_6 of module ADDFXL <./ALU.sdf, line 1698>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.add_42.U1_6 of module ADDFXL <./ALU.sdf, line 1699>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.add_42.U1_5 of module ADDFXL <./ALU.sdf, line 1719>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.add_42.U1_5 of module ADDFXL <./ALU.sdf, line 1720>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.add_42.U1_5 of module ADDFXL <./ALU.sdf, line 1725>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.add_42.U1_5 of module ADDFXL <./ALU.sdf, line 1726>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.add_42.U1_5 of module ADDFXL <./ALU.sdf, line 1729>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.add_42.U1_5 of module ADDFXL <./ALU.sdf, line 1730>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.add_42.U1_4 of module ADDFXL <./ALU.sdf, line 1750>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.add_42.U1_4 of module ADDFXL <./ALU.sdf, line 1751>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.add_42.U1_4 of module ADDFXL <./ALU.sdf, line 1756>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.add_42.U1_4 of module ADDFXL <./ALU.sdf, line 1757>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.add_42.U1_4 of module ADDFXL <./ALU.sdf, line 1760>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.add_42.U1_4 of module ADDFXL <./ALU.sdf, line 1761>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.add_42.U1_3 of module ADDFXL <./ALU.sdf, line 1781>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.add_42.U1_3 of module ADDFXL <./ALU.sdf, line 1782>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.add_42.U1_3 of module ADDFXL <./ALU.sdf, line 1787>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.add_42.U1_3 of module ADDFXL <./ALU.sdf, line 1788>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.add_42.U1_3 of module ADDFXL <./ALU.sdf, line 1791>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.add_42.U1_3 of module ADDFXL <./ALU.sdf, line 1792>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.add_42.U1_2 of module ADDFXL <./ALU.sdf, line 1812>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.add_42.U1_2 of module ADDFXL <./ALU.sdf, line 1813>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.add_42.U1_2 of module ADDFXL <./ALU.sdf, line 1818>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.add_42.U1_2 of module ADDFXL <./ALU.sdf, line 1819>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.add_42.U1_2 of module ADDFXL <./ALU.sdf, line 1822>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.add_42.U1_2 of module ADDFXL <./ALU.sdf, line 1823>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test_alu.my_alu.add_42.U1_7 of module XOR3X1 <./ALU.sdf, line 1836>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test_alu.my_alu.add_42.U1_7 of module XOR3X1 <./ALU.sdf, line 1837>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test_alu.my_alu.add_42.U1_7 of module XOR3X1 <./ALU.sdf, line 1842>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test_alu.my_alu.add_42.U1_7 of module XOR3X1 <./ALU.sdf, line 1843>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) Y) of instance test_alu.my_alu.add_42.U1_7 of module XOR3X1 <./ALU.sdf, line 1846>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) Y) of instance test_alu.my_alu.add_42.U1_7 of module XOR3X1 <./ALU.sdf, line 1847>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test_alu.my_alu.sub_43.U10 of module XNOR2X1 <./ALU.sdf, line 1858>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test_alu.my_alu.sub_43.U10 of module XNOR2X1 <./ALU.sdf, line 1859>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test_alu.my_alu.sub_43.U10 of module XNOR2X1 <./ALU.sdf, line 1862>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test_alu.my_alu.sub_43.U10 of module XNOR2X1 <./ALU.sdf, line 1863>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.sub_43.U2_6 of module ADDFXL <./ALU.sdf, line 1965>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.sub_43.U2_6 of module ADDFXL <./ALU.sdf, line 1966>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.sub_43.U2_6 of module ADDFXL <./ALU.sdf, line 1971>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.sub_43.U2_6 of module ADDFXL <./ALU.sdf, line 1972>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.sub_43.U2_6 of module ADDFXL <./ALU.sdf, line 1975>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.sub_43.U2_6 of module ADDFXL <./ALU.sdf, line 1976>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.sub_43.U2_5 of module ADDFXL <./ALU.sdf, line 1996>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.sub_43.U2_5 of module ADDFXL <./ALU.sdf, line 1997>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.sub_43.U2_5 of module ADDFXL <./ALU.sdf, line 2002>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.sub_43.U2_5 of module ADDFXL <./ALU.sdf, line 2003>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.sub_43.U2_5 of module ADDFXL <./ALU.sdf, line 2006>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.sub_43.U2_5 of module ADDFXL <./ALU.sdf, line 2007>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.sub_43.U2_4 of module ADDFXL <./ALU.sdf, line 2027>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.sub_43.U2_4 of module ADDFXL <./ALU.sdf, line 2028>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.sub_43.U2_4 of module ADDFXL <./ALU.sdf, line 2033>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.sub_43.U2_4 of module ADDFXL <./ALU.sdf, line 2034>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.sub_43.U2_4 of module ADDFXL <./ALU.sdf, line 2037>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.sub_43.U2_4 of module ADDFXL <./ALU.sdf, line 2038>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.sub_43.U2_3 of module ADDFXL <./ALU.sdf, line 2058>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.sub_43.U2_3 of module ADDFXL <./ALU.sdf, line 2059>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.sub_43.U2_3 of module ADDFXL <./ALU.sdf, line 2064>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.sub_43.U2_3 of module ADDFXL <./ALU.sdf, line 2065>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.sub_43.U2_3 of module ADDFXL <./ALU.sdf, line 2068>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.sub_43.U2_3 of module ADDFXL <./ALU.sdf, line 2069>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.sub_43.U2_2 of module ADDFXL <./ALU.sdf, line 2089>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.sub_43.U2_2 of module ADDFXL <./ALU.sdf, line 2090>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.sub_43.U2_2 of module ADDFXL <./ALU.sdf, line 2095>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.sub_43.U2_2 of module ADDFXL <./ALU.sdf, line 2096>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.sub_43.U2_2 of module ADDFXL <./ALU.sdf, line 2099>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.sub_43.U2_2 of module ADDFXL <./ALU.sdf, line 2100>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance test_alu.my_alu.sub_43.U2_1 of module ADDFXL <./ALU.sdf, line 2120>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance test_alu.my_alu.sub_43.U2_1 of module ADDFXL <./ALU.sdf, line 2121>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance test_alu.my_alu.sub_43.U2_1 of module ADDFXL <./ALU.sdf, line 2126>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance test_alu.my_alu.sub_43.U2_1 of module ADDFXL <./ALU.sdf, line 2127>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance test_alu.my_alu.sub_43.U2_1 of module ADDFXL <./ALU.sdf, line 2130>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance test_alu.my_alu.sub_43.U2_1 of module ADDFXL <./ALU.sdf, line 2131>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance test_alu.my_alu.sub_43.U2_7 of module XOR3X1 <./ALU.sdf, line 2144>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance test_alu.my_alu.sub_43.U2_7 of module XOR3X1 <./ALU.sdf, line 2145>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance test_alu.my_alu.sub_43.U2_7 of module XOR3X1 <./ALU.sdf, line 2150>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance test_alu.my_alu.sub_43.U2_7 of module XOR3X1 <./ALU.sdf, line 2151>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge C) Y) of instance test_alu.my_alu.sub_43.U2_7 of module XOR3X1 <./ALU.sdf, line 2154>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge C) Y) of instance test_alu.my_alu.sub_43.U2_7 of module XOR3X1 <./ALU.sdf, line 2155>.
+	Annotation completed with 0 Errors and 92 Warnings
+	SDF statistics: No. of Pathdelays = 524  Annotated = 100.00% -- No. of Tchecks = 168  Annotated = 100.00% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	         524	         524	      100.00
+		      $width	          84	          84	      100.00
+		  $setuphold	          84	          84	      100.00
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		tsmc13_neg.ADDFXL:v <0x66def539>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX1:v <0x063ab3f7>
+			streams:   0, words:     0
+		tsmc13_neg.DFFRX1:v <0x49b64fac>
+			streams:   0, words:     0
+		tsmc13_neg.XNOR2X1:v <0x6ba64196>
+			streams:   0, words:     0
+		tsmc13_neg.XOR2X1:v <0x15914cf4>
+			streams:   0, words:     0
+		tsmc13_neg.XOR3X1:v <0x05cc3c66>
+			streams:   0, words:     0
+		worklib.ALU:v <0x160bf37d>
+			streams:   0, words:     0
+		worklib.test_alu:v <0x14f5a169>
+			streams:   4, words: 14788
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                 111      21
+		UDPs:                     28       1
+		Primitives:              332       8
+		Timing outputs:          138      12
+		Registers:                38      12
+		Scalar wires:            172       -
+		Expanded wires:           20       3
+		Always blocks:             1       1
+		Initial blocks:            1       1
+		Pseudo assignments:        2       2
+		Timing checks:           252      37
+		Interconnect:            334       -
+		Delayed tcheck signals:   84      33
+		Simulation timescale:    1ps
+	Writing initial simulation snapshot: worklib.test_alu:v
+Loading snapshot worklib.test_alu:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+
+Congratulations!! Your Verilog Code is correct!!
+
+Simulation complete via $finish(1) at time 6558735 NS + 0
+./Lab4_test_alu.v:120   #10 $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Nov 09, 2021 at 17:45:48 CST  (total: 00:00:03)
