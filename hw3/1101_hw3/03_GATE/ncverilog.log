@@ -1,0 +1,482 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Dec 07, 2021 at 03:16:57 CST
+ncverilog
+	-f rtl_03.f
+		../00_TESTBED/testbed.v
+		/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+		../sram_256x8/sram_256x8.v
+		./ipdc_syn.v
+	+ncmaxdelays
+	+access+r
+	+define+SDF+tb3
+file: ../00_TESTBED/testbed.v
+	module worklib.testbed:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  DFFRX1 count_out_reg_1_ ( .D(count_out_next[1]), .CK(i_clk), .RN(n324), .Q(
+                        |
+ncelab: *W,CUVWSP (./ipdc_syn.v,117|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 count_out_reg_0_ ( .D(count_out_next[0]), .CK(i_clk), .RN(n324), .Q(
+                        |
+ncelab: *W,CUVWSP (./ipdc_syn.v,119|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 cur_A_reg_3_ ( .D(n289), .CK(i_clk), .RN(i_rst_n), .Q(cur_A[3]) );
+                    |
+ncelab: *W,CUVWSP (./ipdc_syn.v,129|20): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 cur_A_reg_2_ ( .D(n290), .CK(i_clk), .RN(i_rst_n), .Q(cur_A[2]) );
+                    |
+ncelab: *W,CUVWSP (./ipdc_syn.v,132|20): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 cur_A_reg_1_ ( .D(n291), .CK(i_clk), .RN(i_rst_n), .Q(cur_A[1]) );
+                    |
+ncelab: *W,CUVWSP (./ipdc_syn.v,137|20): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 cur_A_reg_4_ ( .D(n296), .CK(i_clk), .RN(n324), .Q(cur_A[4]) );
+                    |
+ncelab: *W,CUVWSP (./ipdc_syn.v,140|20): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 cur_A_reg_0_ ( .D(n292), .CK(i_clk), .RN(n324), .Q(cur_A[0]) );
+                    |
+ncelab: *W,CUVWSP (./ipdc_syn.v,141|20): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_1_ ( .D(sram_i_A_w[1]), .CK(i_clk), .RN(i_rst_n), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,144|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_2_ ( .D(sram_i_A_w[2]), .CK(i_clk), .RN(i_rst_n), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,146|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_3_ ( .D(sram_i_A_w[3]), .CK(i_clk), .RN(n324), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,148|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_4_ ( .D(sram_i_A_w[4]), .CK(i_clk), .RN(i_rst_n), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,150|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_5_ ( .D(sram_i_A_w[5]), .CK(i_clk), .RN(i_rst_n), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,152|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_6_ ( .D(sram_i_A_w[6]), .CK(i_clk), .RN(i_rst_n), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,154|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_7_ ( .D(sram_i_A_w[7]), .CK(i_clk), .RN(i_rst_n), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,156|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_A_r_reg_0_ ( .D(sram_i_A_w[0]), .CK(i_clk), .RN(i_rst_n), .Q(
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,158|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_CEN_r_reg ( .D(sram_i_CEN_w), .CK(i_clk), .RN(n325), .Q(
+                        |
+ncelab: *W,CUVWSP (./ipdc_syn.v,160|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 sram_i_WEN_r_reg ( .D(sram_i_WEN_w), .CK(i_clk), .RN(i_rst_n), .Q(
+                        |
+ncelab: *W,CUVWSP (./ipdc_syn.v,162|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 cur_state_reg_3_ ( .D(next_state[3]), .CK(i_clk), .RN(n324), .Q(
+                        |
+ncelab: *W,CUVWSP (./ipdc_syn.v,164|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 cur_A_reg_7_ ( .D(n293), .CK(i_clk), .RN(n325), .Q(cur_A[7]) );
+                    |
+ncelab: *W,CUVWSP (./ipdc_syn.v,166|20): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 o_in_ready_r_reg ( .D(1'b1), .CK(i_clk), .RN(n324), .Q(o_in_ready) );
+                        |
+ncelab: *W,CUVWSP (./ipdc_syn.v,169|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 o_out_valid_r_reg ( .D(n366), .CK(i_clk), .RN(n324), .Q(o_out_valid)
+                         |
+ncelab: *W,CUVWSP (./ipdc_syn.v,170|25): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+  DFFRX1 o_op_ready_r_reg ( .D(n365), .CK(i_clk), .RN(n324), .Q(o_op_ready) );
+                        |
+ncelab: *W,CUVWSP (./ipdc_syn.v,172|24): 1 output port was not connected:
+ncelab: (/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v,18307): QN
+
+	Reading SDF file from location "ipdc_syn.sdf"
+	Annotating SDF timing data:
+		Compiled SDF file:     ipdc_syn.sdf.X
+		Log file:              
+		Backannotation scope:  testbed.u_ipdc
+		Configuration file:    
+		MTM control:           
+		Scale factors:         
+		Scale type:            
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U465 of module XOR2X1 <./ipdc_syn.sdf, line 1293>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U465 of module XOR2X1 <./ipdc_syn.sdf, line 1294>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U465 of module XOR2X1 <./ipdc_syn.sdf, line 1297>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U465 of module XOR2X1 <./ipdc_syn.sdf, line 1298>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U463 of module XOR2X1 <./ipdc_syn.sdf, line 1319>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U463 of module XOR2X1 <./ipdc_syn.sdf, line 1320>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U463 of module XOR2X1 <./ipdc_syn.sdf, line 1323>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U463 of module XOR2X1 <./ipdc_syn.sdf, line 1324>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U461 of module XNOR2X1 <./ipdc_syn.sdf, line 1345>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U461 of module XNOR2X1 <./ipdc_syn.sdf, line 1346>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U461 of module XNOR2X1 <./ipdc_syn.sdf, line 1349>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U461 of module XNOR2X1 <./ipdc_syn.sdf, line 1350>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U460 of module XOR2X1 <./ipdc_syn.sdf, line 1361>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U460 of module XOR2X1 <./ipdc_syn.sdf, line 1362>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U460 of module XOR2X1 <./ipdc_syn.sdf, line 1365>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U460 of module XOR2X1 <./ipdc_syn.sdf, line 1366>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U458 of module XOR2X1 <./ipdc_syn.sdf, line 1387>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U458 of module XOR2X1 <./ipdc_syn.sdf, line 1388>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U458 of module XOR2X1 <./ipdc_syn.sdf, line 1391>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U458 of module XOR2X1 <./ipdc_syn.sdf, line 1392>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U456 of module XNOR2X1 <./ipdc_syn.sdf, line 1413>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U456 of module XNOR2X1 <./ipdc_syn.sdf, line 1414>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U456 of module XNOR2X1 <./ipdc_syn.sdf, line 1417>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U456 of module XNOR2X1 <./ipdc_syn.sdf, line 1418>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U455 of module XNOR2X1 <./ipdc_syn.sdf, line 1429>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U455 of module XNOR2X1 <./ipdc_syn.sdf, line 1430>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U455 of module XNOR2X1 <./ipdc_syn.sdf, line 1433>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U455 of module XNOR2X1 <./ipdc_syn.sdf, line 1434>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U453 of module XNOR2X1 <./ipdc_syn.sdf, line 1455>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U453 of module XNOR2X1 <./ipdc_syn.sdf, line 1456>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U453 of module XNOR2X1 <./ipdc_syn.sdf, line 1459>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U453 of module XNOR2X1 <./ipdc_syn.sdf, line 1460>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U452 of module XNOR2X1 <./ipdc_syn.sdf, line 1471>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U452 of module XNOR2X1 <./ipdc_syn.sdf, line 1472>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U452 of module XNOR2X1 <./ipdc_syn.sdf, line 1475>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U452 of module XNOR2X1 <./ipdc_syn.sdf, line 1476>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U450 of module XOR2X1 <./ipdc_syn.sdf, line 1497>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U450 of module XOR2X1 <./ipdc_syn.sdf, line 1498>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U450 of module XOR2X1 <./ipdc_syn.sdf, line 1501>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U450 of module XOR2X1 <./ipdc_syn.sdf, line 1502>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U448 of module XNOR2X1 <./ipdc_syn.sdf, line 1523>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U448 of module XNOR2X1 <./ipdc_syn.sdf, line 1524>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U448 of module XNOR2X1 <./ipdc_syn.sdf, line 1527>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U448 of module XNOR2X1 <./ipdc_syn.sdf, line 1528>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U446 of module XNOR2X1 <./ipdc_syn.sdf, line 1549>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U446 of module XNOR2X1 <./ipdc_syn.sdf, line 1550>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U446 of module XNOR2X1 <./ipdc_syn.sdf, line 1553>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U446 of module XNOR2X1 <./ipdc_syn.sdf, line 1554>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U445 of module XNOR2X1 <./ipdc_syn.sdf, line 1565>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U445 of module XNOR2X1 <./ipdc_syn.sdf, line 1566>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U445 of module XNOR2X1 <./ipdc_syn.sdf, line 1569>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U445 of module XNOR2X1 <./ipdc_syn.sdf, line 1570>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U443 of module XOR2X1 <./ipdc_syn.sdf, line 1591>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U443 of module XOR2X1 <./ipdc_syn.sdf, line 1592>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U443 of module XOR2X1 <./ipdc_syn.sdf, line 1595>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U443 of module XOR2X1 <./ipdc_syn.sdf, line 1596>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U413 of module ADDFXL <./ipdc_syn.sdf, line 1929>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U413 of module ADDFXL <./ipdc_syn.sdf, line 1930>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U413 of module ADDFXL <./ipdc_syn.sdf, line 1935>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U413 of module ADDFXL <./ipdc_syn.sdf, line 1936>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U413 of module ADDFXL <./ipdc_syn.sdf, line 1939>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U413 of module ADDFXL <./ipdc_syn.sdf, line 1940>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U412 of module ADDFXL <./ipdc_syn.sdf, line 1960>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U412 of module ADDFXL <./ipdc_syn.sdf, line 1961>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U412 of module ADDFXL <./ipdc_syn.sdf, line 1966>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U412 of module ADDFXL <./ipdc_syn.sdf, line 1967>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U412 of module ADDFXL <./ipdc_syn.sdf, line 1970>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U412 of module ADDFXL <./ipdc_syn.sdf, line 1971>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U400 of module ADDFXL <./ipdc_syn.sdf, line 2112>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U400 of module ADDFXL <./ipdc_syn.sdf, line 2113>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U400 of module ADDFXL <./ipdc_syn.sdf, line 2118>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U400 of module ADDFXL <./ipdc_syn.sdf, line 2119>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U400 of module ADDFXL <./ipdc_syn.sdf, line 2122>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U400 of module ADDFXL <./ipdc_syn.sdf, line 2123>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U399 of module ADDFXL <./ipdc_syn.sdf, line 2143>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U399 of module ADDFXL <./ipdc_syn.sdf, line 2144>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U399 of module ADDFXL <./ipdc_syn.sdf, line 2149>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U399 of module ADDFXL <./ipdc_syn.sdf, line 2150>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U399 of module ADDFXL <./ipdc_syn.sdf, line 2153>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U399 of module ADDFXL <./ipdc_syn.sdf, line 2154>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U389 of module ADDFX2 <./ipdc_syn.sdf, line 2266>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U389 of module ADDFX2 <./ipdc_syn.sdf, line 2267>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U389 of module ADDFX2 <./ipdc_syn.sdf, line 2272>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U389 of module ADDFX2 <./ipdc_syn.sdf, line 2273>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U389 of module ADDFX2 <./ipdc_syn.sdf, line 2276>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U389 of module ADDFX2 <./ipdc_syn.sdf, line 2277>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U384 of module ADDFXL <./ipdc_syn.sdf, line 2345>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U384 of module ADDFXL <./ipdc_syn.sdf, line 2346>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U384 of module ADDFXL <./ipdc_syn.sdf, line 2351>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U384 of module ADDFXL <./ipdc_syn.sdf, line 2352>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U384 of module ADDFXL <./ipdc_syn.sdf, line 2355>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U384 of module ADDFXL <./ipdc_syn.sdf, line 2356>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U383 of module ADDFXL <./ipdc_syn.sdf, line 2376>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U383 of module ADDFXL <./ipdc_syn.sdf, line 2377>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U383 of module ADDFXL <./ipdc_syn.sdf, line 2382>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U383 of module ADDFXL <./ipdc_syn.sdf, line 2383>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U383 of module ADDFXL <./ipdc_syn.sdf, line 2386>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U383 of module ADDFXL <./ipdc_syn.sdf, line 2387>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U379 of module ADDFXL <./ipdc_syn.sdf, line 2439>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U379 of module ADDFXL <./ipdc_syn.sdf, line 2440>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U379 of module ADDFXL <./ipdc_syn.sdf, line 2445>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U379 of module ADDFXL <./ipdc_syn.sdf, line 2446>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U379 of module ADDFXL <./ipdc_syn.sdf, line 2449>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U379 of module ADDFXL <./ipdc_syn.sdf, line 2450>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U378 of module ADDFXL <./ipdc_syn.sdf, line 2470>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U378 of module ADDFXL <./ipdc_syn.sdf, line 2471>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U378 of module ADDFXL <./ipdc_syn.sdf, line 2476>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U378 of module ADDFXL <./ipdc_syn.sdf, line 2477>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U378 of module ADDFXL <./ipdc_syn.sdf, line 2480>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U378 of module ADDFXL <./ipdc_syn.sdf, line 2481>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U368 of module XNOR2X1 <./ipdc_syn.sdf, line 2593>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U368 of module XNOR2X1 <./ipdc_syn.sdf, line 2594>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U368 of module XNOR2X1 <./ipdc_syn.sdf, line 2597>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U368 of module XNOR2X1 <./ipdc_syn.sdf, line 2598>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U366 of module XNOR2X1 <./ipdc_syn.sdf, line 2619>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U366 of module XNOR2X1 <./ipdc_syn.sdf, line 2620>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U366 of module XNOR2X1 <./ipdc_syn.sdf, line 2623>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U366 of module XNOR2X1 <./ipdc_syn.sdf, line 2624>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U364 of module XNOR2X1 <./ipdc_syn.sdf, line 2645>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U364 of module XNOR2X1 <./ipdc_syn.sdf, line 2646>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U364 of module XNOR2X1 <./ipdc_syn.sdf, line 2649>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U364 of module XNOR2X1 <./ipdc_syn.sdf, line 2650>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U362 of module ADDFXL <./ipdc_syn.sdf, line 2680>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U362 of module ADDFXL <./ipdc_syn.sdf, line 2681>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U362 of module ADDFXL <./ipdc_syn.sdf, line 2686>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U362 of module ADDFXL <./ipdc_syn.sdf, line 2687>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U362 of module ADDFXL <./ipdc_syn.sdf, line 2690>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U362 of module ADDFXL <./ipdc_syn.sdf, line 2691>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U360 of module ADDFXL <./ipdc_syn.sdf, line 2720>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U360 of module ADDFXL <./ipdc_syn.sdf, line 2721>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U360 of module ADDFXL <./ipdc_syn.sdf, line 2726>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U360 of module ADDFXL <./ipdc_syn.sdf, line 2727>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U360 of module ADDFXL <./ipdc_syn.sdf, line 2730>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U360 of module ADDFXL <./ipdc_syn.sdf, line 2731>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U324 of module XOR2X1 <./ipdc_syn.sdf, line 3108>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U324 of module XOR2X1 <./ipdc_syn.sdf, line 3109>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U324 of module XOR2X1 <./ipdc_syn.sdf, line 3112>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U324 of module XOR2X1 <./ipdc_syn.sdf, line 3113>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U321 of module XOR2X1 <./ipdc_syn.sdf, line 3148>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U321 of module XOR2X1 <./ipdc_syn.sdf, line 3149>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U321 of module XOR2X1 <./ipdc_syn.sdf, line 3152>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U321 of module XOR2X1 <./ipdc_syn.sdf, line 3153>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U318 of module XNOR2X1 <./ipdc_syn.sdf, line 3188>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U318 of module XNOR2X1 <./ipdc_syn.sdf, line 3189>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U318 of module XNOR2X1 <./ipdc_syn.sdf, line 3192>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U318 of module XNOR2X1 <./ipdc_syn.sdf, line 3193>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U317 of module XNOR2X1 <./ipdc_syn.sdf, line 3204>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U317 of module XNOR2X1 <./ipdc_syn.sdf, line 3205>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U317 of module XNOR2X1 <./ipdc_syn.sdf, line 3208>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U317 of module XNOR2X1 <./ipdc_syn.sdf, line 3209>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U314 of module XOR2X1 <./ipdc_syn.sdf, line 3244>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U314 of module XOR2X1 <./ipdc_syn.sdf, line 3245>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U314 of module XOR2X1 <./ipdc_syn.sdf, line 3248>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U314 of module XOR2X1 <./ipdc_syn.sdf, line 3249>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U313 of module XOR2X1 <./ipdc_syn.sdf, line 3260>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U313 of module XOR2X1 <./ipdc_syn.sdf, line 3261>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U313 of module XOR2X1 <./ipdc_syn.sdf, line 3264>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U313 of module XOR2X1 <./ipdc_syn.sdf, line 3265>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U309 of module XOR2X1 <./ipdc_syn.sdf, line 3311>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U309 of module XOR2X1 <./ipdc_syn.sdf, line 3312>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U309 of module XOR2X1 <./ipdc_syn.sdf, line 3315>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U309 of module XOR2X1 <./ipdc_syn.sdf, line 3316>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U306 of module XOR2X1 <./ipdc_syn.sdf, line 3351>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U306 of module XOR2X1 <./ipdc_syn.sdf, line 3352>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U306 of module XOR2X1 <./ipdc_syn.sdf, line 3355>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U306 of module XOR2X1 <./ipdc_syn.sdf, line 3356>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U303 of module XNOR2X1 <./ipdc_syn.sdf, line 3391>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U303 of module XNOR2X1 <./ipdc_syn.sdf, line 3392>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U303 of module XNOR2X1 <./ipdc_syn.sdf, line 3395>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U303 of module XNOR2X1 <./ipdc_syn.sdf, line 3396>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U302 of module XNOR2X1 <./ipdc_syn.sdf, line 3407>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U302 of module XNOR2X1 <./ipdc_syn.sdf, line 3408>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U302 of module XNOR2X1 <./ipdc_syn.sdf, line 3411>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U302 of module XNOR2X1 <./ipdc_syn.sdf, line 3412>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U299 of module XOR2X1 <./ipdc_syn.sdf, line 3447>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U299 of module XOR2X1 <./ipdc_syn.sdf, line 3448>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U299 of module XOR2X1 <./ipdc_syn.sdf, line 3451>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U299 of module XOR2X1 <./ipdc_syn.sdf, line 3452>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U298 of module XOR2X1 <./ipdc_syn.sdf, line 3463>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U298 of module XOR2X1 <./ipdc_syn.sdf, line 3464>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U298 of module XOR2X1 <./ipdc_syn.sdf, line 3467>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U298 of module XOR2X1 <./ipdc_syn.sdf, line 3468>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U285 of module ADDFXL <./ipdc_syn.sdf, line 3609>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U285 of module ADDFXL <./ipdc_syn.sdf, line 3610>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U285 of module ADDFXL <./ipdc_syn.sdf, line 3615>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U285 of module ADDFXL <./ipdc_syn.sdf, line 3616>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U285 of module ADDFXL <./ipdc_syn.sdf, line 3619>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U285 of module ADDFXL <./ipdc_syn.sdf, line 3620>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U284 of module ADDFXL <./ipdc_syn.sdf, line 3640>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U284 of module ADDFXL <./ipdc_syn.sdf, line 3641>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U284 of module ADDFXL <./ipdc_syn.sdf, line 3646>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U284 of module ADDFXL <./ipdc_syn.sdf, line 3647>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U284 of module ADDFXL <./ipdc_syn.sdf, line 3650>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U284 of module ADDFXL <./ipdc_syn.sdf, line 3651>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U214 of module ADDFXL <./ipdc_syn.sdf, line 4391>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U214 of module ADDFXL <./ipdc_syn.sdf, line 4392>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U214 of module ADDFXL <./ipdc_syn.sdf, line 4397>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U214 of module ADDFXL <./ipdc_syn.sdf, line 4398>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U214 of module ADDFXL <./ipdc_syn.sdf, line 4401>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U214 of module ADDFXL <./ipdc_syn.sdf, line 4402>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U213 of module ADDFXL <./ipdc_syn.sdf, line 4422>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U213 of module ADDFXL <./ipdc_syn.sdf, line 4423>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U213 of module ADDFXL <./ipdc_syn.sdf, line 4428>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U213 of module ADDFXL <./ipdc_syn.sdf, line 4429>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U213 of module ADDFXL <./ipdc_syn.sdf, line 4432>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U213 of module ADDFXL <./ipdc_syn.sdf, line 4433>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U210 of module XOR2XL <./ipdc_syn.sdf, line 4464>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U210 of module XOR2XL <./ipdc_syn.sdf, line 4465>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U210 of module XOR2XL <./ipdc_syn.sdf, line 4468>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U210 of module XOR2XL <./ipdc_syn.sdf, line 4469>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U209 of module XNOR2XL <./ipdc_syn.sdf, line 4480>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U209 of module XNOR2XL <./ipdc_syn.sdf, line 4481>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U209 of module XNOR2XL <./ipdc_syn.sdf, line 4484>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U209 of module XNOR2XL <./ipdc_syn.sdf, line 4485>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.U206 of module ADDFXL <./ipdc_syn.sdf, line 4525>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.U206 of module ADDFXL <./ipdc_syn.sdf, line 4526>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.U206 of module ADDFXL <./ipdc_syn.sdf, line 4531>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.U206 of module ADDFXL <./ipdc_syn.sdf, line 4532>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CI) S) of instance testbed.u_ipdc.U206 of module ADDFXL <./ipdc_syn.sdf, line 4535>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge CI) S) of instance testbed.u_ipdc.U206 of module ADDFXL <./ipdc_syn.sdf, line 4536>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.U204 of module XNOR2X1 <./ipdc_syn.sdf, line 4557>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.U204 of module XNOR2X1 <./ipdc_syn.sdf, line 4558>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.U204 of module XNOR2X1 <./ipdc_syn.sdf, line 4561>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.U204 of module XNOR2X1 <./ipdc_syn.sdf, line 4562>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) Y) of instance testbed.u_ipdc.add_371.U1 of module XOR2X1 <./ipdc_syn.sdf, line 5722>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) Y) of instance testbed.u_ipdc.add_371.U1 of module XOR2X1 <./ipdc_syn.sdf, line 5723>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) Y) of instance testbed.u_ipdc.add_371.U1 of module XOR2X1 <./ipdc_syn.sdf, line 5726>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) Y) of instance testbed.u_ipdc.add_371.U1 of module XOR2X1 <./ipdc_syn.sdf, line 5727>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.add_371.U1_1_1 of module ADDHXL <./ipdc_syn.sdf, line 5740>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.add_371.U1_1_1 of module ADDHXL <./ipdc_syn.sdf, line 5741>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.add_371.U1_1_1 of module ADDHXL <./ipdc_syn.sdf, line 5744>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.add_371.U1_1_1 of module ADDHXL <./ipdc_syn.sdf, line 5745>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.add_371.U1_1_2 of module ADDHXL <./ipdc_syn.sdf, line 5758>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.add_371.U1_1_2 of module ADDHXL <./ipdc_syn.sdf, line 5759>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.add_371.U1_1_2 of module ADDHXL <./ipdc_syn.sdf, line 5762>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.add_371.U1_1_2 of module ADDHXL <./ipdc_syn.sdf, line 5763>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.add_371.U1_1_3 of module ADDHXL <./ipdc_syn.sdf, line 5776>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.add_371.U1_1_3 of module ADDHXL <./ipdc_syn.sdf, line 5777>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.add_371.U1_1_3 of module ADDHXL <./ipdc_syn.sdf, line 5780>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.add_371.U1_1_3 of module ADDHXL <./ipdc_syn.sdf, line 5781>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.add_371.U1_1_4 of module ADDHXL <./ipdc_syn.sdf, line 5794>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.add_371.U1_1_4 of module ADDHXL <./ipdc_syn.sdf, line 5795>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.add_371.U1_1_4 of module ADDHXL <./ipdc_syn.sdf, line 5798>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.add_371.U1_1_4 of module ADDHXL <./ipdc_syn.sdf, line 5799>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.add_371.U1_1_5 of module ADDHXL <./ipdc_syn.sdf, line 5812>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.add_371.U1_1_5 of module ADDHXL <./ipdc_syn.sdf, line 5813>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.add_371.U1_1_5 of module ADDHXL <./ipdc_syn.sdf, line 5816>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.add_371.U1_1_5 of module ADDHXL <./ipdc_syn.sdf, line 5817>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge A) S) of instance testbed.u_ipdc.add_371.U1_1_6 of module ADDHXL <./ipdc_syn.sdf, line 5830>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge A) S) of instance testbed.u_ipdc.add_371.U1_1_6 of module ADDHXL <./ipdc_syn.sdf, line 5831>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge B) S) of instance testbed.u_ipdc.add_371.U1_1_6 of module ADDHXL <./ipdc_syn.sdf, line 5834>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (negedge B) S) of instance testbed.u_ipdc.add_371.U1_1_6 of module ADDHXL <./ipdc_syn.sdf, line 5835>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[7]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5844>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[6]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5845>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[5]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5846>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[4]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5847>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[3]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5848>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[2]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5849>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[1]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5850>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[0]) of instance testbed.u_ipdc.sram_B of module sram_256x8 <./ipdc_syn.sdf, line 5851>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[7]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5919>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[6]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5920>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[5]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5921>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[4]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5922>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[3]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5923>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[2]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5924>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[1]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5925>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[0]) of instance testbed.u_ipdc.sram_G of module sram_256x8 <./ipdc_syn.sdf, line 5926>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[7]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 5994>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[6]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 5995>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[5]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 5996>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[4]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 5997>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[3]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 5998>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[2]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 5999>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[1]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 6000>.
+ncelab: *W,SDFNEP: Unable to annotate to non-existent path (IOPATH (posedge CLK) Q[0]) of instance testbed.u_ipdc.sram_R of module sram_256x8 <./ipdc_syn.sdf, line 6001>.
+	Annotation completed with 0 Errors and 276 Warnings
+	SDF statistics: No. of Pathdelays = 3977  Annotated = 31.33% -- No. of Tchecks = 1593  Annotated = 25.30% 
+				        Total 	   Annotated	  Percentage
+		 Path Delays	        3977	        1246	       31.33
+		       $hold	          64	           0	        0.00
+		     $period	           3	           3	      100.00
+		      $width	         511	         150	       29.35
+		  $setuphold	        1015	         250	       24.63
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.testbed:v <0x702083cc>
+			streams:  16, words: 12509
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                    Instances  Unique
+		Modules:                  833     531
+		UDPs:                     292      12
+		Primitives:              2594      10
+		Timing outputs:          1051     551
+		Registers:                371     231
+		Scalar wires:            1266       -
+		Expanded wires:            52       5
+		Vectored wires:             1       -
+		Always blocks:             10       6
+		Initial blocks:            12      12
+		Cont. assignments:          6       3
+		Pseudo assignments:         2       2
+		Timing checks:           2608      96
+		Interconnect:             972       -
+		Delayed tcheck signals:   719     627
+		Simulation timescale:     1ps
+	Writing initial simulation snapshot: worklib.testbed:v
+Loading snapshot worklib.testbed:v .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+FSDB Dumper for IUS, Release Verdi_R-2020.12, Linux, 11/19/2020
+(C) 1996 - 2020 by Synopsys, Inc.
+*Verdi* FSDB WARNING: The FSDB file already exists. Overwriting the FSDB file may crash the programs that are using this file.
+*Verdi* : Create FSDB file 'ipdc.fsdb'
+*Verdi* : Begin traversing the scopes, layer (3).
+*Verdi* : Enable +mda dumping.
+*Verdi* : End of traversing.
+SDF File ipdc_syn.sdf were used for this simulation.
+input mode : 0000
+input mode : 0100
+input mode : 0100
+input mode : 0111
+input mode : 0100
+input mode : 1000
+input mode : 1100
+input mode : 0111
+input mode : 0111
+input mode : 1000
+input mode : 1101
+input mode : 0100
+input mode : 0100
+input mode : 1001
+input mode : 0111
+input mode : 0111
+input mode : 1110
+input mode : 1001
+input mode : 0101
+input mode : 0110
+success! pass the testbench
+
+Simulation complete via $finish(1) at time 11225 NS + 0
+../00_TESTBED/testbed.v:166         $finish;
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Dec 07, 2021 at 03:17:02 CST  (total: 00:00:05)

@@ -1,0 +1,5 @@
+StudentID: d10943013
+
+Clock period: 25(ns)
+
+Area: 66744.503660(um2)

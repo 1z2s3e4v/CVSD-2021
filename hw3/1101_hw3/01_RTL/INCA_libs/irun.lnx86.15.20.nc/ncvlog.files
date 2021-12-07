@@ -1,0 +1,9 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+/home/raid7_1/userd/d10013/CVSD/hw3/1101_hw3/00_TESTBED/testbed.v
+/home/raid7_1/userd/d10013/CVSD/hw3/1101_hw3/sram_256x8/sram_256x8.v
+/home/raid7_1/userd/d10013/CVSD/hw3/1101_hw3/sram_512x8/sram_512x8.v
+/home/raid7_1/userd/d10013/CVSD/hw3/1101_hw3/sram_4096x8/sram_4096x8.v
+/home/raid7_1/userd/d10013/CVSD/hw3/1101_hw3/01_RTL/ipdc.v

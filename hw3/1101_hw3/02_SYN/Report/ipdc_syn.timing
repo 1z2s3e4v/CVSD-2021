@@ -1,0 +1,57 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : ipdc
+Version: R-2020.09-SP5
+Date   : Tue Dec  7 03:27:59 2021
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: i_op_valid (input port clocked by i_clk)
+  Endpoint: step_size_reg[2]
+            (rising edge-triggered flip-flop clocked by i_clk)
+  Path Group: i_clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ipdc               tsmc13_wl10           slow
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock i_clk (rise edge)                  0.00       0.00
+  clock network delay (ideal)              0.50       0.50
+  input external delay                    12.50      13.00 f
+  i_op_valid (in)                          0.00      13.00 f
+  U245/Y (INVX1)                           0.21      13.21 r
+  U296/Y (NOR2X1)                          0.28      13.49 f
+  U237/Y (NAND3X1)                         0.47      13.96 r
+  U236/Y (NAND4X1)                         0.46      14.43 f
+  U246/Y (AOI211XL)                        0.58      15.00 r
+  U321/Y (OAI21XL)                         0.45      15.45 f
+  U233/Y (NOR2X1)                          0.41      15.87 r
+  U325/Y (NAND2XL)                         0.35      16.21 f
+  U326/Y (OAI22XL)                         0.55      16.76 r
+  step_size_reg[2]/D (DFFRX1)              0.00      16.76 r
+  data arrival time                                  16.76
+
+  clock i_clk (rise edge)                 25.00      25.00
+  clock network delay (ideal)              0.50      25.50
+  clock uncertainty                       -0.10      25.40
+  step_size_reg[2]/CK (DFFRX1)             0.00      25.40 r
+  library setup time                      -0.30      25.10
+  data required time                                 25.10
+  -----------------------------------------------------------
+  data required time                                 25.10
+  data arrival time                                 -16.76
+  -----------------------------------------------------------
+  slack (MET)                                         8.34
+
+
+1

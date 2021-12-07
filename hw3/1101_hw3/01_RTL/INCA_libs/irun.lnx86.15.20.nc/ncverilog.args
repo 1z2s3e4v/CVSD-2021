@@ -1,0 +1,9 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-f
+rtl_01.f
++notimingchecks
++access+r
++define+tb0

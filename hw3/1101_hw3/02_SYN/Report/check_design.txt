@@ -1,0 +1,77 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09-SP5
+Date:        Tue Dec  7 03:26:08 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     24
+    Unconnected ports (LINT-28)                                    24
+
+Cells                                                               9
+    Cells do not drive (LINT-1)                                     9
+
+Nets                                                               24
+    Unloaded nets (LINT-2)                                         24
+--------------------------------------------------------------------------------
+
+Warning: In design 'ipdc', cell 'C39720' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'C39724' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'B_41' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'B_42' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'C39774' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'C39783' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'C39794' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'C39886' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', cell 'C39887' does not drive any nets. (LINT-1)
+Warning: In design 'ipdc', net 'sram_o_Q[0]' driven by pin 'sram_B/Q[0]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[1]' driven by pin 'sram_B/Q[1]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[2]' driven by pin 'sram_B/Q[2]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[3]' driven by pin 'sram_B/Q[3]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[4]' driven by pin 'sram_B/Q[4]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[5]' driven by pin 'sram_B/Q[5]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[6]' driven by pin 'sram_B/Q[6]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[7]' driven by pin 'sram_B/Q[7]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[8]' driven by pin 'sram_G/Q[0]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[9]' driven by pin 'sram_G/Q[1]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[10]' driven by pin 'sram_G/Q[2]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[11]' driven by pin 'sram_G/Q[3]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[12]' driven by pin 'sram_G/Q[4]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[13]' driven by pin 'sram_G/Q[5]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[14]' driven by pin 'sram_G/Q[6]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[15]' driven by pin 'sram_G/Q[7]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[16]' driven by pin 'sram_R/Q[0]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[17]' driven by pin 'sram_R/Q[1]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[18]' driven by pin 'sram_R/Q[2]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[19]' driven by pin 'sram_R/Q[3]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[20]' driven by pin 'sram_R/Q[4]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[21]' driven by pin 'sram_R/Q[5]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[22]' driven by pin 'sram_R/Q[6]' has no loads. (LINT-2)
+Warning: In design 'ipdc', net 'sram_o_Q[23]' driven by pin 'sram_R/Q[7]' has no loads. (LINT-2)
+Warning: In design 'ipdc', port 'o_out_data[23]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[22]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[21]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[20]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[19]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[18]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[17]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[16]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[15]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'ipdc', port 'o_out_data[0]' is not connected to any nets. (LINT-28)
+1
