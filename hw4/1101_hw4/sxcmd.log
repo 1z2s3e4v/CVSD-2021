@@ -1,0 +1,3407 @@
+### Custom WaveView ADV log file, revision R-2020.12 (build Nov 24, ) ###
+### created at 18:35:18 on Fri Dec 17 2021 (Linux AMD64) ###
+### Host Name: cad29   User ID: d10013   PID: 18260   ###
+wv_start_log
+# (0) running in waveview only mode
+# (0) SW_SX_PERL_LIB defined
+# (0) SW_SX_TCL_LIB defined
+# (0) HOME defined
+wv_move_window {Custom WaveView} {} 112 135
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 560 31
+wv_press_tool_button {Custom WaveView} {} {OpenWaveform0} 
+wv_move_window {FileDialog} {} 1315 239
+wv_select_dialog {FileDialog} 
+wv_resize_window {Custom WaveView} 1579 765
+wv_move_window {Custom WaveView} {} 901 283
+wv_move_window {Custom WaveView} {} 270 111
+wv_move_scrollbar {FileDialog} {} {FileList.HScrollBar} {160}
+wv_select_list_item {FileDialog} {} {FileList} {IOTDF_F1.fsdb} 8
+wv_dclick_list_item {FileDialog} {} {FileList} {IOTDF_F1.fsdb} 8
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)} {+sep=@}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)@test(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)@test(0)@u_IOTDF(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {clk} 3
+wv_dclick_list_item {Custom WaveView} {} {sigview} {clk} 3
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 284 19
+wv_zoom_x WV1.PANEL1:1 0.00193851 -0.000834295
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 479 17
+wv_zoom_x WV1.PANEL1:1 3.20787e-06 0.000377466
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 284 17
+wv_zoom_x WV1.PANEL1:1 5.43566e-05 -2.37992e-05
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.84692e-07 inf
+wv_drag_item_to WV1 484 21
+wv_zoom_x WV1.PANEL1:1 1.84692e-07 3.90007e-06
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 132 565
+wv_release_wv_item WV1 132 565
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 132 565
+wv_release_wv_item WV1 132 565
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 290 18
+wv_zoom_x WV1.PANEL1:1 5.14098e-07 -1.54545e-07
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 149 567
+wv_horz_scroll WV1 0
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {44}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {67}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {69}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {71}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {75}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {77}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {84}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {86}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {88}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {90}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {94}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {96}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {102}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {104}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {107}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {109}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {111}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {113}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {115}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {117}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {119}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {123}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {136}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {142}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {146}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {151}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {157}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {161}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {159}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {157}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {153}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {150}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {144}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {138}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {128}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {121}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {109}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {107}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {100}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {94}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {82}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {71}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {69}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {67}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {65}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {44}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {count_cycle[3:0]} 4
+wv_dclick_list_item {Custom WaveView} {} {sigview} {count_cycle[3:0]} 4
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL2:1 -1.3055e-08
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {13}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_select_list_item {Custom WaveView} {} {sigview} {in_en} 15
+wv_dclick_list_item {Custom WaveView} {} {sigview} {in_en} 15
+wv_select_list_item {Custom WaveView} {} {sigview} {iot_in[7:0]} 16
+wv_dclick_list_item {Custom WaveView} {} {sigview} {iot_in[7:0]} 16
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {31}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {cur_state[2:0]} 10
+wv_dclick_list_item {Custom WaveView} {} {sigview} {cur_state[2:0]} 10
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {13}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {31}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {65}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {71}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {75}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {81}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {88}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {86}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {77}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {73}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {71}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {69}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {67}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {65}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {13}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {31}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {44}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {13}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_select_list_item {Custom WaveView} {} {sigview} {next_state[2:0]} 20
+wv_dclick_list_item {Custom WaveView} {} {sigview} {next_state[2:0]} 20
+wv_select_list_item {Custom WaveView} {} {sigview} {next_state[2:0]} 20
+wv_list_context_menu {Custom WaveView} {} {sigview} {next_state[2:0]} 20 207 107
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL6:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {31}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_select_list_item {Custom WaveView} {} {sigview} {fn_sel[2:0]} 13
+wv_dclick_list_item {Custom WaveView} {} {sigview} {fn_sel[2:0]} 13
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL6:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {17}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {44}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {44}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {31}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {13}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {6}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {31}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {33}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.50416e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_window {Custom WaveView} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {29}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {31}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {38}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {40}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {50}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {54}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {69}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {73}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {75}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {77}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {82}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {84}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {90}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {94}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {98}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {100}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {104}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {105}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {107}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {111}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {115}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {119}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {127}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {128}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {136}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {142}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {144}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {146}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {148}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {150}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {155}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {157}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {159}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {161}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {155}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {150}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {113}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {98}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {75}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {36}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {count_data[2:0]} 6
+wv_dclick_list_item {Custom WaveView} {} {sigview} {count_data[2:0]} 6
+wv_select_list_item {Custom WaveView} {} {sigview} {count_round[3:0]} 8
+wv_dclick_list_item {Custom WaveView} {} {sigview} {count_round[3:0]} 8
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 215 567
+wv_drag_item_to WV1 217 567
+wv_drag_item_to WV1 -9 538
+wv_horz_scroll WV1 0
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 326 566
+wv_drag_item_to WV1 327 566
+wv_drag_item_to WV1 1174 587
+wv_horz_scroll WV1 565
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 858 566
+wv_drag_item_to WV1 861 566
+wv_drag_item_to WV1 -15 546
+wv_horz_scroll WV1 0
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.HSLIDER 73 569
+wv_release_wv_item WV1 73 569
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.HSLIDER 71 564
+wv_drag_item_to WV1 71 563
+wv_drag_item_to WV1 71 563
+wv_horz_scroll WV1.LEGEND 4
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.HSLIDER 38 566
+wv_drag_item_to WV1 35 566
+wv_drag_item_to WV1 9 564
+wv_horz_scroll WV1.LEGEND 0
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 249 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1320 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 245 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1324 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 242 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1327 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 234 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1335 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 223 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1346 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 219 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1350 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 216 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1353 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 215 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1354 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 211 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1358 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 206 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1363 596
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 204 622
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1365 596
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.WIDTH
+wv_drag_item_to WV1 85 238
+wv_move_wv_item WV1.PANEL1:1.LEGEND.WIDTH 178
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 4.25721e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_waveview 1 {waveview 1}
+wv_release_wv_item WV1 277 570
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 378 567
+wv_drag_item_to WV1 379 567
+wv_drag_item_to WV1 380 567
+wv_horz_scroll WV1 0
+wv_press_key Right 694 559
+wv_select_waveview 1 {waveview 1}
+wv_release_wv_item WV1 275 564
+wv_select_waveview 1 {waveview 1}
+wv_release_wv_item WV1 379 573
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 9.98837e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 1310 363
+wv_press_key Right 1310 363
+wv_press_key Right 1310 363
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 1301 6
+wv_zoom_x WV1.PANEL1:1 1.24804e-06 1.06648e-06
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 1198 568
+wv_drag_item_to WV1 1202 567
+wv_drag_item_to WV1 1285 560
+wv_horz_scroll WV1 952
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_move_window {ReloadFiles} {} 795 401
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 1299 569
+wv_drag_item_to WV1 1298 569
+wv_drag_item_to WV1 1430 525
+wv_horz_scroll WV1 952
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.29872e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_release_wv_item WV1 1311 334
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 243 567
+wv_horz_scroll WV1 0
+wv_release_wv_item WV1 309 569
+wv_select_waveview 1 {waveview 1}
+wv_release_wv_item WV1 309 569
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.68045e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {159}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {157}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {155}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {152}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {150}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {145}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {142}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {140}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {137}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {135}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {137}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {140}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {142}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {145}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {147}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {152}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {155}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {159}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {162}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {169}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {177}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {179}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {189}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {196}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {204}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {211}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {201}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {184}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {169}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {159}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {145}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {120}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {103}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {88}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {69}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {34}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {10}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {22}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {32}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {81}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {115}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {145}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {179}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {204}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {211}
+wv_select_list_item {Custom WaveView} {} {sigview} {data_next[7:0]} 14
+wv_dclick_list_item {Custom WaveView} {} {sigview} {data_next[7:0]} 14
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {206}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {199}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {179}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {164}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {145}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {110}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {93}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {52}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {39}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {32}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {22}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {20}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {22}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {32}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {39}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {108}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {128}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {157}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {172}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {191}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {209}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {211}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {206}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {196}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {186}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {179}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {164}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {159}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {147}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {140}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {132}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {125}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {120}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {110}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {108}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {106}
+wv_select_list_item {Custom WaveView} {} {sigview} {data[7:0]} 27
+wv_dclick_list_item {Custom WaveView} {} {sigview} {data[7:0]} 27
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.HSLIDER 88 567
+wv_drag_item_to WV1 89 567
+wv_drag_item_to WV1 69 567
+wv_horz_scroll WV1.LEGEND 0
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_press_key Right 1384 651
+wv_press_key Right 1384 651
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL23:1 1.07483e-06 -inf
+wv_select_panel WV1.PANEL23:1 1.07483e-06 -inf btnup
+wv_press_key Right 1384 651
+wv_press_key Right 1384 651
+wv_select_waveview 1 {waveview 1}
+wv_release_wv_item WV1 1218 571
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL18:1 1.28159e-06 inf
+wv_drag_item_to WV1 1330 352
+wv_zoom_x WV1.PANEL18:1 1.28159e-06 1.17756e-06
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 1290 8
+wv_zoom_x WV1.PANEL1:1 1.27466e-06 1.29049e-06
+wv_press_key Right 1377 401
+wv_press_key Right 1375 406
+wv_press_key Right 1368 413
+wv_press_key Right 1364 420
+wv_press_key Right 1362 422
+wv_press_key Right 1339 440
+wv_press_key Right 1298 469
+wv_press_key Right 1274 486
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Left 1260 491
+wv_press_key Right 1260 491
+wv_press_key Left 1260 491
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Left 1260 491
+wv_press_key Right 1260 491
+wv_press_key Right 1260 491
+wv_press_key Left 1260 491
+wv_press_key Right 1260 491
+wv_press_key Left 1246 481
+wv_press_key Left 1025 265
+wv_press_key Right 705 272
+wv_press_key Right 274 198
+wv_press_key Left 274 189
+wv_press_key Right 272 183
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_press_key Right 271 154
+wv_press_key Right 271 154
+wv_press_key Right 271 154
+wv_press_key Left 271 154
+wv_press_key Right 271 154
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Full Unzoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Redo Zoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Undo Zoom} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Redo Zoom} 
+wv_press_key Right 339 647
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL17:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL8:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_release_wv_item WV1 748 68
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 789 7
+wv_zoom_x WV1.PANEL1:1 -6.27803e-15 1.02511e-12
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 297 10
+wv_zoom_x WV1.PANEL1:1 5.28281e-14 -7.82887e-14
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 895 17
+wv_zoom_x WV1.PANEL1:1 -2.51586e-20 1.92508e-14
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_waveview 1 {waveview 1}
+wv_release_wv_item WV1 1024 564
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 1327 5
+wv_zoom_x WV1.PANEL1:1 1.27574e-06 1.35884e-06
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.WIDTH
+wv_drag_item_to WV1 190 32
+wv_move_wv_item WV1.PANEL1:1.LEGEND.WIDTH 255
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.LEGEND.WIDTH
+wv_drag_item_to WV1 250 27
+wv_move_wv_item WV1.PANEL1:1.LEGEND.WIDTH 223
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL5:1 1.3085e-06 inf
+wv_select_panel WV1.PANEL5:1 1.3085e-06 inf btnup
+wv_resize_browser {Custom WaveView} {} {WV.Browser} 204 844
+wv_resize_browser {Custom WaveView} {} {waveview 1:1} 1466 818
+wv_resize_window {Custom WaveView} 1680 987
+wv_move_window {Custom WaveView} {} 1920 23
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.28333e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL5:1 1.27898e-06 inf
+wv_select_panel WV1.PANEL5:1 1.27898e-06 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 1133 19
+wv_zoom_x WV1.PANEL1:1 1.33559e-06 1.25341e-06
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_select_window {Custom WaveView} 
+wv_drag_item_to WV1 1041 4
+wv_zoom_x WV1.PANEL1:1 1.30728e-06 1.229e-06
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)@test(0)} {+sep=@}
+wv_select_window {Custom WaveView} 
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)@test(0)@u_IOTDF(0)} {0} {+sep=@}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {ex_finish} 11
+wv_dclick_list_item {Custom WaveView} {} {sigview} {ex_finish} 11
+wv_select_window {Custom WaveView} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {count_data_next[2:0]} 7
+wv_select_list_item {Custom WaveView} {} {sigview} {cur_state[2:0]} 10
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {2}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {3}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {7}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {8}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {15}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {24}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {27}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {32}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {39}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {44}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {47}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {53}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {59}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {61}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {66}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {68}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {69}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {73}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {75}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {76}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {75}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {71}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {66}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {53}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {37}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {24}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {14}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {iot_out_w[127:0]} 19
+wv_select_window {Custom WaveView} 
+wv_dclick_list_item {Custom WaveView} {} {sigview} {iot_out_w[127:0]} 19
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 427 786
+wv_select_window {Custom WaveView} 
+wv_drag_item_to WV1 428 786
+wv_drag_item_to WV1 754 780
+wv_horz_scroll WV1 327
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 754 780
+wv_horz_scroll WV1 327
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 639 790
+wv_drag_item_to WV1 638 790
+wv_drag_item_to WV1 311 792
+wv_horz_scroll WV1 0
+wv_press_key Right 853 919
+wv_press_key Right 853 919
+wv_press_key Right 853 919
+wv_press_key Right 853 889
+wv_press_key Right 853 886
+wv_press_key Right 853 886
+wv_press_key Right 853 886
+wv_press_key Right 853 886
+wv_press_key Right 853 886
+wv_press_key Right 853 886
+wv_press_key Right 853 886
+wv_press_key Left 853 883
+wv_select_list_item {Custom WaveView} {} {sigview} {count_round[3:0]} 10
+wv_dclick_list_item {Custom WaveView} {} {sigview} {count_round[3:0]} 10
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {97}
+wv_press_key Right 953 561
+wv_press_key Right 949 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 567
+wv_press_key Right 948 568
+wv_press_key Right 948 568
+wv_press_key Right 948 568
+wv_press_key Right 947 569
+wv_press_key Right 947 569
+wv_press_key Right 946 569
+wv_press_key Right 946 569
+wv_press_key Right 946 569
+wv_press_key Right 946 569
+wv_press_key Right 946 569
+wv_press_key Right 946 569
+wv_press_key Right 946 569
+wv_press_key Right 946 570
+wv_press_key Right 946 570
+wv_press_key Right 946 570
+wv_press_key Right 946 570
+wv_press_key Right 946 570
+wv_press_key Right 946 570
+wv_press_key Right 946 570
+wv_press_key Right 945 571
+wv_press_key Right 945 571
+wv_press_key Right 945 573
+wv_press_key Right 945 574
+wv_press_key Right 945 576
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_press_key Left 944 577
+wv_press_key Left 944 578
+wv_press_key Left 944 579
+wv_press_key Left 944 579
+wv_press_key Left 943 579
+wv_press_key Left 943 579
+wv_press_key Left 943 581
+wv_press_key Left 943 581
+wv_press_key Left 943 581
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {97}
+wv_press_key Right 943 581
+wv_press_key Right 943 581
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_press_key Left 838 461
+wv_press_key Left 931 402
+wv_press_key Left 932 403
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {97}
+wv_press_key Right 932 403
+wv_press_key Right 932 403
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_press_key Left 90 800
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {11}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {18}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {26}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {71}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {72}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {76}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {83}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {92}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {97}
+wv_select_list_item {Custom WaveView} {} {sigview} {valid} 24
+wv_dclick_list_item {Custom WaveView} {} {sigview} {valid} 24
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_press_key Left 619 952
+wv_press_key Left 620 952
+wv_press_key Left 640 933
+wv_press_key Left 640 933
+wv_press_key Left 640 933
+wv_press_key Left 640 933
+wv_press_key Left 640 933
+wv_press_key Left 640 933
+wv_press_key Left 640 933
+wv_press_key Left 640 933
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 932
+wv_press_key Left 640 931
+wv_press_key Left 640 931
+wv_press_key Left 640 930
+wv_press_key Left 640 929
+wv_press_key Left 634 919
+wv_press_key Left 612 884
+wv_press_key Left 567 784
+wv_press_key Left 547 730
+wv_press_key Left 516 670
+wv_press_key Left 473 585
+wv_press_key Left 455 561
+wv_press_key Left 445 550
+wv_press_key Left 428 527
+wv_press_key Left 413 514
+wv_press_key Left 405 505
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 498
+wv_press_key Left 399 497
+wv_press_key Left 405 496
+wv_press_key Left 407 494
+wv_press_key Left 412 492
+wv_press_key Left 433 484
+wv_press_key Left 464 474
+wv_press_key Left 478 469
+wv_press_key Left 479 468
+wv_press_key Left 481 462
+wv_press_key Left 482 460
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 426 789
+wv_select_window {Custom WaveView} 
+wv_drag_item_to WV1 427 789
+wv_drag_item_to WV1 406 777
+wv_horz_scroll WV1 0
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 297 784
+wv_horz_scroll WV1 0
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 290 786
+wv_horz_scroll WV1 0
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.HSLIDER 283 786
+wv_drag_item_to WV1 284 786
+wv_drag_item_to WV1 158 768
+wv_horz_scroll WV1 0
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom In} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 2.04751e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 665 740
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Left 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Right 665 736
+wv_press_key Left 665 736
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {7}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {16}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {46}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {65}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {72}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {81}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {86}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {93}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {97}
+wv_select_list_item {Custom WaveView} {} {sigview} {valid_w} 26
+wv_dclick_list_item {Custom WaveView} {} {sigview} {valid_w} 26
+wv_select_list_item {Custom WaveView} {} {sigview} {valid} 24
+wv_list_context_menu {Custom WaveView} {} {sigview} {valid} 24 212 56
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL10:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 8.79702e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_list_item {Custom WaveView} {} {sigview} {valid_r} 25
+wv_dclick_list_item {Custom WaveView} {} {sigview} {valid_r} 25
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 8.82402e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 748 527
+wv_press_key Left 748 527
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {16}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {26}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {30}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {32}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {34}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {39}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {51}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {62}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {65}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {62}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {55}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {49}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {37}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {30}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {11}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {iot_in[7:0]} 15
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {7}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {9}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {11}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {14}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {18}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {19}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {23}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {25}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {28}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {32}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {34}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {37}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {39}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {49}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {51}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {53}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {55}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {56}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {58}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {62}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {65}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {67}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {71}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {72}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {74}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {78}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {81}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {83}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {85}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {86}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {88}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {90}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {93}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {97}
+wv_select_list_item {Custom WaveView} {} {sigview} {data[7:0]} 27
+wv_dclick_list_item {Custom WaveView} {} {sigview} {data[7:0]} 27
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL13:1.VSLIDER 19 320
+wv_release_wv_item WV1 19 320
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL13:1.VSLIDER 19 320
+wv_release_wv_item WV1 19 320
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL13:1.VSLIDER 19 320
+wv_release_wv_item WV1 19 320
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL13:1.VSLIDER 19 320
+wv_release_wv_item WV1 19 320
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL20:1 8.75943e-06 inf
+wv_select_panel WV1.PANEL20:1 8.75943e-06 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 8.82217e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Right 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_press_key Left 730 816
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.26861e-06 -inf
+wv_select_window {Custom WaveView} 
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Right 1140 795
+wv_press_key Left 1140 795
+wv_press_key Right 1140 795
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_move_window {Custom WaveView} {} 1920 23
+wv_select_window {Custom WaveView} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.85096e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.8364e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Right 815 761
+wv_press_key Right 815 761
+wv_press_key Right 815 761
+wv_press_key Right 815 761
+wv_press_key Right 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_key Left 815 761
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 9.3177e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 840 800
+wv_press_key Right 840 800
+wv_press_key Right 840 800
+wv_press_key Right 840 800
+wv_press_key Right 840 800
+wv_press_key Right 840 800
+wv_press_key Right 840 800
+wv_press_key Right 840 800
+wv_press_key Left 840 800
+wv_press_key Left 840 800
+wv_press_key Left 840 800
+wv_press_key Left 896 820
+wv_press_key Left 571 566
+wv_press_key Left 561 556
+wv_press_key Left 560 555
+wv_press_key Left 561 557
+wv_press_key Left 569 564
+wv_press_key Left 569 565
+wv_press_key Left 569 565
+wv_press_key Left 569 565
+wv_press_key Left 570 553
+wv_press_key Left 563 477
+wv_press_key Left 549 413
+wv_press_key Left 546 371
+wv_press_key Left 531 322
+wv_press_key Left 514 295
+wv_press_key Left 503 275
+wv_press_key Left 492 252
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 -5.55886e-09 inf
+wv_select_panel WV1.PANEL1:1 -5.55886e-09 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL20:1.LEGEND
+wv_release_wv_item WV1 180 489
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 -9.00005e-09 inf
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL20:1 -6.08827e-09
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 2.43531e-08 -inf
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.LEGEND
+wv_select_panel WV1.PANEL1:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 -8.47064e-09 inf
+wv_select_panel WV1.PANEL1:1 -8.47064e-09 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 -7.1471e-09 inf
+wv_select_panel WV1.PANEL1:1 -7.1471e-09 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL12:1
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL13:1 -6.88239e-09
+wv_select_waveview 1 {waveview 1}
+wv_shift_select_panel WV1.PANEL20:1.LEGEND
+wv_release_wv_item WV1 189 484
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL20:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Radix.Decimal} 
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL13:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Radix.Hexdecimal} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.33531e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 607 742
+wv_press_key Right 607 742
+wv_press_key Right 607 742
+wv_press_key Right 607 742
+wv_press_key Right 607 742
+wv_press_key Right 607 742
+wv_press_key Right 607 742
+wv_press_key Right 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_press_key Left 607 742
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL11:1.LEGEND
+wv_press_key Right 768 692
+wv_press_key Right 769 684
+wv_press_key Right 769 684
+wv_press_key Right 769 686
+wv_press_key Right 769 686
+wv_press_key Right 770 685
+wv_press_key Right 770 685
+wv_press_key Right 770 685
+wv_press_key Right 770 685
+wv_press_key Left 770 685
+wv_select_waveview 1 {waveview 1}
+wv_waveview_context_menu WV1.PANEL11:1.LINE1
+wv_select_waveview 1 {waveview 1}
+wv_select_menu_item {Custom WaveView} {waveview 1:1} {PanelPopMenu.Delete} 
+wv_press_button {Confirmation} {} {Ok} 
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL8:1.LEGEND
+wv_select_panel WV1.PANEL8:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL8:1 1.26795e-06 inf
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL8:1 1.24386e-06 inf
+wv_press_key Esc 924 628
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.34815e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 848 749
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL8:1.LEGEND
+wv_select_panel WV1.PANEL8:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.44914e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.44967e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL8:1 1.42955e-06 inf
+wv_select_panel WV1.PANEL8:1 1.42955e-06 inf btnup
+wv_press_key Right 745 698
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Right 765 685
+wv_press_key Left 765 685
+wv_press_key Left 765 685
+wv_press_key Left 765 685
+wv_press_key Right 765 685
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL8:1 3.87002e-06 inf
+wv_select_panel WV1.PANEL8:1 3.87002e-06 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL1:1.XAXIS1
+wv_drag_item_to WV1 768 6
+wv_zoom_x WV1.PANEL1:1 3.88379e-06 3.85546e-06
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL8:1 3.85672e-06 inf
+wv_select_panel WV1.PANEL8:1 3.85672e-06 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.86106e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Right 709 839
+wv_press_key Left 709 839
+wv_press_key Left 709 839
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.30713e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Left 744 722
+wv_press_key Right 744 722
+wv_press_key Right 744 722
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.72542e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.72302e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 855 743
+wv_press_key Left 855 743
+wv_press_key Left 855 743
+wv_press_key Right 855 743
+wv_press_key Right 689 787
+wv_press_key Right 665 766
+wv_press_key Right 665 766
+wv_press_key Left 665 766
+wv_press_key Left 665 766
+wv_press_key Left 665 766
+wv_press_key Right 664 766
+wv_press_key Left 651 769
+wv_press_key Right 498 679
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 4.09652e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 1009 829
+wv_press_key Left 1006 825
+wv_press_key Left 1006 825
+wv_press_key Right 1006 825
+wv_press_key Right 1006 825
+wv_press_key Right 1006 825
+wv_press_key Right 1006 825
+wv_press_key Right 1006 825
+wv_press_key Left 1006 825
+wv_press_key Left 1006 825
+wv_press_key Left 1006 825
+wv_press_key Left 1006 825
+wv_press_key Left 1006 825
+wv_press_key Left 1006 825
+wv_press_key Right 1006 825
+wv_press_key Right 1006 825
+wv_press_key Left 1006 825
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 3.41536e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_move_window {ReloadFiles} {} 2496 424
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 2.99877e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.65082e-08 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Right 660 594
+wv_press_key Left 660 594
+wv_press_key Left 660 594
+wv_press_key Right 936 657
+wv_press_key Left 936 657
+wv_press_key Right 936 657
+wv_press_key Right 936 657
+wv_press_key Left 936 657
+wv_press_key Left 936 657
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.83757e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 1065 686
+wv_press_key Left 1065 686
+wv_press_key Down 55 623
+wv_press_key Down 55 623
+wv_press_key Down 55 623
+wv_press_key Down 55 623
+wv_press_key Down 55 623
+wv_press_key Down 55 623
+wv_move_window {Custom WaveView} {} 0 0
+wv_select_window {Custom WaveView} 
+wv_move_window {Custom WaveView} {} 1920 23
+wv_press_tool_button {Custom WaveView} {} {Print0} 
+wv_select_dialog {PrintSetup} 
+wv_close_dialog {PrintSetup} 
+wv_select_window {Custom WaveView} 
+wv_press_tool_button {Custom WaveView} {} {UpdateWave0} 
+wv_select_dialog {ReloadFiles} 
+wv_press_button {ReloadFiles} {} {YesAll} 
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.75018e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)@test(0)} {0} {+sep=@}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_expand_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)@test(0)} {+sep=@}
+wv_select_tree_item {Custom WaveView} {} {hierview} {D0:IOTDF_F1.fsdb(0)@test(0)@u_IOTDF(0)} {0} {+sep=@}
+wv_select_list_item {Custom WaveView} {} {sigview} {data[127:0]} 13
+wv_dclick_list_item {Custom WaveView} {} {sigview} {data[127:0]} 13
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.75712e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 734 625
+wv_press_key Left 734 625
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL12:1.VSLIDER 20 293
+wv_release_wv_item WV1 20 293
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL12:1.VSLIDER 20 293
+wv_release_wv_item WV1 20 293
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.75952e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Left 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Right 744 549
+wv_press_key Left 744 549
+wv_select_waveview 1 {waveview 1}
+wv_select_wv_item WV1.PANEL10:1.LEGEND
+wv_select_panel WV1.PANEL10:1.LEGEND
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL10:1 1.71259e-07 inf
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL10:1 1.7181e-07 inf
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL10:1 1.72959e-07 inf
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL10:1 1.73414e-07 -inf
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL10:1 1.73126e-07 inf
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL10:1 1.72959e-07 inf
+wv_drag_item_to WV1 407 252
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL11:1 1.73007e-07 inf
+wv_release_wv_item WV1 411 259
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL9:1 1.73198e-07 inf
+wv_select_panel WV1.PANEL9:1 1.73198e-07 inf btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL10:1 1.72983e-07 -nan
+wv_select_panel WV1.PANEL10:1 1.72983e-07 -nan btnup
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL9:1 1.72959e-07 inf
+wv_select_panel WV1.PANEL9:1 1.72959e-07 inf btnup
+wv_select_list_item {Custom WaveView} {} {sigview} {compare[127:0]} 4
+wv_select_window {Custom WaveView} 
+wv_dclick_list_item {Custom WaveView} {} {sigview} {compare[127:0]} 4
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.74707e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_select_list_item {Custom WaveView} {} {sigview} {data_next[127:0]} 16
+wv_select_window {Custom WaveView} 
+wv_dclick_list_item {Custom WaveView} {} {sigview} {data_next[127:0]} 16
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.78035e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 830 649
+wv_press_key Right 830 649
+wv_press_key Right 830 649
+wv_press_key Left 830 649
+wv_press_key Left 830 649
+wv_press_key Left 830 649
+wv_press_key Right 830 649
+wv_press_key Right 830 649
+wv_press_key Right 830 649
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.94016e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Left 908 623
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.8062e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 939 730
+wv_press_key Right 932 730
+wv_press_key Right 921 730
+wv_press_key Right 921 730
+wv_press_key Right 921 730
+wv_press_key Right 921 730
+wv_press_key Right 921 730
+wv_press_key Right 915 730
+wv_press_key Right 915 730
+wv_press_key Right 915 730
+wv_press_key Right 913 730
+wv_press_key Right 912 730
+wv_press_key Right 912 730
+wv_press_key Left 389 347
+wv_press_key Left 389 347
+wv_press_key Left 389 347
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Left 379 323
+wv_press_key Right 379 323
+wv_press_key Left 772 644
+wv_press_key Left 772 644
+wv_press_key Right 772 644
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {4}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {12}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {18}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {32}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {37}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {48}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {53}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {62}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {63}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {72}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {76}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {85}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {88}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {92}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {97}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {95}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {92}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {88}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {86}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {79}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {78}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {76}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {74}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {69}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {65}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {51}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {42}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {35}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {30}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {21}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {14}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {5}
+wv_move_scrollbar {Custom WaveView} {} {sigview.HScrolBar} {0}
+wv_select_list_item {Custom WaveView} {} {sigview} {data_idx[2:0]} 14
+wv_dclick_list_item {Custom WaveView} {} {sigview} {data_idx[2:0]} 14
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.7758e-07 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 812 729
+wv_press_key Right 809 729
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Right 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_press_key Left 807 730
+wv_select_waveview 1 {waveview 1}
+wv_select_toolbar_item {Custom WaveView} {waveview 1:1} {Zoom Out} 
+wv_press_key Left 736 650
+wv_select_waveview 1 {waveview 1}
+wv_select_panel WV1.PANEL1:1 1.426e-06 -inf
+wv_select_panel WV1.PANEL1:1 0 0 btnup
+wv_press_key Right 736 650
+wv_press_key Right 736 650
+wv_press_key Right 736 650
+wv_press_key Right 736 650
+wv_press_key Left 736 650
+wv_press_key Left 736 650
+wv_press_key Left 736 650
+wv_press_key Left 736 650
+wv_press_key Left 736 650
+wv_press_key Right 736 650
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
+wv_press_key Right 733 647
