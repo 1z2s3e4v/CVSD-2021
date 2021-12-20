@@ -1,0 +1,11 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Dec 17, 2021 at 21:57:48 CST
+ncverilog
+	-f rtl_03.f
+		../testfixture.v
+		/home/raid7_2/course/cvsd/CBDK_IC_Contest_v2.5/Verilog/tsmc13_neg.v
+		./IOTDF_syn.v
+	+ncmaxdelays
+	+access+r
+	+define+SDF+tb3
+TOOL:	ncverilog	15.20-s084: Exiting on Dec 17, 2021 at 21:57:50 CST  (total: 00:00:02)

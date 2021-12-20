@@ -1,0 +1,33 @@
+ 
+****************************************
+check_design summary:
+Version:     R-2020.09-SP5
+Date:        Mon Dec 20 16:18:24 2021
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              19
+    Cells do not drive (LINT-1)                                    19
+--------------------------------------------------------------------------------
+
+Warning: In design 'IOTDF', cell 'C20461' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'B_61' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20728' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20750' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20756' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20763' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20769' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20778' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20779' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20783' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20794' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20800' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20808' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20813' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20823' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20829' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20837' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C20842' does not drive any nets. (LINT-1)
+Warning: In design 'IOTDF', cell 'C21338' does not drive any nets. (LINT-1)
+1

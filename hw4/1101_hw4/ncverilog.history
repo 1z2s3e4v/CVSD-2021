@@ -1,1 +1,1 @@
-s1(17Dec2021:21:12:45):  ncverilog testfixture.v IOTDF.v +access+r -clean +define+F7 
+s1(20Dec2021:16:23:13):  ncverilog testfixture.v IOTDF_syn.v -v tsmc13_neg.v +access+r -clean +define+SDF+F7 

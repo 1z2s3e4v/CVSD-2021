@@ -6,7 +6,11 @@
 ./INCA_libs/irun.lnx86.15.20.nc
 -RUNMODE
 testfixture.v
-IOTDF.v
+IOTDF_syn.v
+-VFILE
+tsmc13_neg.v
+-DEFINE
+SDF
 -DEFINE
 F7
 -CDSLIB

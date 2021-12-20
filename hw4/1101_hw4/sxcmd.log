@@ -3405,3 +3405,8 @@ wv_press_key Right 733 647
 wv_press_key Right 733 647
 wv_press_key Right 733 647
 wv_press_key Right 733 647
+wv_select_window {Custom WaveView} 
+wv_close_window {Custom WaveView} 
+wv_select_dialog {Confirmation} 
+#wv_press_button {Confirmation} {} {Ok} 
+#*WARNING* Can not remove '/home/raid7_1/userd/d10013/.cx_hostport/.cx_hostport_cad29_18260'.

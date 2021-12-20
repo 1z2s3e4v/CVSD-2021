@@ -1,0 +1,6 @@
+Command Line: /home/raid7_4/raid1_1/linux/novas/verdi/cur/platform/LINUXAMD64/bin/fsdb2vcd /home/raid7_1/userd/d10013/CVSD/hw4/1101_hw4/IOTDF_F7.fsdb
+uname(Linux cad29 2.6.32-754.27.1.el6.x86_64 #1 SMP Tue Jan 28 14:11:45 UTC 2020 x86_64)
+Load signals (0)-(15390000) time 0.041172 0.093986 0.029995 delta 21110784 21110784 total 280088576 280088576
+Write signals (0)-(15390000) time 2.756387 0.260960 0.002000 delta 1892352 1892352 total 281980928 281980928
+Unload (0)-(15390000) time 0.003297 0.003000 0.000000 delta 0 0 total 281980928 281980928
+au time 6.645377 2.342644 0.068990 delta 81391616 81391616 total 185499648 185499648
