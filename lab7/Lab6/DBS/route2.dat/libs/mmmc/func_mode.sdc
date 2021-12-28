@@ -1,0 +1,1 @@
+/home/raid7_1/userd/d10013/CVSD/lab7/Lab6/DBS/cts2.dat/mmmc/modes/func_mode/func_mode.sdc

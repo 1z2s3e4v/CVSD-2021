@@ -1,0 +1,3 @@
+s1(06Dec2021:13:00:34):  ncverilog -f rtl.f +define+p0 +access+r 
+s2(06Dec2021:13:01:06):  ncverilog -f rtl.f +define+p0 +access+rw 
+s3(06Dec2021:13:01:33):  ncverilog -f rtl.f +define+p1 +access+rw 

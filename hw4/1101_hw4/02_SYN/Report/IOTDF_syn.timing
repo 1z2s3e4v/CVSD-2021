@@ -8,7 +8,7 @@ Report : timing
         -max_paths 1
 Design : IOTDF
 Version: R-2020.09-SP5
-Date   : Mon Dec 20 16:19:58 2021
+Date   : Mon Dec 20 18:43:26 2021
 ****************************************
 
  # A fanout number of 1000 was used for high fanout net computations.
@@ -16,7 +16,7 @@ Date   : Mon Dec 20 16:19:58 2021
 Operating Conditions: slow   Library: slow
 Wire Load Model Mode: top
 
-  Startpoint: data_idx_reg[1]
+  Startpoint: data_idx_reg[0]
               (rising edge-triggered flip-flop clocked by clk)
   Endpoint: iot_out_r_reg[127]
             (rising edge-triggered flip-flop clocked by clk)
@@ -27,61 +27,61 @@ Wire Load Model Mode: top
   -----------------------------------------------------------
   clock clk (rise edge)                    0.00       0.00
   clock network delay (ideal)              1.00       1.00
-  data_idx_reg[1]/CK (DFFRX1)              0.00 #     1.00 r
-  data_idx_reg[1]/Q (DFFRX1)               0.53       1.53 f
-  U4048/Y (NAND2XL)                        0.13       1.67 r
-  U5978/Y (NOR2X1)                         0.15       1.82 f
-  U3904/Y (CLKBUFX3)                       0.78       2.60 f
-  U4415/Y (AOI22XL)                        0.36       2.96 r
-  U6318/Y (NAND3XL)                        0.37       3.33 f
-  U4180/Y (NOR2XL)                         0.30       3.63 r
-  U4086/Y (NOR2XL)                         0.09       3.72 f
-  U3919/Y (AOI21XL)                        0.21       3.93 r
-  U4304/Y (OAI21XL)                        0.12       4.05 f
-  U3916/Y (AOI21XL)                        0.19       4.24 r
-  U4166/Y (OAI21XL)                        0.12       4.37 f
-  U3981/Y (AOI21XL)                        0.17       4.54 r
-  U8083/Y (OAI21X1)                        0.12       4.66 f
-  U8084/Y (AOI21X1)                        0.17       4.83 r
-  U8152/Y (OAI21X1)                        0.11       4.94 f
-  U8153/Y (AOI21X1)                        0.15       5.09 r
-  U3980/Y (OAI21XL)                        0.13       5.22 f
-  U4223/Y (AOI21XL)                        0.26       5.49 r
-  U3979/Y (OAI21X1)                        0.13       5.61 f
-  U6256/Y (AOI21XL)                        0.26       5.87 r
-  U4222/Y (OAI21X1)                        0.13       5.99 f
-  U4220/Y (AOI21XL)                        0.26       6.25 r
-  U3974/Y (OAI21X1)                        0.13       6.38 f
-  U8221/Y (AOI21X1)                        0.17       6.55 r
-  U4219/Y (OAI21X1)                        0.11       6.66 f
-  U4217/Y (AOI21XL)                        0.26       6.91 r
-  U3973/Y (OAI21X1)                        0.13       7.05 f
-  U8237/Y (AOI21X1)                        0.17       7.21 r
-  U4216/Y (OAI21X1)                        0.11       7.33 f
-  U3912/Y (AOI21X1)                        0.17       7.49 r
-  U3971/Y (OAI21X1)                        0.11       7.61 f
-  U8247/Y (AOI21X1)                        0.17       7.77 r
-  U4214/Y (OAI21X1)                        0.11       7.89 f
-  U3911/Y (AOI21X1)                        0.15       8.04 r
-  U6254/Y (OAI21XL)                        0.13       8.17 f
-  U3897/Y (AOI21XL)                        0.26       8.43 r
-  U4212/Y (OAI21X1)                        0.13       8.57 f
-  U3970/Y (AOI21X1)                        0.17       8.73 r
-  U3969/Y (OAI21X1)                        0.11       8.85 f
-  U8251/Y (AOI21X1)                        0.17       9.01 r
-  U3968/Y (OAI21X1)                        0.11       9.13 f
-  U8254/Y (AOI21X1)                        0.20       9.33 r
-  U8255/Y (OAI21X2)                        0.10       9.42 f
-  U8258/Y (AOI21X1)                        0.16       9.59 r
-  U4210/Y (OAI21X1)                        0.11       9.70 f
-  U3910/Y (AOI21X1)                        0.17       9.87 r
-  U3909/Y (OAI21X1)                        0.11       9.98 f
-  U10909/Y (AOI21X1)                       0.16      10.14 r
-  U10913/Y (NOR2X1)                        0.09      10.23 f
-  U3908/Y (NAND2XL)                        0.10      10.33 r
-  U10917/Y (XOR2X1)                        0.15      10.48 f
-  U5870/Y (NAND2XL)                        0.09      10.58 r
-  U10919/Y (OAI211XL)                      0.09      10.67 f
+  data_idx_reg[0]/CK (DFFRX1)              0.00 #     1.00 r
+  data_idx_reg[0]/Q (DFFRX1)               0.46       1.46 r
+  U4034/Y (NAND2XL)                        0.11       1.57 f
+  U6041/Y (NOR2X1)                         0.70       2.27 r
+  U6078/Y (CLKBUFX3)                       0.69       2.96 r
+  U4443/Y (AOI22XL)                        0.18       3.15 f
+  U4441/Y (NAND3XL)                        0.52       3.66 r
+  U4401/Y (NAND2XL)                        0.16       3.83 f
+  U3932/Y (OAI21XL)                        0.26       4.09 r
+  U5206/Y (AOI21XL)                        0.13       4.23 f
+  U7960/Y (OAI21XL)                        0.23       4.46 r
+  U4161/Y (AOI21XL)                        0.11       4.57 f
+  U7972/Y (OAI21XL)                        0.13       4.69 r
+  U4050/Y (AOI21XL)                        0.15       4.84 f
+  U8459/Y (OAI21X1)                        0.18       5.02 r
+  U8460/Y (AOI21X1)                        0.13       5.15 f
+  U8497/Y (OAI21X1)                        0.18       5.32 r
+  U8498/Y (AOI21X1)                        0.13       5.45 f
+  U3916/Y (OAI21X1)                        0.16       5.61 r
+  U3896/Y (AOI21XL)                        0.13       5.75 f
+  U6271/Y (OAI21XL)                        0.29       6.04 r
+  U8500/Y (AOI21X1)                        0.16       6.20 f
+  U3910/Y (OAI21X1)                        0.19       6.39 r
+  U8501/Y (AOI21X1)                        0.13       6.51 f
+  U3909/Y (OAI21X1)                        0.18       6.69 r
+  U8502/Y (AOI21X1)                        0.13       6.81 f
+  U3908/Y (OAI21X1)                        0.18       6.99 r
+  U8503/Y (AOI21X1)                        0.14       7.13 f
+  U8504/Y (OAI21X2)                        0.14       7.27 r
+  U8505/Y (AOI21X1)                        0.13       7.40 f
+  U8506/Y (OAI21X2)                        0.14       7.54 r
+  U8507/Y (AOI21X1)                        0.13       7.67 f
+  U8508/Y (OAI21X2)                        0.14       7.80 r
+  U8509/Y (AOI21X1)                        0.11       7.92 f
+  U3907/Y (OAI21X1)                        0.16       8.08 r
+  U6269/Y (AOI21XL)                        0.15       8.22 f
+  U3882/Y (OAI21X1)                        0.19       8.41 r
+  U8510/Y (AOI21X1)                        0.14       8.55 f
+  U8511/Y (OAI21X2)                        0.14       8.69 r
+  U8512/Y (AOI21X1)                        0.13       8.82 f
+  U8515/Y (OAI21X2)                        0.14       8.95 r
+  U8518/Y (AOI21X1)                        0.13       9.08 f
+  U8521/Y (OAI21X2)                        0.14       9.22 r
+  U8524/Y (AOI21X1)                        0.13       9.35 f
+  U8527/Y (OAI21X2)                        0.14       9.48 r
+  U8532/Y (AOI21X1)                        0.13       9.61 f
+  U8535/Y (OAI21X2)                        0.14       9.75 r
+  U8536/Y (AOI21X1)                        0.13       9.88 f
+  U11047/Y (OAI21X2)                       0.14      10.01 r
+  U11052/Y (AOI21X1)                       0.11      10.12 f
+  U11056/Y (NOR2X1)                        0.12      10.24 r
+  U6264/Y (NAND2XL)                        0.08      10.33 f
+  U11060/Y (XOR2X1)                        0.14      10.46 f
+  U6345/Y (NAND2XL)                        0.09      10.56 r
+  U11062/Y (OAI211XL)                      0.11      10.67 f
   iot_out_r_reg[127]/D (DFFRX1)            0.00      10.67 f
   data arrival time                                  10.67
 

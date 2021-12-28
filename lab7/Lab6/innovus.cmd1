@@ -1,0 +1,465 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Dec 21 14:54:29 2021                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.10-p004_1 (64bit) 05/07/2020 20:02 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.10-p004_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+#@(#)CDS: AAE 20.10-p005 (64bit) 05/07/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+#@(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+#@(#)CDS: CPE v20.10-p006
+#@(#)CDS: IQuantus/TQuantus 19.1.3-s155 (64bit) Sun Nov 3 18:26:52 PST 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /home/raid7_1/userd/d10013/CVSD/lab7/Lab6/DBS/floorplan.dat CHIP
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /home/raid7_1/userd/d10013/CVSD/lab7/Lab6/DBS/floorplan.dat CHIP
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /home/raid7_1/userd/d10013/CVSD/lab7/Lab6/DBS/floorplan.dat CHIP
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+zoomBox -2477.08650 -1106.99250 2301.53650 1517.45750
+zoomBox -1510.15500 -613.48600 1942.40000 1282.67900
+zoomBox -1129.14100 -385.37100 1805.53100 1226.36950
+zoomBox -805.27950 -191.47300 1689.19200 1178.50650
+zoomBox -296.00650 113.43150 1506.24950 1103.24200
+zoomBox -488.60100 -21.86400 1631.70050 1142.61900
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddRingMode -ring_target default -extend_over_row 0 -ignore_rows 0 -avoid_short 0 -skip_crossing_trunks none -stacked_via_top_layer METAL8 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size 1 -orthogonal_only true -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape }
+addRing -nets {VDD VSS} -type core_rings -follow core -layer {top METAL3 bottom METAL3 left METAL2 right METAL2} -width {top 8 bottom 8 left 8 right 8} -spacing {top 0.24 bottom 0.24 left 0.24 right 0.24} -offset {top 1.8 bottom 1.8 left 1.8 right 1.8} -center 1 -threshold 0 -jog_distance 0 -snap_wire_center_to_grid None -use_wire_group 1 -use_wire_group_bits 4 -use_interleaving_wire_group 1
+setLayerPreference pinObj -isVisible 1
+setSrouteMode -viaConnectToShape { ring }
+sroute -connect { padPin } -layerChangeRange { METAL1(1) METAL8(8) } -blockPinTarget { nearestTarget } -padPinPortConnect { allPort allGeom } -padPinTarget { nearestTarget } -allowJogging 1 -crossoverViaLayerRange { METAL1(1) METAL8(8) } -nets { VDD VSS } -allowLayerChange 1 -targetViaLayerRange { METAL1(1) METAL8(8) }
+saveDesign DBS/powerring
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+set sprCreateIeRingOffset 1.0
+set sprCreateIeRingThreshold 1.0
+set sprCreateIeRingJogDistance 1.0
+set sprCreateIeRingLayers {}
+set sprCreateIeStripeWidth 10.0
+set sprCreateIeStripeThreshold 1.0
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer METAL8 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer METAL4 -direction vertical -width 2 -spacing 0.24 -set_to_set_distance 100 -start_from left -start_offset 100 -stop_offset 0 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit METAL8 -padcore_ring_bottom_layer_limit METAL1 -block_ring_top_layer_limit METAL8 -block_ring_bottom_layer_limit METAL1 -use_wire_group 0 -snap_wire_center_to_grid None
+setAddStripeMode -ignore_block_check false -break_at none -route_over_rows_only false -rows_without_stripes_only false -extend_to_closest_target none -stop_at_last_wire_for_area false -partial_set_thru_domain false -ignore_nondefault_domains false -trim_antenna_back_to_shape none -spacing_type edge_to_edge -spacing_from_block 0 -stripe_min_length stripe_width -stacked_via_top_layer METAL8 -stacked_via_bottom_layer METAL1 -via_using_exact_crossover_size false -split_vias false -orthogonal_only true -allow_jog { padcore_ring  block_ring } -skip_via_on_pin {  standardcell } -skip_via_on_wire_shape {  noshape   }
+addStripe -nets {VDD VSS} -layer METAL5 -direction horizontal -width 4 -spacing 0.24 -set_to_set_distance 80 -start_from bottom -start_offset 20 -stop_offset 0 -switch_layer_over_obs false -max_same_layer_jog_length 2 -padcore_ring_top_layer_limit METAL8 -padcore_ring_bottom_layer_limit METAL1 -block_ring_top_layer_limit METAL8 -block_ring_bottom_layer_limit METAL1 -use_wire_group 0 -snap_wire_center_to_grid None
+saveDesign DBS/powerstripe
+setDrawView place
+setDrawView fplan
+setSrouteMode -viaConnectToShape { ring stripe blockring }
+sroute -connect { corePin } -layerChangeRange { METAL1(1) METAL8(8) } -blockPinTarget { nearestTarget } -corePinTarget { firstAfterRowEnd } -allowJogging 1 -crossoverViaLayerRange { METAL1(1) METAL8(8) } -nets { VDD VSS } -allowLayerChange 1 -targetViaLayerRange { METAL1(1) METAL8(8) }
+addIoFiller -cell PFEED20Z -prefix IOFILLER
+addIoFiller -cell PFEED10Z -prefix IOFILLER
+addIoFiller -cell PFEED5Z -prefix IOFILLER
+addIoFiller -cell PFEED1Z -prefix IOFILLER
+addIoFiller -cell PFEED0_1Z -prefix IOFILLER
+addIoFiller -cell PFEED0_01Z -prefix IOFILLER
+addIoFiller -cell PFEED0_005Z -prefix IOFILLER -fillAnyGap
+redraw
+verify_drc
+verifyConnectivity -net {VDD VSS} -type special -error 1000 -warning 50
+saveDesign DBS/powerplan
+setDrawView place
+createBasicPathGroups -expanded
+place_opt_design
+saveDesign DBS/place
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -preCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_preCTS -outDir timingReports
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -preCTS
+saveDesign DBS/place2
+update_constraint_mode -name func_mode -sdc_files design_data/CHIP_cts.sdc
+update_constraint_mode -name func_mode -sdc_files design_data/CHIP_cts.sdc
+update_constraint_mode -name scan_mode -sdc_files design_data/CHIP_scan_cts.sdc
+setDrawView fplan
+create_ccopt_clock_tree_spec -file ./ccopt.spec
+get_ccopt_clock_trees
+ccopt_check_and_flatten_ilms_no_restore
+set_ccopt_property cts_is_sdc_clock_root -pin CLK true
+create_ccopt_clock_tree -name CLK1 -source CLK -no_skew_group
+set_ccopt_property clock_period -pin CLK 10
+create_ccopt_skew_group -name CLK1/func_mode -sources CLK -auto_sinks
+set_ccopt_property include_source_latency -skew_group CLK1/func_mode true
+set_ccopt_property extracted_from_clock_name -skew_group CLK1/func_mode CLK1
+set_ccopt_property extracted_from_constraint_mode_name -skew_group CLK1/func_mode func_mode
+set_ccopt_property extracted_from_delay_corners -skew_group CLK1/func_mode {Delay_Corner_max Delay_Corner_min}
+create_ccopt_skew_group -name CLK1/scan_mode -sources CLK -auto_sinks
+set_ccopt_property include_source_latency -skew_group CLK1/scan_mode true
+set_ccopt_property target_insertion_delay -skew_group CLK1/scan_mode 2.000
+set_ccopt_property extracted_from_clock_name -skew_group CLK1/scan_mode CLK1
+set_ccopt_property extracted_from_constraint_mode_name -skew_group CLK1/scan_mode scan_mode
+set_ccopt_property extracted_from_delay_corners -skew_group CLK1/scan_mode {Delay_Corner_max Delay_Corner_min}
+check_ccopt_clock_tree_convergence
+get_ccopt_property auto_design_state_for_ilms
+ccopt_design -cts
+zoomBox 406.63750 360.12700 441.97600 326.47150
+zoomBox 389.15100 324.62000 461.14150 364.21500
+zoomBox 383.78650 322.44200 468.48200 369.02450
+zoomBox 393.99000 328.72800 455.18250 362.38400
+zoomBox 401.36150 333.26950 445.57350 357.58600
+zoomBox 406.64800 336.55050 438.59250 354.12000
+zoomBox 408.71300 337.83200 435.86600 352.76600
+zoomBox 401.34600 333.26800 445.56150 357.58650
+zoomBox 383.80150 322.43900 468.50500 369.02600
+zoomBox 360.56900 310.13500 498.49550 385.99450
+uiSetTool layerBlk
+zoomBox 377.45850 319.79450 477.11050 374.60300
+zoomBox 384.03050 323.56650 468.73500 370.15400
+zoomBox 394.12250 329.57350 455.32200 363.23300
+zoomBox 361.36000 309.96450 499.28900 385.82550
+zoomBox 324.35450 287.81600 548.95000 411.34350
+zoomBox 264.09750 251.75150 629.81400 452.89550
+zoomBox 236.54050 235.25800 666.79550 471.89850
+zoomBox 307.42950 277.68650 571.66050 423.01350
+zoomBox 361.75850 309.06050 499.68950 384.92250
+zoomBox 390.11850 325.43800 462.12000 365.03900
+createRouteBlk -box 418.80450 343.32400 422.46150 348.12450
+uiSetTool layerBlk
+uiSetTool select
+selectRouteBlk -box 418.805 343.325 422.46 348.125 defLayerBlkName -layer METAL3
+setSelectedRouteBlk 416.925 341.37 426.035 351.995 defLayerBlkName {{3 } {4 } {V4 }} {Undefined ALLNET} {} {}
+ccopt_design -cts
+zoomBox 341.32700 311.43400 503.60250 400.68550
+zoomBox 267.97300 284.89900 578.84300 455.87750
+zoomBox -70.86500 163.06400 898.85600 696.41050
+zoomBox -929.69150 -155.66250 1641.49400 1258.48950
+zoomBox -681.75600 -61.99800 1503.75200 1140.03150
+zoomBox -480.37700 17.61700 1377.30500 1039.34200
+zoomBox -321.14750 74.89550 1257.88250 943.36200
+zoomBox -185.80200 123.58250 1156.37350 861.77900
+setDrawView place
+zoomBox 57.12350 209.49000 881.38700 662.83500
+zoomBox 111.68150 227.83950 812.30600 613.18300
+zoomBox 197.47400 256.69400 703.67600 535.10500
+zoomBox 284.13250 283.51250 595.00450 454.49200
+setDrawView fplan
+zoomBox 156.71250 246.46150 752.24550 574.00450
+zoomBox -25.63300 195.97500 944.09350 729.32450
+zoomBox -240.39850 133.30750 1101.78400 871.50800
+zoomBox -540.92450 47.79850 1316.76750 1069.52900
+zoomBox -1233.86300 -134.03400 1791.07850 1529.68400
+zoomBox -923.44700 -78.93700 1647.75400 1335.22350
+zoomBox -658.98050 -33.02250 1526.54050 1169.01400
+saveDesign DBS/cts
+ctd_win -side none -id ctd_window
+selectInst DCT/CTS_cdb_buf_00126
+zoomSelected
+deselectInst DCT/CTS_cdb_buf_00126
+selectInst DCT/CTS_cdb_buf_00127
+zoomSelected
+deselectInst DCT/CTS_cdb_buf_00127
+selectInst DCT/CTS_cdb_buf_00124
+zoomSelected
+zoomBox 529.42250 565.37850 553.10200 578.40200
+zoomBox 526.60000 564.38000 554.45850 579.70200
+zoomBox 535.40600 568.47500 547.76800 575.27400
+setDrawView place
+setDrawView fplan
+zoomBox 530.01150 565.77500 550.14100 576.84600
+zoomBox 484.37500 544.52450 571.28500 592.32500
+zoomBox 326.55100 469.85300 645.50000 645.27500
+zoomBox -420.80150 136.51600 956.25300 893.89600
+zoomBox -811.28500 -31.39000 1094.67350 1016.88700
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postCTS -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postCTS -outDir timingReports
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+optDesign -postCTS
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postCTS -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postCTS -outDir timingReports
+zoomBox -958.90350 -67.96150 1283.40100 1165.30600
+saveDesign DBS/cts2
+addTieHiLo -cell {TIEHI TIELO} -prefix LTIE
+setNanoRouteMode -quiet -routeInsertAntennaDiode 1
+setNanoRouteMode -quiet -routeAntennaCellName ANTENNA
+setNanoRouteMode -quiet -timingEngine {}
+setNanoRouteMode -quiet -routeWithTimingDriven 1
+setNanoRouteMode -quiet -routeWithSiDriven 1
+setNanoRouteMode -quiet -routeTdrEffort 10
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+saveDesign DBS/route
+setAnalysisMode -cppr both -clockGatingCheck true -timeBorrowing true -useOutputPinCap true -sequentialConstProp false -timingSelfLoopsNoSkew false -enableMultipleDriveNet true -clkSrcPath true -warn true -usefulSkew true -analysisType onChipVariation -log true
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+setDrawView place
+zoomBox -227.08600 242.20600 943.41150 885.97950
+zoomBox 233.48450 456.86900 674.93800 699.66850
+zoomBox 366.79050 519.00000 597.23200 645.74300
+zoomBox 447.77550 556.74550 550.02450 612.98250
+zoomBox 488.00800 575.49750 526.57200 596.70750
+zoomBox 453.12950 561.95000 555.38300 618.18950
+zoomBox 267.36250 489.79650 708.84250 732.61050
+zoomBox 45.98400 403.81150 891.72050 868.96650
+zoomBox -378.10900 239.09100 1242.05800 1130.18300
+zoomBox -990.52800 116.77200 1647.64400 1567.76650
+zoomBox -748.69600 146.92250 1493.75050 1380.26800
+setDrawView fplan
+zoomBox -1072.50000 5.59200 1565.67200 1456.58650
+zoomBox -571.65650 36.38600 1334.42350 1084.73000
+saveDesign DBS/route2
+getFillerMode -quiet
+addFiller -cell FILL1 FILL2 FILL4 FILL8 FILL16 FILL32 FILL64 -prefix FILLER
+verify_drc
+setNanoRouteMode -quiet -routeWithEco 1
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+verify_drc
+setOptMode -fixCap true -fixTran true -fixFanoutLoad true
+setDelayCalMode -engine default -siAware true
+optDesign -postRoute
+panPage 0 1
+panPage 0 1
+panPage 0 -1
+panPage 0 -1
+verify_drc
+verifyConnectivity -type all -error 1000 -warning 50
+zoomBox -305.08950 127.90000 1072.05400 885.32900
+zoomBox -112.49550 194.01900 882.49200 741.26200
+zoomBox 143.04400 264.98150 662.43350 550.64550
+zoomBox 318.91550 315.04650 514.80350 422.78500
+zoomBox 378.15700 331.91050 465.07450 379.71500
+zoomBox 397.62500 337.87250 451.00400 367.23100
+setDrawView place
+zoomBox 410.60550 341.46800 438.46950 356.79300
+zoomBox 418.01500 344.04700 432.56050 352.04700
+zoomBox 400.61800 338.68850 445.99250 363.64450
+selectWire 253.2300 350.6000 805.6400 354.6000 5 VSS
+deselectAll
+selectWire 261.4700 346.3600 797.4000 350.3600 5 VDD
+deselectAll
+selectWire 253.2300 350.6000 805.6400 354.6000 5 VSS
+deselectAll
+selectRouteBlk -box 416.925 341.37 426.035 351.995 defLayerBlkName -layer VIA34
+zoomBox 380.94150 325.11600 467.86550 372.92400
+zoomBox 364.08950 314.55800 484.39950 380.72850
+panPage 0 1
+zoomBox 353.37250 331.25650 494.91450 409.10450
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage -1 0
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 267.57050 496.56400 498.04900 623.32700
+zoomBox 82.08800 405.69950 693.19700 741.80950
+zoomBox -215.46950 270.94600 955.22500 914.82800
+zoomBox 413.54650 463.27450 428.41250 450.26650
+panPage -1 0
+panPage 0 1
+panPage 0 1
+panPage 0 -1
+zoomBox 409.65350 456.36650 422.00100 463.15750
+zoomBox 413.60200 457.57500 420.04750 461.12000
+zoomBox 415.67000 458.21050 419.03550 460.06150
+zoomBox 416.75550 458.53100 418.51300 459.49750
+deselectAll
+selectMarker 417.8150 458.9000 418.0050 459.0900 36 1 6
+setLayerPreference violation -isVisible 1
+violationBrowser -all -no_display_false -displayByLayer
+violationBrowserClose
+deselectAll
+selectInst DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0
+deselectAll
+selectMarker 417.8150 458.9000 418.0050 459.0900 36 1 6
+setLayerPreference violation -isVisible 1
+violationBrowser -all -no_display_false -displayByLayer
+violationBrowserClose
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0](835620,917790,836020,969850)}
+deselectAll
+selectMarker 417.8150 458.9000 418.0050 459.0900 36 1 6
+setLayerPreference violation -isVisible 1
+violationBrowser -all -no_display_false -displayByLayer
+zoomBox 415.79250 458.17850 419.16000 460.03050
+zoomBox 413.81650 457.54450 420.26850 461.09300
+zoomBox 410.02700 456.32900 422.38850 463.12800
+zoomBox 402.76750 454.00200 426.44900 467.02700
+zoomBox 377.46950 446.87850 440.26200 481.41450
+zoomBox 310.61000 428.75900 477.10750 520.33250
+zoomBox 176.08450 392.64250 551.32850 599.02650
+zoomBox 133.40950 381.23800 574.87300 624.04300
+zoomBox 291.67350 422.36300 487.55450 530.09750
+zoomBox 351.93850 438.56250 454.18950 494.80050
+zoomBox 383.47400 447.98850 436.85050 477.34550
+zoomBox 400.09200 452.60400 427.95500 467.92850
+zoomBox 409.95750 455.98600 422.32100 462.78600
+zoomBox 413.71950 457.27600 420.17300 460.82550
+zoomBox 416.00350 458.05900 418.86850 459.63500
+deselectAll
+selectInst DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0
+deselectAll
+selectInst DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0](835620,917790,836020,969850)}
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0](835530,917700,836110,918280)}
+zoomBox 412.38200 456.87200 419.98100 461.05150
+zoomBox 410.14900 456.15000 420.66650 461.93450
+zoomBox 408.72150 455.70650 421.09500 462.51200
+zoomBox 396.22050 452.85500 424.10950 468.19400
+zoomBox 368.13100 446.80050 430.98900 481.37250
+panPage 1 0
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+zoomBox 370.96900 410.62700 457.97100 458.47800
+panPage 0 1
+panPage 0 1
+zoomBox 392.71850 448.74400 438.13500 473.72300
+zoomBox 406.34850 454.21750 426.50100 465.30150
+zoomBox 411.77500 456.31150 422.29600 462.09800
+zoomBox 415.06300 457.62050 419.73200 460.18850
+zoomBox 416.51950 458.20350 418.59200 459.34350
+deselectAll
+selectInst DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0
+deselectAll
+zoomBox 416.25300 458.07850 418.69150 459.41950
+zoomBox 415.93750 457.93150 418.80650 459.50950
+selectObject Pin {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0/AA[0]}
+deselectAll
+selectInst DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0](835530,917700,836110,918280)}
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0](835620,917790,836020,969850)}
+zoomBox 413.93450 456.87750 419.43250 459.90150
+zoomBox 412.32500 456.03100 419.93600 460.21700
+zoomBox 405.18200 452.72100 422.33650 462.15600
+zoomBox 393.42500 447.26050 426.28800 465.33500
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[5](821820,917990,822220,937870)}
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0](835620,917790,836020,969850)}
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[5](821820,917990,822220,937870)}
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[4](816300,917990,816700,937870)}
+zoomBox 387.70500 442.59200 433.19050 467.60900
+zoomBox 384.06750 439.62300 437.58000 469.05500
+zoomBox 379.78750 436.13050 442.74400 470.75650
+zoomBox 372.40750 432.02150 446.47400 472.75800
+panPage 0 1
+panPage 0 1
+panPage 0 -1
+deselectAll
+selectObject Wire {DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0](835620,917790,836020,969850)}
+panPage 0 1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+zoomBox 354.70650 387.81750 457.22050 444.20000
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 -1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+panPage 0 1
+zoomBox 329.07900 431.31200 470.96800 509.35100
+zoomBox 312.72400 426.70150 479.65200 518.51200
+panPage 0 -1
+panPage 0 -1
+zoomBox 293.48250 366.14450 489.86900 474.15700
+panPage 0 -1
+panPage 0 -1

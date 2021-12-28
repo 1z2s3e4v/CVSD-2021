@@ -1,0 +1,6 @@
+BEGIN MacroOrientation
+DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 R0 R180 MX MY R90 R270 MX90 MY90
+END MacroOrientation
+BEGIN MacroHalo
+DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 0 0 3680 0 3680
+END MacroHalo

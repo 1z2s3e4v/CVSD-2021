@@ -1,0 +1,391 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+Recompiling... reason: file './core.v' is newer than expected.
+	expected: Sun Nov  7 19:18:18 2021
+	actual:   Sun Nov  7 19:19:34 2021
+file: ./core.v
+	module worklib.core:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.core:v <0x0e8609f0>
+			streams:   6, words: 51260
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                   5       5
+		Registers:                49      49
+		Scalar wires:              4       -
+		Vectored wires:            8       -
+		Always blocks:            10      10
+		Initial blocks:            6       6
+		Cont. assignments:         2      10
+		Simulation timescale:  100ps
+	Writing initial simulation snapshot: 
+Loading snapshot worklib.testbed:vp .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+-------------------------------------------------------------------
+   Pattern: ../00_TESTBED/PATTERN/p0/inst.dat
+-------------------------------------------------------------------
+i_rst_n
+i_rst_n
+i_rst_n
+i_rst_n
+i_rst_n
+cur_state = S_IF
+	inst=00000000000000000000000000000000
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000001000110000100000000000
+cur_state = S_ID
+	opcode= 6, rs= 1, rt= 3, rd= 1, im= 2048, type=0
+cur_state = S_EX
+	and $ 1  $ 3  $ 1
+	$ 1(         0) = $ 1(         0) & $ 3(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=         4, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010000011000010000000000001000
+cur_state = S_ID
+	opcode= 4, rs= 3, rt= 1, rd= 0, im=    8, type=1
+cur_state = S_EX
+	lw $ 1      8($ 3)
+	load mem[$ 3(         0)+    8=         8] to $ 1
+cur_state = S_WB
+  $ 1 =          0
+cur_state = S_NEXT
+	o_i_addr_w=         8, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00101000010000000000000000001000
+cur_state = S_ID
+	opcode=10, rs= 2, rt= 0, rd= 0, im=    8, type=1
+cur_state = S_EX
+	bne $ 2  $ 0      8
+	bne $ 2(         0) $ 0(         0)     8, branch_pc=        12+    8=        12
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        12, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00000100111000010010000000000000
+cur_state = S_ID
+	opcode= 1, rs= 7, rt= 1, rd= 4, im= 8192, type=0
+cur_state = S_EX
+	add $ 7  $ 1  $ 4
+	$ 4(         0) = $ 7(         0) + $ 1(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        16, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00101100110001010010000000000000
+cur_state = S_ID
+	opcode=11, rs= 6, rt= 5, rd= 4, im= 8192, type=0
+cur_state = S_EX
+	slt $ 6  $ 5  $ 4
+	$ 4(         0) = ( $ 6(         0) < $ 5(         0) )? 1 : 0
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        20, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00101100100000010000100000000000
+cur_state = S_ID
+	opcode=11, rs= 4, rt= 1, rd= 1, im= 2048, type=0
+cur_state = S_EX
+	slt $ 4  $ 1  $ 1
+	$ 1(         0) = ( $ 4(         0) < $ 1(         0) )? 1 : 0
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        24, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010000001000110000000000001100
+cur_state = S_ID
+	opcode= 4, rs= 1, rt= 3, rd= 0, im=   12, type=1
+cur_state = S_EX
+	lw $ 3     12($ 1)
+	load mem[$ 1(         0)+   12=        12] to $ 3
+cur_state = S_WB
+  $ 3 =          0
+cur_state = S_NEXT
+	o_i_addr_w=        28, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010000111001110000000000000100
+cur_state = S_ID
+	opcode= 4, rs= 7, rt= 7, rd= 0, im=    4, type=1
+cur_state = S_EX
+	lw $ 7      4($ 7)
+	load mem[$ 7(         0)+    4=         4] to $ 7
+cur_state = S_WB
+  $ 7 =          0
+cur_state = S_NEXT
+	o_i_addr_w=        32, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00101000110001110000000000001000
+cur_state = S_ID
+	opcode=10, rs= 6, rt= 7, rd= 0, im=    8, type=1
+cur_state = S_EX
+	bne $ 6  $ 7      8
+	bne $ 6(         0) $ 7(         0)     8, branch_pc=        36+    8=        36
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        36, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010000110001010000000000001000
+cur_state = S_ID
+	opcode= 4, rs= 6, rt= 5, rd= 0, im=    8, type=1
+cur_state = S_EX
+	lw $ 5      8($ 6)
+	load mem[$ 6(         0)+    8=         8] to $ 5
+cur_state = S_WB
+  $ 5 =          0
+cur_state = S_NEXT
+	o_i_addr_w=        40, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010000101000100000000000001000
+cur_state = S_ID
+	opcode= 4, rs= 5, rt= 2, rd= 0, im=    8, type=1
+cur_state = S_EX
+	lw $ 2      8($ 5)
+	load mem[$ 5(         0)+    8=         8] to $ 2
+cur_state = S_WB
+  $ 2 =          0
+cur_state = S_NEXT
+	o_i_addr_w=        44, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00100100010000110000000000001000
+cur_state = S_ID
+	opcode= 9, rs= 2, rt= 3, rd= 0, im=    8, type=1
+cur_state = S_EX
+	beq $ 2  $ 3      8
+	beq $ 2(         0) $ 3(         0)     8, branch_pc=        48+    8=        56
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        56, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00100000100000110001000000000000
+cur_state = S_ID
+	opcode= 8, rs= 4, rt= 3, rd= 2, im= 4096, type=0
+cur_state = S_EX
+	nor $ 4  $ 3  $ 2
+	$ 2(4294967295) = ~( $ 4(         0) | $ 3(         0) )
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        60, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00101000111000110000000000001000
+cur_state = S_ID
+	opcode=10, rs= 7, rt= 3, rd= 0, im=    8, type=1
+cur_state = S_EX
+	bne $ 7  $ 3      8
+	bne $ 7(         0) $ 3(         0)     8, branch_pc=        64+    8=        64
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        64, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00100000001000000010100000000000
+cur_state = S_ID
+	opcode= 8, rs= 1, rt= 0, rd= 5, im=10240, type=0
+cur_state = S_EX
+	nor $ 1  $ 0  $ 5
+	$ 5(4294967295) = ~( $ 1(         0) | $ 0(         0) )
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        68, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00001000101000010010100000000000
+cur_state = S_ID
+	opcode= 2, rs= 5, rt= 1, rd= 5, im=10240, type=0
+cur_state = S_EX
+	sub $ 5  $ 1  $ 5
+	$ 5(4294967295) = $ 5(4294967295) - $ 1(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        72, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010100110000100000000000000100
+cur_state = S_ID
+	opcode= 5, rs= 6, rt= 2, rd= 0, im=    4, type=1
+cur_state = S_EX
+	sw $ 2      4($ 6)
+	store $ 2(4294967295) to mem[$ 6(         0)+    4=         4]
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        76, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00101100001001100011100000000000
+cur_state = S_ID
+	opcode=11, rs= 1, rt= 6, rd= 7, im=14336, type=0
+cur_state = S_EX
+	slt $ 1  $ 6  $ 7
+	$ 7(         0) = ( $ 1(         0) < $ 6(         0) )? 1 : 0
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        80, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010100110000100000000000001100
+cur_state = S_ID
+	opcode= 5, rs= 6, rt= 2, rd= 0, im=   12, type=1
+cur_state = S_EX
+	sw $ 2     12($ 6)
+	store $ 2(4294967295) to mem[$ 6(         0)+   12=        12]
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        84, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00000100001001010011100000000000
+cur_state = S_ID
+	opcode= 1, rs= 1, rt= 5, rd= 7, im=14336, type=0
+cur_state = S_EX
+	add $ 1  $ 5  $ 7
+	$ 7(4294967295) = $ 1(         0) + $ 5(4294967295)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        88, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00001000111000000000100000000000
+cur_state = S_ID
+	opcode= 2, rs= 7, rt= 0, rd= 1, im= 2048, type=0
+cur_state = S_EX
+	sub $ 7  $ 0  $ 1
+	$ 1(4294967295) = $ 7(4294967295) - $ 0(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        92, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000110001010001000000000000
+cur_state = S_ID
+	opcode= 6, rs= 6, rt= 5, rd= 2, im= 4096, type=0
+cur_state = S_EX
+	and $ 6  $ 5  $ 2
+	$ 2(         0) = $ 6(         0) & $ 5(4294967295)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        96, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000110000110010000000000000
+cur_state = S_ID
+	opcode= 6, rs= 6, rt= 3, rd= 4, im= 8192, type=0
+cur_state = S_EX
+	and $ 6  $ 3  $ 4
+	$ 4(         0) = $ 6(         0) & $ 3(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       100, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00001101001010000000000000001000
+cur_state = S_ID
+	opcode= 3, rs= 9, rt= 8, rd= 0, im=    8, type=1
+cur_state = S_EX
+	addi $ 9  $ 8      8
+	$ 8(         8) = $ 9(         0) - im(    8)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       104, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000101000110011100000000000
+cur_state = S_ID
+	opcode= 6, rs= 5, rt= 3, rd= 7, im=14336, type=0
+cur_state = S_EX
+	and $ 5  $ 3  $ 7
+	$ 7(         0) = $ 5(4294967295) & $ 3(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       108, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011100100000000010000000000000
+cur_state = S_ID
+	opcode= 7, rs= 4, rt= 0, rd= 4, im= 8192, type=0
+cur_state = S_EX
+	or $ 4  $ 0  $ 4
+	$ 4(         0) = $ 4(         0) | $ 0(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       112, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00010000000000000000000000001100
+cur_state = S_ID
+	opcode= 4, rs= 0, rt= 0, rd= 0, im=   12, type=1
+cur_state = S_EX
+	lw $ 0     12($ 0)
+	load mem[$ 0(         0)+   12=        12] to $ 0
+cur_state = S_WB
+  $ 0 =          0
+cur_state = S_NEXT
+	o_i_addr_w=       116, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00101000101001000000000000001100
+cur_state = S_ID
+	opcode=10, rs= 5, rt= 4, rd= 0, im=   12, type=1
+cur_state = S_EX
+	bne $ 5  $ 4     12
+	bne $ 5(4294967295) $ 4(         0)    12, branch_pc=       120+   12=       132
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       132, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000110000110001000000000000
+cur_state = S_ID
+	opcode= 6, rs= 6, rt= 3, rd= 2, im= 4096, type=0
+cur_state = S_EX
+	and $ 6  $ 3  $ 2
+	$ 2(         0) = $ 6(         0) & $ 3(         0)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       136, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00100100000001100000000000000100
+cur_state = S_ID
+	opcode= 9, rs= 0, rt= 6, rd= 0, im=    4, type=1
+cur_state = S_EX
+	beq $ 0  $ 6      4
+	beq $ 0(         0) $ 6(         0)     4, branch_pc=       140+    4=       144
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       144, o_status_w=1, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00000100000001010010100000000000
+cur_state = S_ID
+	opcode= 1, rs= 0, rt= 5, rd= 5, im=10240, type=0
+cur_state = S_EX
+	add $ 0  $ 5  $ 5
+	$ 5(4294967295) = $ 0(         0) + $ 5(4294967295)
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=       148, o_status_w=0, o_status_valid_w=1
+MIPS Status Error! Status[         30]: Golden = 01, Yours = 00
+cur_state = S_IDLE
+Simulation complete via $finish(1) at time 1915 NS + 2
+ncsim> exit

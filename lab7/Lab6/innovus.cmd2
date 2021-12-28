@@ -1,0 +1,130 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Tue Dec 21 18:01:24 2021                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v20.10-p004_1 (64bit) 05/07/2020 20:02 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: NanoRoute 20.10-p004_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+#@(#)CDS: AAE 20.10-p005 (64bit) 05/07/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+#@(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+#@(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+#@(#)CDS: CPE v20.10-p006
+#@(#)CDS: IQuantus/TQuantus 19.1.3-s155 (64bit) Sun Nov 3 18:26:52 PST 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+win
+encMessage warning 0
+encMessage debug 0
+encMessage info 0
+is_common_ui_mode
+restoreDesign /home/raid7_1/userd/d10013/CVSD/lab7/Lab6/DBS/cts2.dat CHIP
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+encMessage info 1
+zoomBox 74.39800 144.28600 873.24450 859.42400
+zoomBox 253.21700 282.10500 670.22050 655.41200
+zoomBox 343.76200 365.72400 528.78950 531.36300
+zoomBox 296.38550 313.53500 597.67200 583.25050
+addTieHiLo -cell {TIEHI TIELO} -prefix LTIE
+setNanoRouteMode -quiet -routeInsertAntennaDiode 1
+setNanoRouteMode -quiet -routeAntennaCellName ANTENNA
+setNanoRouteMode -quiet -timingEngine {}
+setNanoRouteMode -quiet -routeWithTimingDriven 1
+setNanoRouteMode -quiet -routeWithEco 1
+setNanoRouteMode -quiet -routeWithSiDriven 1
+setNanoRouteMode -quiet -routeTdrEffort 10
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+zoomBox 191.59450 257.54650 608.60000 630.85550
+setDrawView place
+setDrawView place
+setDrawView fplan
+saveDesign DBS/route
+setAnalysisMode -cppr both -clockGatingCheck true -timeBorrowing true -useOutputPinCap true -sequentialConstProp false -timingSelfLoopsNoSkew false -enableMultipleDriveNet true -clkSrcPath true -warn true -usefulSkew true -analysisType onChipVariation -log true
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix CHIP_postRoute -outDir timingReports
+saveDesign DBS/route2
+getFillerMode -quiet
+addFiller -cell FILL1 FILL2 FILL4 FILL8 FILL16 FILL32 FILL64 -prefix FILLER
+verify_drc
+zoomBox 302.99000 297.77250 520.66950 492.64200
+zoomBox 361.13900 318.77050 474.76900 420.49350
+zoomBox 370.66400 322.21000 467.25000 408.67500
+selectRouteBlk -box 416.925 341.37 426.035 351.995 defLayerBlkName -layer VIA34
+deselectAll
+selectWire 426.1400 261.5800 428.1400 797.0400 4 VDD
+deselectAll
+selectWire 261.4700 346.3600 797.4000 350.3600 5 VDD
+deselectAll
+selectRouteBlk -box 416.925 341.37 426.035 351.995 defLayerBlkName -layer VIA34
+zoomBox 401.54650 335.23700 444.40300 373.60250
+zoomBox 413.20600 340.27100 435.57800 360.29850
+zoomBox 420.33750 343.61900 430.26450 352.50600
+zoomBox 423.06850 344.92650 428.25100 349.56600
+deselectAll
+selectMarker 426.0350 341.3700 426.1400 351.9950 4 1 2
+setLayerPreference violation -isVisible 1
+violationBrowser -all -no_display_false -displayByLayer
+zoomBox 420.7225 336.0575 431.4525 357.3075
+violationBrowserClose
+zoomBox 412.83100 335.00100 440.75750 360.00100
+deselectAll
+selectRouteBlk -box 416.925 341.37 426.035 351.995 defLayerBlkName -layer VIA34
+setSelectedRouteBlk 416.345 338.51 425.455 349.135 defLayerBlkName {{3 } {4 } {V4 }} {Undefined ALLNET} {} {}
+setSelectedRouteBlk 416.345 338.51 425.765 351.465 defLayerBlkName {{3 } {4 } {V4 }} {Undefined ALLNET} {} {}
+verify_drc
+zoomBox 385.40700 310.78200 459.45400 377.07000
+zoomBox 397.46550 322.05600 442.94000 362.76550
+zoomBox 400.35100 324.74750 439.00450 359.35050
+zoomBox 405.49900 328.60500 433.42600 353.60550
+setDrawView place
+deselectAll
+selectWire 261.4700 346.3600 797.4000 350.3600 5 VDD
+deselectAll
+selectWire 253.2300 350.6000 805.6400 354.6000 5 VSS
+deselectAll
+selectWire 253.2300 350.6000 805.6400 354.6000 5 VSS
+deselectAll
+selectWire 261.4700 346.3600 797.4000 350.3600 5 VDD
+deselectAll
+selectRouteBlk -box 416.345 338.51 425.765 351.465 defLayerBlkName -layer VIA34
+setSelectedRouteBlk 416.345 338.51 425.345 350.51 defLayerBlkName {{3 } {4 } {V4 }} {Undefined ALLNET} {} {}
+setSelectedRouteBlk 416.345 338.51 425.765 351.465 defLayerBlkName {{3 } {4 } {V4 }} {Undefined ALLNET} {} {}
+setNanoRouteMode -quiet -routeTopRoutingLayer default
+setNanoRouteMode -quiet -routeBottomRoutingLayer default
+setNanoRouteMode -quiet -drouteEndIteration default
+setNanoRouteMode -quiet -routeWithTimingDriven true
+setNanoRouteMode -quiet -routeWithSiDriven true
+routeDesign -globalDetail -viaOpt -wireOpt
+verify_drc
+zoomBox 360.01200 304.63850 495.41950 373.36000
+setDrawView fplan
+verifyConnectivity -type all -error 1000 -warning 50
+verifyProcessAntenna -report CHIP.antenna.rpt -error 1000
+saveNetlist CHIP_pr.v
+saveDesign DBS/final
+setAnalysisMode -analysisType bcwc
+write_sdf -max_view av_func_mode_max \
+-min_view av_func_mode_min \
+-edges noedge \
+-splitsetuphold \
+-remashold \
+-splitrecrem \
+-min_period_edges none \
+CHIP.sdf
+setStreamOutMode -specifyViaName default -SEvianames false - virtualConnection false -uniquifyCellNamesPrefix false -snapToMGrid false -textSize 1 -version 3
+setStreamOutMode -specifyViaName default -SEvianames false -virtualConnection false -uniquifyCellNamesPrefix false -snapToMGrid false -textSize 1 -version 3
+streamOut CHIP.gds -mapFile library/streamOut.map -merge {library/gds/tsmc13gfsg_fram.gds  library/gds/tpz013g3_v1.1.gds } -stripes 1 -units 1000 -mode ALL
+zoomBox 73.05500 201.16000 569.98450 453.36000
+fit
+setDrawView place

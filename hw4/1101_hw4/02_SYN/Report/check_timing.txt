@@ -5,6 +5,40 @@ Warning: Design 'IOTDF' contains 4 high-fanout nets. A fanout number of 1000 wil
 Information: Checking generated_clocks...
 
 Information: Checking loops...
+Warning: timing loops detected. (TIM-209)
+    #              loop breakpoint
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+cur_state_reg[2]/clocked_on
+                         -> cur_state_reg[2]/Q       **SEQGEN**               
+I_33/A                   -> I_33/Z                   gtech/GTECH_NOT          
+C7/A                     -> C7/Z                     gtech/GTECH_AND2         
+C8/A                     -> C8/Z                     gtech/GTECH_AND2         
+B_1/A                    -> B_1/Z                    gtech/GTECH_BUF          
+C20388/CONTROL1_0        -> C20388/Z_0               *SELECT_OP_5.1_5.1_1     
+C20848/B                 -> C20848/Z                 gtech/GTECH_AND2        #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+cur_state_reg[1]/clocked_on
+                         -> cur_state_reg[1]/Q       **SEQGEN**               
+I_10/A                   -> I_10/Z                   gtech/GTECH_NOT          
+C7/B                     -> C7/Z                     gtech/GTECH_AND2         
+C8/A                     -> C8/Z                     gtech/GTECH_AND2         
+B_1/A                    -> B_1/Z                    gtech/GTECH_BUF          
+C20388/CONTROL1_0        -> C20388/Z_0               *SELECT_OP_5.1_5.1_1     
+C20848/B                 -> C20848/Z                 gtech/GTECH_AND2        #
+
+                 cell_arc                            lib cell
+--------------------------------------------------------------------------------
+cur_state_reg[0]/clocked_on
+                         -> cur_state_reg[0]/Q       **SEQGEN**               
+I_34/A                   -> I_34/Z                   gtech/GTECH_NOT          
+C8/B                     -> C8/Z                     gtech/GTECH_AND2         
+B_1/A                    -> B_1/Z                    gtech/GTECH_BUF          
+C20388/CONTROL1_0        -> C20388/Z_0               *SELECT_OP_5.1_5.1_1     
+C20848/B                 -> C20848/Z                 gtech/GTECH_AND2        #
 
 Information: Checking no_input_delay...
 

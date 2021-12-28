@@ -1,0 +1,12 @@
+1635238321 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2/00_TESTBED/inst_mem.vp
+1635232230 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2/00_TESTBED/testbed.vp
+1635238321 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2_d10943013/00_TESTBED/data_mem.vp
+1638766972 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2_d10943013/01_RTL/core.v
+1635232230 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2_d10943013/00_TESTBED/testbed.vp
+1636210857 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2/01_RTL/Hsu_core.v
+1636283974 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2/01_RTL/core.v
+1636111654 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2_d10943013/00_TESTBED/define.v
+1636346209 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2_d10943013/01_RTL/d10943013_hw2.v
+1635238321 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2/00_TESTBED/data_mem.vp
+1635238321 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2_d10943013/00_TESTBED/inst_mem.vp
+1636111654 /home/raid7_1/userd/d10013/CVSD/hw2/1101_hw2/00_TESTBED/define.v

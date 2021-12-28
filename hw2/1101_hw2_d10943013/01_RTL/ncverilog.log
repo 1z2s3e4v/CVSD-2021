@@ -1,0 +1,91 @@
+ncverilog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	ncverilog	15.20-s084: Started on Dec 06, 2021 at 13:02:53 CST
+ncverilog
+	-f rtl.f
+		../00_TESTBED/define.v
+		../00_TESTBED/testbed.vp
+		../00_TESTBED/inst_mem.vp
+		../00_TESTBED/data_mem.vp
+		./core.v
+	+define+p1
+	+access+r
+Recompiling... reason: file './core.v' is newer than expected.
+	expected: Mon Nov  8 12:25:20 2021
+	actual:   Mon Dec  6 13:02:52 2021
+file: ./core.v
+	module worklib.core:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.core:v <0x0bd09868>
+			streams:   6, words: 51882
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                   Instances  Unique
+		Modules:                   5       5
+		Registers:                49      49
+		Scalar wires:              4       -
+		Vectored wires:            8       -
+		Always blocks:            10      10
+		Initial blocks:            6       6
+		Cont. assignments:         2      10
+		Simulation timescale:  100ps
+	Writing initial simulation snapshot: 
+Loading snapshot worklib.testbed:vp .................... Done
+*Verdi* Loading libsscore_ius152.so
+ncsim> source /usr/cad/cadence/INCISIV/cur/tools/inca/files/ncsimrc
+ncsim> run
+-------------------------------------------------------------------
+   Pattern: ../00_TESTBED/PATTERN/p1/inst.dat
+-------------------------------------------------------------------
+i_rst_n
+i_rst_n
+i_rst_n
+i_rst_n
+i_rst_n
+cur_state = S_IF
+	inst=00000000000000000000000000000000
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000001000110000100000000000
+cur_state = S_ID
+	opcode= 6, rs= 1, rt= 3, rd= 1, im= 2048, type=0
+cur_state = S_EX
+	and $ 1  $ 3  $ 1
+	$ 1(         0) = $ 1(         0) & $ 3(         0)
+cur_state = S_MEM
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=         4, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000001000110000100000000000
+cur_state = S_ID
+	opcode= 6, rs= 1, rt= 3, rd= 1, im= 2048, type=0
+cur_state = S_EX
+	and $ 1  $ 3  $ 1
+	$ 1(         0) = $ 1(         0) & $ 3(         0)
+cur_state = S_MEM
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=         8, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+cur_state = S_IF
+	inst=00011000001000110000100000000000
+cur_state = S_ID
+	opcode= 6, rs= 1, rt= 3, rd= 1, im= 2048, type=0
+cur_state = S_EX
+	and $ 1  $ 3  $ 1
+	$ 1(         0) = $ 1(         0) & $ 3(         0)
+cur_state = S_MEM
+cur_state = S_WB
+cur_state = S_NEXT
+	o_i_addr_w=        12, o_status_w=0, o_status_valid_w=1
+cur_state = S_IDLE
+MIPS Status Error! Status[          2]: Golden = 01, Yours = 00
+Simulation complete via $finish(1) at time 275 NS + 2
+ncsim> exit
+TOOL:	ncverilog	15.20-s084: Exiting on Dec 06, 2021 at 13:02:56 CST  (total: 00:00:03)

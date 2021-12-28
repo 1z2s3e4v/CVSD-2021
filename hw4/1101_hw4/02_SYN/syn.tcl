@@ -43,6 +43,7 @@ check_timing > Report/check_timing.txt
 uniquify
 set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
 #compile
+#replace_clock_gates
 compile_ultra
 optimize_netlist -area
 
@@ -75,4 +76,6 @@ write_sdc  ./Netlist/${DESIGN}_syn.sdc -version 1.8
 report_timing
 report_area
 check_design
+
+#report_clock_gating -gating_elements
 exit

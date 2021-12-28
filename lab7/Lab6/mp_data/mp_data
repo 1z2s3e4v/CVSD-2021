@@ -1,0 +1,315 @@
+Design 652280 652720 1465560 1464520
+   DEFAULTWIRE 400 420
+   Inst BEGIN
+      Group DCT 753302 720296 1345882 1388336 0.0 -1.0 
+         Macro DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 901447 887306 R0 334020 296290  
+          MAlias DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0
+            OVERLAP
+               RECT 935847 921706 1201067 1149196
+            END OVERLAP
+            CENB 186110 35060 I
+            AB[5] 157980 35060 I
+            AB[4] 163820 35060 I
+            AB[3] 169660 35060 I
+            AB[2] 175500 35060 I
+            AB[1] 181340 35060 I
+            AB[0] 144420 35060 I
+            DB[15] 289690 35060 I
+            DB[14] 282570 35060 I
+            DB[13] 268410 35060 I
+            DB[12] 261290 35060 I
+            DB[11] 247130 35060 I
+            DB[10] 240010 35060 I
+            DB[9] 225850 35060 I
+            DB[8] 218730 35060 I
+            DB[7] 115290 35060 I
+            DB[6] 108170 35060 I
+            DB[5] 94010 35060 I
+            DB[4] 86890 35060 I
+            DB[3] 72730 35060 I
+            DB[2] 65610 35060 I
+            DB[1] 51450 35060 I
+            DB[0] 44330 35060 I
+            CENA 136700 261230 I
+            AA[5] 169660 261230 I
+            AA[4] 163820 261230 I
+            AA[3] 157980 261230 I
+            AA[2] 152140 261230 I
+            AA[1] 146300 261230 I
+            AA[0] 183220 261230 I
+            CLKB 189110 35060 I
+            CLKA 134850 261230 I
+            QA[15] 292890 261230 O
+            QA[14] 279370 261230 O
+            QA[13] 271610 261230 O
+            QA[12] 258090 261230 O
+            QA[11] 250330 261230 O
+            QA[10] 236810 261230 O
+            QA[9] 229050 261230 O
+            QA[8] 215530 261230 O
+            QA[7] 118490 261230 O
+            QA[6] 104970 261230 O
+            QA[5] 97210 261230 O
+            QA[4] 83690 261230 O
+            QA[3] 75930 261230 O
+            QA[2] 62410 261230 O
+            QA[1] 54650 261230 O
+            QA[0] 41130 261230 O
+         END Macro
+         Cluster DCT 0 0 R0 4.01999e+11
+            t_0 0 0 B
+            t_1 0 0 B
+            t_2 0 0 B
+            t_3 0 0 B
+            t_4 0 0 B
+            t_5 0 0 B
+            t_6 0 0 B
+            t_7 0 0 B
+            t_8 0 0 B
+            t_9 0 0 B
+            t_10 0 0 B
+            t_11 0 0 B
+            t_12 0 0 B
+            t_13 0 0 B
+            t_14 0 0 B
+            t_15 0 0 B
+            t_16 0 0 B
+            t_17 0 0 B
+            t_18 0 0 B
+            t_19 0 0 B
+            t_20 0 0 B
+            t_21 0 0 B
+            t_22 0 0 B
+            t_23 0 0 B
+            t_24 0 0 B
+            t_25 0 0 B
+            t_26 0 0 B
+            t_27 0 0 B
+            t_28 0 0 B
+            t_29 0 0 B
+            t_30 0 0 B
+            t_31 0 0 B
+            t_32 0 0 B
+            t_33 0 0 B
+            t_34 0 0 B
+            t_35 0 0 B
+            t_36 0 0 B
+            t_37 0 0 B
+            t_38 0 0 B
+            t_39 0 0 B
+            t_40 0 0 B
+            t_41 0 0 B
+            t_42 0 0 B
+            t_43 0 0 B
+            t_44 0 0 B
+            t_45 0 0 B
+            t_46 0 0 B
+         END Cluster
+      END Group
+      IO ipad_CLK 1187950 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_HALT 640850 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_RESET_ 750270 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_DoDCT 859690 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_Mode 969110 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X0 531430 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X1 0 1515850 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X2 0 1406460 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X3 0 1297070 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X4 0 1187690 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X5 0 1078310 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X6 0 968930 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X7 0 859550 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X8 0 750170 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X9 0 640780 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X10 0 531390 R270 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_X11 531430 0 R0 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_SCAN_IN 1406790 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO ipad_SCAN_EN 1516210 1625240 R180 70000 492000 
+         PAD 35000 500 I
+         C 16350 491000 O
+      END IO
+      IO opad_SCAN_OUT 859690 0 R0 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z0 969110 0 R0 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z1 1078530 0 R0 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z2 1297370 0 R0 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z3 1406790 0 R0 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z4 1516210 0 R0 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z5 1625640 750170 R90 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z6 1625640 859550 R90 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z7 1625640 968930 R90 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z8 1625640 1187690 R90 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z9 1625640 1297070 R90 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z10 1625640 1406460 R90 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO opad_Z11 1625640 1515850 R90 70000 492000 
+         I 9380 491000 I
+         PAD 35000 500 O
+      END IO
+      IO CORNER0 0 1625240 R270 492000 492000 
+         C 10000 150000 I
+      END IO
+      IO ipad_CoreVDD1 1078530 1625240 R180 70000 492000 
+      END IO
+      IO ipad_CoreVSS1 1297370 1625240 R180 70000 492000 
+      END IO
+      IO CORNER1 1625640 1625240 R180 492000 492000 
+         C 10000 150000 I
+      END IO
+      IO CORNER2 0 0 R0 492000 492000 
+         C 10000 150000 I
+      END IO
+      IO ipad_IOVDD1 640850 0 R0 70000 492000 
+      END IO
+      IO ipad_IOVSS1 750270 0 R0 70000 492000 
+      END IO
+      IO ipad_CoreVDD2 1187950 0 R0 70000 492000 
+      END IO
+      IO CORNER3 1625640 0 R90 492000 492000 
+         C 10000 150000 I
+      END IO
+      IO ipad_IOVDD2 1625640 531390 R90 70000 492000 
+      END IO
+      IO ipad_IOVSS2 1625640 640780 R90 70000 492000 
+      END IO
+      IO ipad_CoreVSS2 1625640 1078310 R90 70000 492000 
+      END IO
+   END Inst
+   Net BEGIN
+      i_CLK 2 ipad_CLK C DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 CLKA DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 CLKB DCT t_0 
+      DCT/Y[15] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[15] DCT t_1 
+      DCT/Y[14] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[14] DCT t_2 
+      DCT/Y[13] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[13] DCT t_3 
+      DCT/Y[12] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[12] DCT t_4 
+      DCT/Y[11] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[11] DCT t_5 
+      DCT/Y[10] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[10] DCT t_6 
+      DCT/Y[9] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[9] DCT t_7 
+      DCT/Y[8] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[8] DCT t_8 
+      DCT/Y[7] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[7] DCT t_9 
+      DCT/Y[6] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[6] DCT t_10 
+      DCT/Y[5] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[5] DCT t_11 
+      DCT/Y[4] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[4] DCT t_12 
+      DCT/Y[3] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[3] DCT t_13 
+      DCT/tposemem/QA[2] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[2] DCT t_14 
+      DCT/tposemem/QA[1] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[1] DCT t_15 
+      DCT/tposemem/QA[0] 2 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 QA[0] DCT t_16 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/CENA_n 2 DCT t_17 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 CENA 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/CENB_n 2 DCT t_18 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 CENB 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[5] 2 DCT t_19 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AA[5] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[4] 2 DCT t_20 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AA[4] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[3] 2 DCT t_21 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AA[3] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[2] 2 DCT t_22 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AA[2] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[1] 2 DCT t_23 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AA[1] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AA_n[0] 2 DCT t_24 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AA[0] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[15] 2 DCT t_25 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[15] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[14] 2 DCT t_26 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[14] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[13] 2 DCT t_27 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[13] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[12] 2 DCT t_28 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[12] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[11] 2 DCT t_29 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[11] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[10] 2 DCT t_30 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[10] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[9] 2 DCT t_31 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[9] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[8] 2 DCT t_32 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[8] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[7] 2 DCT t_33 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[7] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[6] 2 DCT t_34 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[6] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[5] 2 DCT t_35 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[5] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[4] 2 DCT t_36 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[4] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[3] 2 DCT t_37 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[3] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[2] 2 DCT t_38 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[2] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[1] 2 DCT t_39 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[1] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/DB_n[0] 2 DCT t_40 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 DB[0] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AB_n[5] 2 DCT t_41 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AB[5] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AB_n[4] 2 DCT t_42 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AB[4] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AB_n[3] 2 DCT t_43 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AB[3] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AB_n[2] 2 DCT t_44 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AB[2] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AB_n[1] 2 DCT t_45 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AB[1] 
+      DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/AB_n[0] 2 DCT t_46 DCT/tposemem/Bisted_RF2SH64x16/RF2SH64x16_u0/SRAM_i0 AB[0] 
+   END Net
+END Design

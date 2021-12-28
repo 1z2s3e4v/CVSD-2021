@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version R-2020.09-SP5 for linux64 -- Apr 23, 2021
-#@ # Date:   Mon Dec 20 16:18:20 2021
+#@ # Date:   Mon Dec 20 18:41:48 2021
 #@ # Run by: d10013@cad29
 #@ 
 
@@ -6889,6 +6889,8 @@ source -echo -verbose /home/raid7_1/userd/d10013/CVSD/hw4/1101_hw4/02_SYN/syn.tc
 #@ uniquify
 #@ set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
 #@ #compile
+#@ #replace_clock_gates
+#@ replace_clock_gates
 #@ compile_ultra
 #@ optimize_netlist -area
 #@ 
@@ -6921,4 +6923,7 @@ source -echo -verbose /home/raid7_1/userd/d10013/CVSD/hw4/1101_hw4/02_SYN/syn.tc
 #@ report_timing
 #@ report_area
 #@ check_design
+#@ 
+#@ report_clock_gating -gating_elements
+#@ #report_clock_gating -gating_elements
 #@ exit

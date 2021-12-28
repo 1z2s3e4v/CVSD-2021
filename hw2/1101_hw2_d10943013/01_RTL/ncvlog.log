@@ -1,0 +1,139 @@
+ncvlog: 15.20-s084: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				      |
+ncvlog: *E,NOTDIR (core.v,98|10): `OP_ADD: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				       |
+ncvlog: *E,ILLPRI (core.v,98|11): illegal expression primary [4.2(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				               |
+ncvlog: *E,NOTDIR (core.v,98|19): `OP_SUB: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                |
+ncvlog: *E,ILLPRI (core.v,98|20): illegal expression primary [4.2(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                        |
+ncvlog: *E,NOTDIR (core.v,98|28): `OP_AND: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                         |
+ncvlog: *E,ILLPRI (core.v,98|29): illegal expression primary [4.2(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                                |
+ncvlog: *E,NOTDIR (core.v,98|36): `OP_OR: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                                 |
+ncvlog: *E,ILLPRI (core.v,98|37): illegal expression primary [4.2(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                                         |
+ncvlog: *E,NOTDIR (core.v,98|45): `OP_NOR: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                                          |
+ncvlog: *E,ILLPRI (core.v,98|46): illegal expression primary [4.2(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                                                  |
+ncvlog: *E,NOTDIR (core.v,98|54): `OP_SLT: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                                                   |
+ncvlog: *E,ILLPRI (core.v,98|55): illegal expression primary [4.2(IEEE)].
+				`OP_ADD, `OP_SUB, `OP_AND, `OP_OR, `OP_NOR, `OP_SLT: begin
+				                                                         |
+ncvlog: *E,ILLPRI (core.v,98|61): illegal expression primary [4.2(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				       |
+ncvlog: *E,NOTDIR (core.v,101|11): `OP_ADDI: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				        |
+ncvlog: *E,NOTSTT (core.v,101|12): expecting a statement [9(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				               |
+ncvlog: *E,NOTDIR (core.v,101|19): `OP_LW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                |
+ncvlog: *E,ILLPRI (core.v,101|20): illegal expression primary [4.2(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                       |
+ncvlog: *E,NOTDIR (core.v,101|27): `OP_SW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                        |
+ncvlog: *E,ILLPRI (core.v,101|28): illegal expression primary [4.2(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                                |
+ncvlog: *E,NOTDIR (core.v,101|36): `OP_BEQ: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                                 |
+ncvlog: *E,ILLPRI (core.v,101|37): illegal expression primary [4.2(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                                         |
+ncvlog: *E,NOTDIR (core.v,101|45): `OP_BNE: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                                          |
+ncvlog: *E,ILLPRI (core.v,101|46): illegal expression primary [4.2(IEEE)].
+				`OP_ADDI, `OP_LW, `OP_SW, `OP_BEQ, `OP_BNE: begin
+				                                                |
+ncvlog: *E,ILLPRI (core.v,101|52): illegal expression primary [4.2(IEEE)].
+				default begin:
+				      |
+ncvlog: *E,NOTSTT (core.v,104|10): expecting a statement [9(IEEE)].
+					type = 2; // EOF or other
+					     |
+ncvlog: *E,NOTSTT (core.v,105|10): expecting a statement [9(IEEE)].
+				end
+				  |
+ncvlog: *E,EXPENM (core.v,106|6): expecting the keyword 'endmodule' [12.1(IEEE)].
+				`OP_ADD: begin
+				      |
+ncvlog: *E,NOTDIR (core.v,113|10): `OP_ADD: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_SUB: begin
+				      |
+ncvlog: *E,NOTDIR (core.v,116|10): `OP_SUB: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_AND: registers[rd] = registers[rs] & registers[rt]; // s1 = s2 & s3
+				      |
+ncvlog: *E,NOTDIR (core.v,119|10): `OP_AND: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_OR:	 registers[rd] = registers[rs] | registers[rt]; // s1 = s2 | s3
+				     |
+ncvlog: *E,NOTDIR (core.v,120|9): `OP_OR: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_NOR: registers[rd] = ~(registers[rs] | registers[rt]); // s1 = ~(s2 | s3)
+				      |
+ncvlog: *E,NOTDIR (core.v,121|10): `OP_NOR: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_SLT: registers[rd] = (registers[rs] < registers[rt])? 1 : 0; // s1 = (s2 < s3)? 1 : 0
+				      |
+ncvlog: *E,NOTDIR (core.v,122|10): `OP_SLT: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_ADDI: begin
+				       |
+ncvlog: *E,NOTDIR (core.v,124|11): `OP_ADDI: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_LW: begin
+				     |
+ncvlog: *E,NOTDIR (core.v,127|9): `OP_LW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_SW: begin
+				     |
+ncvlog: *E,NOTDIR (core.v,131|9): `OP_SW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_BEQ: branch_pc = (registers[rs] == registers[rt])? (pc_plus_4 + im) : pc_plus_4;
+				      |
+ncvlog: *E,NOTDIR (core.v,135|10): `OP_BEQ: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_BNE: branch_pc = (registers[rs] != registers[rt])? (pc_plus_4 + im) : pc_plus_4;
+				      |
+ncvlog: *E,NOTDIR (core.v,136|10): `OP_BNE: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_LW: registers[rt] = i_d_rdata;
+				     |
+ncvlog: *E,NOTDIR (core.v,142|9): `OP_LW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				`OP_SW:	o_d_wen_w = 0;
+				     |
+ncvlog: *E,NOTDIR (core.v,143|9): `OP_SW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+			pc = (opcode == `OP_BEQ || opcode == `OP_BNE)? branch_pc : pc_plus_4;
+			                      |
+ncvlog: *E,NOTDIR (core.v,149|25): `OP_BEQ: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+			pc = (opcode == `OP_BEQ || opcode == `OP_BNE)? branch_pc : pc_plus_4;
+			                                           |
+ncvlog: *E,NOTDIR (core.v,149|46): `OP_BNE: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				o_status_w	 = `MIPS_OVERFLOW;
+				          	                |
+ncvlog: *E,NOTDIR (core.v,153|31): `MIPS_OVERFLOW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+				o_status_w	 = (type == 0)? `R_TYPE_SUCCESS : I_TYPE_SUCCESS;
+				          	                              |
+ncvlog: *E,NOTDIR (core.v,156|45): `R_TYPE_SUCCESS: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+			o_status_w = (flag_OF)? `MIPS_OVERFLOW : `MIPS_END 
+			                                     |
+ncvlog: *E,NOTDIR (core.v,162|40): `MIPS_OVERFLOW: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].
+			o_status_w = (flag_OF)? `MIPS_OVERFLOW : `MIPS_END 
+			                                                 |
+ncvlog: *E,NOTDIR (core.v,162|52): `MIPS_END: not a recognized directive or macro [2.7.3][16.3.1][16(IEEE)].

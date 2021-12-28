@@ -27,7 +27,7 @@ reg	[3:0]	count_round, count_round_next; // 0~11 (12 round with 96 input)
 reg [127:0] compare, compare_next; // compare result (MAX or MIN)
 reg [127:0] last_extre, last_extre_next; // compare result (MAX or MIN)
 reg	[3:0]	i;
-
+reg			enable;
 // para
 parameter S_IDLE	= 3'b000; // Idle
 parameter S_LOAD	= 3'b001; // waiting for data loader
@@ -56,6 +56,7 @@ assign busy		= busy_r; // 1 for pause input
 always@(*) begin
 	count_data_next		= count_data;
 	data_idx_next		= data_idx;
+	enable				= 1;
 	case(cur_state) 
 		S_IDLE: begin
 			next_state	= S_LOAD;
@@ -78,6 +79,7 @@ always@(*) begin
 		end
 		S_END: begin
 			next_state	= S_END;
+			enable		= 0;
 		end
 		default: begin
 			next_state	= S_LOAD;
