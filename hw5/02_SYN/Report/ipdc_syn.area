@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : ipdc
+Version: R-2020.09-SP5
+Date   : Tue Dec  7 03:27:59 2021
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+    sram_256x8 (File: /home/raid7_1/userd/d10013/CVSD/hw3/1101_hw3/sram_256x8/sram_256x8_slow_syn.db)
+
+Number of ports:                           59
+Number of nets:                           350
+Number of cells:                          297
+Number of combinational cells:            245
+Number of sequential cells:                48
+Number of macros/black boxes:               3
+Number of buf/inv:                         26
+Number of references:                      47
+
+Combinational area:               1933.338613
+Buf/Inv area:                      103.541398
+Noncombinational area:            1571.792355
+Macro/Black Box area:            62429.712891
+Net Interconnect area:           41813.542236
+
+Total cell area:                 65934.843858
+Total area:                     107748.386094
+1

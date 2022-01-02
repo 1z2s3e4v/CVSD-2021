@@ -1,0 +1,1464 @@
+
+Cadence Innovus(TM) Implementation System.
+Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v20.10-p004_1, built Thu May 7 20:02:41 PDT 2020
+Options:	
+Date:		Tue Dec 28 23:46:07 2021
+Host:		cad29 (x86_64 w/Linux 2.6.32-754.27.1.el6.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+OS:		CentOS release 6.10 (Final)
+
+License:
+		invs	Innovus Implementation System	20.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+**WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+Change the soft stacksize limit to 0.2%RAM (677 mbytes). Set global soft_stack_size_limit to change the value.
+
+**INFO:  MMMC transition support version v31-84 
+
+<CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+<CMD> suppressMessage ENCEXT-2799
+<CMD> win
+<CMD> encMessage warning 0
+Suppress "**WARN ..." messages.
+<CMD> encMessage debug 0
+<CMD> encMessage info 0
+RC_corner
+**WARN: (IMPLF-44):	Macro 'sram_256x8' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-119):	LAYER 'METAL1' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL2' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL3' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL4' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL5' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL6' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL7' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'METAL8' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA12' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA23' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA34' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA45' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA56' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA67' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-119):	LAYER 'VIA78' has been found in the database. Its content except ANTENNA* data will be ignored.
+Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+**WARN: (IMPLF-44):	Macro 'PDC0102CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PDC0204CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PDC0408CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PDC1216CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PDS0102CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PDS0204CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PDS0408CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PDS1216CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRC0102CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRC0204CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRC0408CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRC1216CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRS0102CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRS0204CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRS0408CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PRS1216CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PVDD1CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PVSS1CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (IMPLF-44):	Macro 'PVSS3CDG' has no SIZE statement or a zero SIZE
+statement and it is a class CORE macro so it needs a correct SIZE. There
+is no SITE statement, so a useful SIZE cannot be computed, so this macro
+is not loaded in the Innovus database and cannot be used in the
+netlist.
+**WARN: (EMS-27):	Message (IMPLF-44) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+**WARN: (IMPLF-200):	Pin 'A[0]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A[1]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A[2]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A[3]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A[4]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A[5]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A[6]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A[7]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'CEN' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'CLK' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[0]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[1]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[2]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[3]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[4]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[5]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[6]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'D[7]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[1]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[2]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[3]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[4]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[5]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[6]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-201):	Pin 'Q[7]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'WEN' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM1 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM2 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM3 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM4 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM5 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM6 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM7 GENERATE.
+**WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM8 GENERATE.
+Loading view definition file from /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/viewDefinition.tcl
+**WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/hw5/APR/library/lib/slow.lib)
+*** End library_loading (cpu=0.01min, real=0.02min, mem=12.5M, fe_cpu=0.33min, fe_real=0.87min, fe_mem=888.5M) ***
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+**WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+**WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+To increase the message display limit, refer to the product command reference manual.
+*** Netlist is unique.
+Loading preference file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/gui.pref.tcl ...
+**WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+**WARN: (IMPOPT-3602):	The specified path group name reg2out is not defined.
+**WARN: (IMPOPT-3602):	The specified path group name in2reg is not defined.
+**WARN: (IMPOPT-3602):	The specified path group name in2out is not defined.
+**WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+Loading place ...
+**WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+'set_default_switching_activity' finished successfully.
+Delay_Corner_max
+**WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+**WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.10-p004_1. They will be removed in the next release. 
+timing_enable_default_delay_arc
+<CMD> zoomBox -257.29150 11.55550 936.15350 617.24850
+<CMD> zoomBox -71.88550 80.65950 790.37800 518.27250
+<CMD> setDrawView place
+<CMD> setLayerPreference pinObj -isVisible 1
+<CMD> fit
+<CMD> setAnalysisMode -analysisType bcwc
+<CMD> write_sdf -max_view av_func_mode_max \
+-min_view av_func_mode_min \
+-edges noedge \
+-splitsetuphold \
+-remashold \
+-splitrecrem \
+-min_period_edges none \
+CHIP.sdf
+**ERROR: (TCLCMD-996):	`av_func_mode_min` is invalid view name.
+
+<CMD> write_sdf -max_view av_func_mode_max \
+-edges noedge \
+-splitsetuphold \
+-remashold \
+-splitrecrem \
+-min_period_edges none \
+ipdc_pr.sdf
+**WARN: (SDF-808):	The software is currently operating in a high performance mode which optimizes the handling of multiple timing arcs between input and output pin pairs. With the current settings, the SDF file generated will contain the same delay information for all of these arcs. To have the SDF recalculated with explicit pin pair data, you should use the option '-recompute_delay_calc'. This setting is recommended for generating SDF for functional  simulation applications.
+AAE DB initialization (MEM=1258.61 CPU=0:00:00.0 REAL=0:00:00.0) 
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: ipdc
+# Design Mode: 130nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: No SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+Extraction called for design 'ipdc' of instances=5042 and nets=1831 using extraction engine 'postRoute' at effort level 'low' .
+PostRoute (effortLevel low) RC Extraction called for design ipdc.
+RC Extraction called in multi-corner(1) mode.
+Process corner(s) are loaded.
+ Corner: RC_corner
+extractDetailRC Option : -outfile /tmp/innovus_temp_96314_cad29_d10013_FjUu3k/ipdc_96314_WFtLJP.rcdb.d  -extended
+RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+      RC Corner Indexes            0   
+Capacitance Scaling Factor   : 1.00000 
+Coupling Cap. Scaling Factor : 1.00000 
+Resistance Scaling Factor    : 1.00000 
+Clock Cap. Scaling Factor    : 1.00000 
+Clock Res. Scaling Factor    : 1.00000 
+Shrink Factor                : 1.00000
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1258.6M)
+Extracted 10.0085% (CPU Time= 0:00:00.1  MEM= 1335.1M)
+Extracted 20.011% (CPU Time= 0:00:00.1  MEM= 1335.1M)
+Extracted 30.0073% (CPU Time= 0:00:00.1  MEM= 1335.1M)
+Extracted 40.0098% (CPU Time= 0:00:00.1  MEM= 1335.1M)
+Extracted 50.0122% (CPU Time= 0:00:00.1  MEM= 1335.1M)
+Extracted 60.0085% (CPU Time= 0:00:00.1  MEM= 1335.1M)
+Extracted 70.011% (CPU Time= 0:00:00.1  MEM= 1335.1M)
+Extracted 80.0073% (CPU Time= 0:00:00.2  MEM= 1335.1M)
+Extracted 90.0098% (CPU Time= 0:00:00.2  MEM= 1335.1M)
+Extracted 100% (CPU Time= 0:00:00.2  MEM= 1335.1M)
+Number of Extracted Resistors     : 29066
+Number of Extracted Ground Cap.   : 29398
+Number of Extracted Coupling Cap. : 51184
+Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.4fF, relative_c_threshold=1, and total_c_threshold=0fF.
+ Corner: RC_corner
+Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1303.1M)
+PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.7  Real Time: 0:00:01.0  MEM: 1307.121M)
+AAE_INFO: 1 threads acquired from CTE.
+Start delay calculation (fullDC) (1 T). (MEM=1307.12)
+Initializing multi-corner capacitance tables ... 
+Initializing multi-corner resistance tables ...
+AAE_INFO: Number of noise libraries( CDBs ) loaded = 1
+AAE_INFO: Cdb files are: 
+ 	/home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB
+ 
+**WARN: (IMPESI-3083):	CDB cell FILL1 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+**WARN: (IMPESI-3083):	CDB cell FILL16 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+**WARN: (IMPESI-3083):	CDB cell FILL2 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+**WARN: (IMPESI-3083):	CDB cell FILL32 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+**WARN: (IMPESI-3083):	CDB cell FILL4 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+**WARN: (IMPESI-3083):	CDB cell FILL64 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+**WARN: (IMPESI-3083):	CDB cell FILL8 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+**WARN: (IMPESI-3086):	The cell 'sram_256x8' does not have characterized noise model(s) for 'sram_256x8' lib(s). Missing noise information could compromise the accuracy of analysis.
+Type 'man IMPESI-3086' for more detail.
+Total number of fetched objects 1875
+AAE_INFO-618: Total number of nets in the design is 1831,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1357.02 CPU=0:00:00.6 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1329.95 CPU=0:00:01.0 REAL=0:00:01.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1329.9M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1329.9M)
+Starting SI iteration 2
+Start delay calculation (fullDC) (1 T). (MEM=1269.95)
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Skipped = 0. 
+Glitch Analysis: View av_func_mode_max -- Total Number of Nets Analyzed = 1875. 
+Total number of fetched objects 1875
+AAE_INFO-618: Total number of nets in the design is 1831,  0.5 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1314.64 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1314.64 CPU=0:00:00.0 REAL=0:00:00.0)
+<CMD> setStreamOutMode -specifyViaName default -SEvianames false -virtualConnection false -uniquifyCellNamesPrefix false -snapToMGrid false -textSize 1 -version 3
+<CMD> streamOut ipdc_pr.gds -mapFile library/streamOut.map -merge {library/gds/tsmc13gfsg_fram.gds ../sram_lef/sram_256x8.gds} -stripes 1 -units 1000 -mode ALL
+**WARN: (IMPTCM-125):	Option "-stripes" for command streamOut is obsolete and will be ignored. It no longer has any effect and should be removed from your script.
+Merge file: library/gds/tsmc13gfsg_fram.gds has version number: 5
+Merge file: ../sram_lef/sram_256x8.gds has version number: 5
+Parse flat map file...
+**WARN: (IMPOGDS-407):	Duplicate entry found in line 8, the same mapping is already specified before this line. Duplicate entries leads to duplicate write hence bigger file size. Remove the line from mapping file if not intended.
+Writing GDSII file ...
+	****** db unit per micron = 2000 ******
+	****** output gds2 file unit per micron = 1000 ******
+	****** unit scaling factor = 0.5 ******
+**WARN: (IMPOGDS-250):	Specified unit is smaller than the one in db. You may have rounding problems
+Output for instance
+Output for bump
+Output for physical terminals
+Output for logical terminals
+Output for regular nets
+Output for special nets and metal fills
+Output for via structure generation total number 57
+Statistics for GDS generated (version 5)
+----------------------------------------
+Stream Out Layer Mapping Information:
+GDS Layer Number          GDS Layer Name
+----------------------------------------
+    38                            METAL8
+    34                            METAL4
+    37                            METAL7
+    57                             VIA78
+    31                            METAL1
+    53                             VIA34
+    33                            METAL3
+    36                            METAL6
+    56                             VIA67
+    52                             VIA23
+    51                             VIA12
+    32                            METAL2
+    55                             VIA56
+    54                             VIA45
+    35                            METAL5
+    138                           METAL8
+    131                           METAL1
+    132                           METAL2
+    133                           METAL3
+    134                           METAL4
+    135                           METAL5
+    136                           METAL6
+    137                           METAL7
+
+
+Stream Out Information Processed for GDS version 5:
+Units: 1000 DBU
+
+Object                             Count
+----------------------------------------
+Instances                           5042
+
+Ports/Pins                            59
+    metal layer METAL2                30
+    metal layer METAL3                29
+
+Nets                               17733
+    metal layer METAL1              1623
+    metal layer METAL2             10032
+    metal layer METAL3              4619
+    metal layer METAL4              1274
+    metal layer METAL5               172
+    metal layer METAL6                13
+
+    Via Instances                  11182
+
+Special Nets                         968
+    metal layer METAL1               864
+    metal layer METAL2                18
+    metal layer METAL3                16
+    metal layer METAL4                12
+    metal layer METAL5                58
+
+    Via Instances                   2978
+
+Metal Fills                            0
+
+    Via Instances                      0
+
+Metal FillOPCs                         0
+
+    Via Instances                      0
+
+Metal FillDRCs                         0
+
+    Via Instances                      0
+
+Text                                  61
+    metal layer METAL2                30
+    metal layer METAL3                31
+
+
+Blockages                              0
+
+
+Custom Text                            0
+
+
+Custom Box                             0
+
+Trim Metal                             0
+
+Scanning GDS file library/gds/tsmc13gfsg_fram.gds to register cell name ......
+Scanning GDS file ../sram_lef/sram_256x8.gds to register cell name ......
+Merging GDS file library/gds/tsmc13gfsg_fram.gds ......
+	****** Merge file: library/gds/tsmc13gfsg_fram.gds has version number: 5.
+	****** Merge file: library/gds/tsmc13gfsg_fram.gds has units: 1000 per micron.
+	****** unit scaling factor = 1 ******
+Merging GDS file ../sram_lef/sram_256x8.gds ......
+	****** Merge file: ../sram_lef/sram_256x8.gds has version number: 5.
+	****** Merge file: ../sram_lef/sram_256x8.gds has units: 1000 per micron.
+	****** unit scaling factor = 1 ******
+######Streamout is finished!
+<CMD> ctd_win -side none -id ctd_window
+Clock tree timing engine global stage delay update for Delay_Corner_max:both.late...
+Clock tree timing engine global stage delay update for Delay_Corner_max:both.late done. (took cpu=0:00:00.0 real=0:00:00.0)
+<CMD> setLayerPreference node_route -isSelectable 0
+<CMD> setLayerPreference node_route -isSelectable 1
+<CMD> setLayerPreference node_route -isSelectable 0
+<CMD> setLayerPreference node_route -isSelectable 1
+<CMD> selectInst mem_mem3
+<CMD> deselectAll
+<CMD> selectInst FILLER__1_702
+<CMD> deselectAll
+<CMD> selectWire 332.2800 7.3400 334.2800 640.4600 4 VSS
+<CMD> deselectAll
+<CMD> selectInst FILLER__3_813
+<CMD> deselectAll
+<CMD> selectObject Wire n2028(866900,575030,867300,600850)
+<CMD> deselectAll
+<CMD> highlight -index 1
+<CMD> selectWire 332.2800 7.3400 334.2800 640.4600 4 VSS
+<CMD> deselectAll
+<CMD> selectInst FILLER__2_248
+<CMD> dehighlight
+<CMD> deselectAll
+<CMD> ctd_win -side none -id ctd_window
+<CMD> selectObject IO_Pin i_clk
+<CMD> selectInst CTS_ccl_a_buf_00024
+<CMD> selectObject Net i_clk
+<CMD> selectInst CTS_ccl_a_buf_00017
+<CMD> selectInst CTS_ccl_a_buf_00019
+<CMD> selectInst CTS_ccl_a_buf_00021
+<CMD> selectObject Net CTS_2
+<CMD> selectInst m_reg_r_reg_2__6_
+<CMD> selectInst valid_rr_reg
+<CMD> selectInst m_reg_r_reg_2__5_
+<CMD> selectInst m_reg_r_reg_2__3_
+<CMD> selectInst m_reg_r_reg_2__4_
+<CMD> selectInst m_reg_r_reg_2__7_
+<CMD> selectInst m_reg_r_reg_3__4_
+<CMD> selectInst m_reg_r_reg_3__0_
+<CMD> selectInst m_reg_r_reg_3__3_
+<CMD> selectInst m_reg_r_reg_3__1_
+<CMD> selectInst m_reg_r_reg_3__2_
+<CMD> selectInst m_reg_r_reg_2__2_
+<CMD> selectInst m_reg_r_reg_1__1_
+<CMD> selectInst m_reg_r_reg_2__1_
+<CMD> selectInst m_reg_r_reg_1__0_
+<CMD> selectInst m_reg_r_reg_0__6_
+<CMD> selectInst m_reg_r_reg_0__7_
+<CMD> selectInst m_reg_r_reg_1__2_
+<CMD> selectInst m_reg_r_reg_2__0_
+<CMD> selectInst m_reg_r_reg_1__3_
+<CMD> selectInst m_reg_r_reg_1__7_
+<CMD> selectInst m_reg_r_reg_1__5_
+<CMD> selectInst m_reg_r_reg_1__4_
+<CMD> selectInst m_reg_r_reg_1__6_
+<CMD> selectInst m_reg_r_reg_3__5_
+<CMD> selectInst out_data_r_reg_18_
+<CMD> selectInst m_reg_r_reg_3__6_
+<CMD> selectInst out_data_r_reg_17_
+<CMD> selectInst out_data_r_reg_15_
+<CMD> selectInst out_data_r_reg_16_
+<CMD> selectInst out_data_r_reg_19_
+<CMD> selectInst valid_r_reg
+<CMD> selectInst out_data_r_reg_20_
+<CMD> selectInst out_data_r_reg_23_
+<CMD> selectInst out_data_r_reg_21_
+<CMD> selectInst out_data_r_reg_22_
+<CMD> selectInst out_data_r_reg_14_
+<CMD> selectInst m_reg_r_reg_4__2_
+<CMD> selectInst out_data_r_reg_13_
+<CMD> selectInst m_reg_r_reg_4__1_
+<CMD> selectInst m_reg_r_reg_3__7_
+<CMD> selectInst m_reg_r_reg_4__0_
+<CMD> selectInst m_reg_r_reg_4__3_
+<CMD> selectInst out_data_r_reg_12_
+<CMD> selectInst m_reg_r_reg_4__4_
+<CMD> selectInst out_data_r_reg_10_
+<CMD> selectInst m_reg_r_reg_4__6_
+<CMD> selectInst m_reg_r_reg_4__5_
+<CMD> selectInst m_reg_r_reg_4__7_
+<CMD> selectInst m_reg_r_reg_0__5_
+<CMD> selectInst counter_r_reg_1_
+<CMD> selectInst m_reg_r_reg_0__4_
+<CMD> selectInst counter_r_reg_0_
+<CMD> selectInst census_r_reg_6_
+<CMD> selectInst census_r_reg_7_
+<CMD> selectInst counter_r_reg_2_
+<CMD> selectInst counter_r_reg_7_
+<CMD> selectInst counter_r_reg_3_
+<CMD> selectInst counter_r_reg_6_
+<CMD> selectInst counter_r_reg_4_
+<CMD> selectInst counter_r_reg_5_
+<CMD> selectInst census_r_reg_4_
+<CMD> selectInst census_g_reg_3_
+<CMD> selectInst census_r_reg_3_
+<CMD> selectInst census_g_reg_2_
+<CMD> selectInst census_g_reg_0_
+<CMD> selectInst census_g_reg_1_
+<CMD> selectInst census_g_reg_4_
+<CMD> selectInst census_r_reg_2_
+<CMD> selectInst census_g_reg_5_
+<CMD> selectInst census_r_reg_1_
+<CMD> selectInst census_g_reg_7_
+<CMD> selectInst census_g_reg_6_
+<CMD> selectInst census_r_reg_0_
+<CMD> selectInst ftr_cnt_reg_0_
+<CMD> selectInst m_reg_g_reg_2__7_
+<CMD> selectInst ftr_col_reg_0_
+<CMD> selectInst m_reg_g_reg_1__7_
+<CMD> selectInst img_size_r_reg_3_
+<CMD> selectInst m_reg_g_reg_0__7_
+<CMD> selectInst m_reg_g_reg_3__6_
+<CMD> selectInst m_reg_r_reg_0__3_
+<CMD> selectInst m_reg_g_reg_3__7_
+<CMD> selectInst m_reg_r_reg_0__2_
+<CMD> selectInst m_reg_r_reg_0__0_
+<CMD> selectInst m_reg_g_reg_4__7_
+<CMD> selectInst m_reg_r_reg_0__1_
+<CMD> selectInst img_size_r_reg_1_
+<CMD> selectInst img_origin_r_reg_0_
+<CMD> selectInst img_size_r_reg_0_
+<CMD> selectInst ftr_zero_pad_r_reg
+<CMD> selectInst ftr_col_reg_1_
+<CMD> selectInst ftr_col_reg_2_
+<CMD> selectInst img_origin_r_reg_1_
+<CMD> selectInst img_origin_r_reg_7_
+<CMD> selectInst img_origin_r_reg_2_
+<CMD> selectInst img_origin_r_reg_6_
+<CMD> selectInst img_origin_r_reg_4_
+<CMD> selectInst img_origin_r_reg_3_
+<CMD> selectInst img_origin_r_reg_5_
+<CMD> selectObject Net CTS_3
+<CMD> selectInst m_reg_g_reg_3__1_
+<CMD> selectInst m_reg_g_reg_3__2_
+<CMD> selectInst out_data_r_reg_9_
+<CMD> selectInst m_reg_g_reg_3__3_
+<CMD> selectInst m_reg_g_reg_3__5_
+<CMD> selectInst m_reg_g_reg_4__0_
+<CMD> selectInst m_reg_g_reg_3__4_
+<CMD> selectInst m_reg_g_reg_3__0_
+<CMD> selectInst m_reg_g_reg_1__6_
+<CMD> selectInst m_reg_g_reg_2__0_
+<CMD> selectInst m_reg_g_reg_2__6_
+<CMD> selectInst m_reg_g_reg_2__1_
+<CMD> selectInst m_reg_g_reg_2__2_
+<CMD> selectInst m_reg_g_reg_2__5_
+<CMD> selectInst m_reg_g_reg_2__3_
+<CMD> selectInst m_reg_g_reg_2__4_
+<CMD> selectInst m_reg_g_reg_4__1_
+<CMD> selectInst out_data_r_reg_3_
+<CMD> selectInst out_data_r_reg_4_
+<CMD> selectInst m_reg_g_reg_4__2_
+<CMD> selectInst out_data_r_reg_5_
+<CMD> selectInst out_data_r_reg_7_
+<CMD> selectInst out_data_r_reg_8_
+<CMD> selectInst out_data_r_reg_6_
+<CMD> selectInst out_data_r_reg_2_
+<CMD> selectInst m_reg_g_reg_4__3_
+<CMD> selectInst m_reg_g_reg_4__4_
+<CMD> selectInst out_data_r_reg_1_
+<CMD> selectInst m_reg_g_reg_4__5_
+<CMD> selectInst m_reg_g_reg_4__6_
+<CMD> selectInst out_data_r_reg_11_
+<CMD> selectInst mem_mem2
+<CMD> selectInst out_data_r_reg_0_
+<CMD> selectInst m_reg_g_reg_1__5_
+<CMD> selectInst ftr_cnt2_reg_1_
+<CMD> selectInst ftr_cnt_reg_1_
+<CMD> selectInst m_reg_g_reg_1__4_
+<CMD> selectInst ftr_row_reg_0_
+<CMD> selectInst ftr_row_reg_2_
+<CMD> selectInst img_size_r_reg_2_
+<CMD> selectInst ftr_row_reg_1_
+<CMD> selectInst ftr_cnt2_reg_0_
+<CMD> selectInst census_b_reg_3_
+<CMD> selectInst census_b_reg_5_
+<CMD> selectInst cstate_reg_3_
+<CMD> selectInst census_b_reg_6_
+<CMD> selectInst counter_r_reg_8_
+<CMD> selectInst cstate_reg_2_
+<CMD> selectInst cstate_reg_0_
+<CMD> selectInst cstate_reg_1_
+<CMD> selectInst img_size_r_reg_4_
+<CMD> selectInst m_reg_g_reg_0__5_
+<CMD> selectInst m_reg_g_reg_0__6_
+<CMD> selectInst m_reg_b_reg_0__3_
+<CMD> selectInst m_reg_g_reg_1__0_
+<CMD> selectInst m_reg_g_reg_1__2_
+<CMD> selectInst m_reg_g_reg_1__3_
+<CMD> selectInst m_reg_g_reg_1__1_
+<CMD> selectInst m_reg_g_reg_0__4_
+<CMD> selectInst m_reg_b_reg_0__4_
+<CMD> selectInst m_reg_b_reg_0__5_
+<CMD> selectInst m_reg_g_reg_0__3_
+<CMD> selectInst m_reg_b_reg_0__6_
+<CMD> selectInst m_reg_b_reg_0__7_
+<CMD> selectInst m_reg_g_reg_0__2_
+<CMD> selectInst m_reg_g_reg_0__0_
+<CMD> selectInst m_reg_g_reg_0__1_
+<CMD> selectObject Net CTS_4
+<CMD> selectInst mem_mem3
+<CMD> selectInst m_reg_b_reg_3__3_
+<CMD> selectInst m_reg_b_reg_3__5_
+<CMD> selectInst m_reg_b_reg_3__4_
+<CMD> selectInst m_reg_b_reg_3__2_
+<CMD> selectInst m_reg_b_reg_2__5_
+<CMD> selectInst m_reg_b_reg_3__1_
+<CMD> selectInst m_reg_b_reg_2__6_
+<CMD> selectInst m_reg_b_reg_3__0_
+<CMD> selectInst m_reg_b_reg_2__7_
+<CMD> selectInst m_reg_b_reg_3__6_
+<CMD> selectInst m_reg_b_reg_3__7_
+<CMD> selectInst m_reg_b_reg_4__6_
+<CMD> selectInst mem_mem1
+<CMD> selectInst m_reg_b_reg_4__7_
+<CMD> selectInst m_reg_b_reg_4__5_
+<CMD> selectInst m_reg_b_reg_4__0_
+<CMD> selectInst m_reg_b_reg_4__4_
+<CMD> selectInst m_reg_b_reg_4__1_
+<CMD> selectInst m_reg_b_reg_4__3_
+<CMD> selectInst m_reg_b_reg_4__2_
+<CMD> selectInst m_reg_b_reg_2__4_
+<CMD> selectInst m_reg_b_reg_2__3_
+<CMD> selectInst m_reg_b_reg_0__0_
+<CMD> selectInst m_reg_b_reg_0__2_
+<CMD> selectInst m_reg_b_reg_0__1_
+<CMD> selectInst census_r_reg_5_
+<CMD> selectInst census_b_reg_0_
+<CMD> selectInst census_b_reg_7_
+<CMD> selectInst census_b_reg_1_
+<CMD> selectInst census_b_reg_4_
+<CMD> selectInst census_b_reg_2_
+<CMD> selectInst m_reg_b_reg_1__0_
+<CMD> selectInst m_reg_b_reg_1__1_
+<CMD> selectInst m_reg_b_reg_2__0_
+<CMD> selectInst m_reg_b_reg_2__2_
+<CMD> selectInst m_reg_b_reg_2__1_
+<CMD> selectInst m_reg_b_reg_1__7_
+<CMD> selectInst m_reg_b_reg_1__2_
+<CMD> selectInst m_reg_b_reg_1__6_
+<CMD> selectInst m_reg_b_reg_1__3_
+<CMD> selectInst m_reg_b_reg_1__5_
+<CMD> selectInst m_reg_b_reg_1__4_
+<CMD> selectObject Net CTS_1
+<CMD> zoomSelected
+<CMD> deselectAll
+<CMD> selectObject IO_Pin i_clk
+<CMD> selectInst CTS_ccl_a_buf_00024
+<CMD> selectObject Net i_clk
+<CMD> selectInst CTS_ccl_a_buf_00017
+<CMD> selectInst CTS_ccl_a_buf_00019
+<CMD> selectInst CTS_ccl_a_buf_00021
+<CMD> selectObject Net CTS_2
+<CMD> selectInst m_reg_r_reg_2__6_
+<CMD> selectInst valid_rr_reg
+<CMD> selectInst m_reg_r_reg_2__5_
+<CMD> selectInst m_reg_r_reg_2__3_
+<CMD> selectInst m_reg_r_reg_2__4_
+<CMD> selectInst m_reg_r_reg_2__7_
+<CMD> selectInst m_reg_r_reg_3__4_
+<CMD> selectInst m_reg_r_reg_3__0_
+<CMD> selectInst m_reg_r_reg_3__3_
+<CMD> selectInst m_reg_r_reg_3__1_
+<CMD> selectInst m_reg_r_reg_3__2_
+<CMD> selectInst m_reg_r_reg_2__2_
+<CMD> selectInst m_reg_r_reg_1__1_
+<CMD> selectInst m_reg_r_reg_2__1_
+<CMD> selectInst m_reg_r_reg_1__0_
+<CMD> selectInst m_reg_r_reg_0__6_
+<CMD> selectInst m_reg_r_reg_0__7_
+<CMD> selectInst m_reg_r_reg_1__2_
+<CMD> selectInst m_reg_r_reg_2__0_
+<CMD> selectInst m_reg_r_reg_1__3_
+<CMD> selectInst m_reg_r_reg_1__7_
+<CMD> selectInst m_reg_r_reg_1__5_
+<CMD> selectInst m_reg_r_reg_1__4_
+<CMD> selectInst m_reg_r_reg_1__6_
+<CMD> selectInst m_reg_r_reg_3__5_
+<CMD> selectInst out_data_r_reg_18_
+<CMD> selectInst m_reg_r_reg_3__6_
+<CMD> selectInst out_data_r_reg_17_
+<CMD> selectInst out_data_r_reg_15_
+<CMD> selectInst out_data_r_reg_16_
+<CMD> selectInst out_data_r_reg_19_
+<CMD> selectInst valid_r_reg
+<CMD> selectInst out_data_r_reg_20_
+<CMD> selectInst out_data_r_reg_23_
+<CMD> selectInst out_data_r_reg_21_
+<CMD> selectInst out_data_r_reg_22_
+<CMD> selectInst out_data_r_reg_14_
+<CMD> selectInst m_reg_r_reg_4__2_
+<CMD> selectInst out_data_r_reg_13_
+<CMD> selectInst m_reg_r_reg_4__1_
+<CMD> selectInst m_reg_r_reg_3__7_
+<CMD> selectInst m_reg_r_reg_4__0_
+<CMD> selectInst m_reg_r_reg_4__3_
+<CMD> selectInst out_data_r_reg_12_
+<CMD> selectInst m_reg_r_reg_4__4_
+<CMD> selectInst out_data_r_reg_10_
+<CMD> selectInst m_reg_r_reg_4__6_
+<CMD> selectInst m_reg_r_reg_4__5_
+<CMD> selectInst m_reg_r_reg_4__7_
+<CMD> selectInst m_reg_r_reg_0__5_
+<CMD> selectInst counter_r_reg_1_
+<CMD> selectInst m_reg_r_reg_0__4_
+<CMD> selectInst counter_r_reg_0_
+<CMD> selectInst census_r_reg_6_
+<CMD> selectInst census_r_reg_7_
+<CMD> selectInst counter_r_reg_2_
+<CMD> selectInst counter_r_reg_7_
+<CMD> selectInst counter_r_reg_3_
+<CMD> selectInst counter_r_reg_6_
+<CMD> selectInst counter_r_reg_4_
+<CMD> selectInst counter_r_reg_5_
+<CMD> selectInst census_r_reg_4_
+<CMD> selectInst census_g_reg_3_
+<CMD> selectInst census_r_reg_3_
+<CMD> selectInst census_g_reg_2_
+<CMD> selectInst census_g_reg_1_
+<CMD> selectInst census_g_reg_4_
+<CMD> selectInst census_r_reg_2_
+<CMD> selectInst census_g_reg_5_
+<CMD> selectInst census_r_reg_1_
+<CMD> selectInst census_g_reg_7_
+<CMD> selectInst census_g_reg_6_
+<CMD> selectInst census_r_reg_0_
+<CMD> selectInst ftr_cnt_reg_0_
+<CMD> selectInst m_reg_g_reg_2__7_
+<CMD> selectInst ftr_col_reg_0_
+<CMD> selectInst m_reg_g_reg_1__7_
+<CMD> selectInst img_size_r_reg_3_
+<CMD> selectInst m_reg_g_reg_0__7_
+<CMD> selectInst m_reg_g_reg_3__6_
+<CMD> selectInst m_reg_r_reg_0__3_
+<CMD> selectInst m_reg_g_reg_3__7_
+<CMD> selectInst m_reg_r_reg_0__2_
+<CMD> selectInst m_reg_r_reg_0__0_
+<CMD> selectInst m_reg_g_reg_4__7_
+<CMD> selectInst m_reg_r_reg_0__1_
+<CMD> selectInst img_size_r_reg_1_
+<CMD> selectInst img_origin_r_reg_0_
+<CMD> selectInst img_size_r_reg_0_
+<CMD> selectInst ftr_zero_pad_r_reg
+<CMD> selectInst ftr_col_reg_1_
+<CMD> selectInst ftr_col_reg_2_
+<CMD> selectInst img_origin_r_reg_1_
+<CMD> selectInst img_origin_r_reg_7_
+<CMD> selectInst img_origin_r_reg_2_
+<CMD> selectInst img_origin_r_reg_6_
+<CMD> selectInst img_origin_r_reg_4_
+<CMD> selectInst img_origin_r_reg_3_
+<CMD> selectInst img_origin_r_reg_5_
+<CMD> selectInst m_reg_g_reg_3__1_
+<CMD> selectInst m_reg_g_reg_3__2_
+<CMD> selectInst out_data_r_reg_9_
+<CMD> selectInst m_reg_g_reg_3__3_
+<CMD> selectInst m_reg_g_reg_3__5_
+<CMD> selectInst m_reg_g_reg_4__0_
+<CMD> selectInst m_reg_g_reg_3__4_
+<CMD> selectInst m_reg_g_reg_3__0_
+<CMD> selectInst m_reg_g_reg_1__6_
+<CMD> selectInst m_reg_g_reg_2__0_
+<CMD> selectInst m_reg_g_reg_2__6_
+<CMD> selectInst m_reg_g_reg_2__1_
+<CMD> selectInst m_reg_g_reg_2__2_
+<CMD> selectInst m_reg_g_reg_2__5_
+<CMD> selectInst m_reg_g_reg_2__3_
+<CMD> selectInst m_reg_g_reg_2__4_
+<CMD> selectInst m_reg_g_reg_4__1_
+<CMD> selectInst out_data_r_reg_3_
+<CMD> selectInst out_data_r_reg_4_
+<CMD> selectInst m_reg_g_reg_4__2_
+<CMD> selectInst out_data_r_reg_5_
+<CMD> selectInst out_data_r_reg_7_
+<CMD> selectInst out_data_r_reg_8_
+<CMD> selectInst out_data_r_reg_6_
+<CMD> selectInst out_data_r_reg_2_
+<CMD> selectInst m_reg_g_reg_4__3_
+<CMD> selectInst m_reg_g_reg_4__4_
+<CMD> selectInst out_data_r_reg_1_
+<CMD> selectInst m_reg_g_reg_4__5_
+<CMD> selectInst m_reg_g_reg_4__6_
+<CMD> selectInst out_data_r_reg_11_
+<CMD> selectInst mem_mem2
+<CMD> selectInst out_data_r_reg_0_
+<CMD> selectInst m_reg_g_reg_1__5_
+<CMD> selectInst ftr_cnt2_reg_1_
+<CMD> selectInst ftr_cnt_reg_1_
+<CMD> selectInst m_reg_g_reg_1__4_
+<CMD> selectInst ftr_row_reg_0_
+<CMD> selectInst ftr_row_reg_2_
+<CMD> selectInst img_size_r_reg_2_
+<CMD> selectInst ftr_row_reg_1_
+<CMD> selectInst ftr_cnt2_reg_0_
+<CMD> selectInst census_b_reg_3_
+<CMD> selectInst census_b_reg_5_
+<CMD> selectInst cstate_reg_3_
+<CMD> selectInst census_b_reg_6_
+<CMD> selectInst counter_r_reg_8_
+<CMD> selectInst cstate_reg_2_
+<CMD> selectInst cstate_reg_0_
+<CMD> selectInst cstate_reg_1_
+<CMD> selectInst img_size_r_reg_4_
+<CMD> selectInst m_reg_g_reg_0__5_
+<CMD> selectInst m_reg_g_reg_0__6_
+<CMD> selectInst m_reg_b_reg_0__3_
+<CMD> selectInst m_reg_g_reg_1__0_
+<CMD> selectInst m_reg_g_reg_1__2_
+<CMD> selectInst m_reg_g_reg_1__3_
+<CMD> selectInst m_reg_g_reg_1__1_
+<CMD> selectInst m_reg_g_reg_0__4_
+<CMD> selectInst m_reg_b_reg_0__4_
+<CMD> selectInst m_reg_b_reg_0__5_
+<CMD> selectInst m_reg_g_reg_0__3_
+<CMD> selectInst m_reg_b_reg_0__6_
+<CMD> selectInst m_reg_b_reg_0__7_
+<CMD> selectInst m_reg_g_reg_0__2_
+<CMD> selectInst m_reg_g_reg_0__0_
+<CMD> selectInst m_reg_g_reg_0__1_
+<CMD> selectObject Net CTS_4
+<CMD> selectInst mem_mem3
+<CMD> selectInst m_reg_b_reg_3__3_
+<CMD> selectInst m_reg_b_reg_3__5_
+<CMD> selectInst m_reg_b_reg_3__4_
+<CMD> selectInst m_reg_b_reg_3__2_
+<CMD> selectInst m_reg_b_reg_2__5_
+<CMD> selectInst m_reg_b_reg_3__1_
+<CMD> selectInst m_reg_b_reg_2__6_
+<CMD> selectInst m_reg_b_reg_3__0_
+<CMD> selectInst m_reg_b_reg_2__7_
+<CMD> selectInst m_reg_b_reg_3__6_
+<CMD> selectInst m_reg_b_reg_3__7_
+<CMD> selectInst m_reg_b_reg_4__6_
+<CMD> selectInst mem_mem1
+<CMD> selectInst m_reg_b_reg_4__7_
+<CMD> selectInst m_reg_b_reg_4__5_
+<CMD> selectInst m_reg_b_reg_4__0_
+<CMD> selectInst m_reg_b_reg_4__4_
+<CMD> selectInst m_reg_b_reg_4__1_
+<CMD> selectInst m_reg_b_reg_4__3_
+<CMD> selectInst m_reg_b_reg_4__2_
+<CMD> selectInst m_reg_b_reg_2__4_
+<CMD> selectInst m_reg_b_reg_2__3_
+<CMD> selectInst m_reg_b_reg_0__0_
+<CMD> selectInst m_reg_b_reg_0__2_
+<CMD> selectInst m_reg_b_reg_0__1_
+<CMD> selectInst census_r_reg_5_
+<CMD> selectInst census_b_reg_0_
+<CMD> selectInst census_b_reg_7_
+<CMD> selectInst census_b_reg_1_
+<CMD> selectInst census_b_reg_4_
+<CMD> selectInst census_b_reg_2_
+<CMD> selectInst m_reg_b_reg_1__0_
+<CMD> selectInst m_reg_b_reg_1__1_
+<CMD> selectInst m_reg_b_reg_2__0_
+<CMD> selectInst m_reg_b_reg_2__2_
+<CMD> selectInst m_reg_b_reg_2__1_
+<CMD> selectInst m_reg_b_reg_1__7_
+<CMD> selectInst m_reg_b_reg_1__2_
+<CMD> selectInst m_reg_b_reg_1__6_
+<CMD> selectInst m_reg_b_reg_1__3_
+<CMD> selectInst m_reg_b_reg_1__5_
+<CMD> selectInst m_reg_b_reg_1__4_
+<CMD> selectObject Net CTS_1
+<CMD> zoomSelected
+<CMD> deselectObject Net CTS_1
+<CMD> deselectInst m_reg_b_reg_1__4_
+<CMD> deselectInst m_reg_b_reg_1__5_
+<CMD> deselectInst m_reg_b_reg_1__3_
+<CMD> deselectInst m_reg_b_reg_1__6_
+<CMD> deselectInst m_reg_b_reg_1__2_
+<CMD> deselectInst m_reg_b_reg_1__7_
+<CMD> deselectInst m_reg_b_reg_2__1_
+<CMD> deselectInst m_reg_b_reg_2__2_
+<CMD> deselectInst m_reg_b_reg_2__0_
+<CMD> deselectInst m_reg_b_reg_1__1_
+<CMD> deselectInst m_reg_b_reg_1__0_
+<CMD> deselectInst census_b_reg_2_
+<CMD> deselectInst census_b_reg_4_
+<CMD> deselectInst census_b_reg_1_
+<CMD> deselectInst census_b_reg_7_
+<CMD> deselectInst census_b_reg_0_
+<CMD> deselectInst census_r_reg_5_
+<CMD> deselectInst m_reg_b_reg_0__1_
+<CMD> deselectInst m_reg_b_reg_0__2_
+<CMD> deselectInst m_reg_b_reg_0__0_
+<CMD> deselectInst m_reg_b_reg_2__3_
+<CMD> deselectInst m_reg_b_reg_2__4_
+<CMD> deselectInst m_reg_b_reg_4__2_
+<CMD> deselectInst m_reg_b_reg_4__3_
+<CMD> deselectInst m_reg_b_reg_4__1_
+<CMD> deselectInst m_reg_b_reg_4__4_
+<CMD> deselectInst m_reg_b_reg_4__0_
+<CMD> deselectInst m_reg_b_reg_4__5_
+<CMD> deselectInst m_reg_b_reg_4__7_
+<CMD> deselectInst mem_mem1
+<CMD> deselectInst m_reg_b_reg_4__6_
+<CMD> deselectInst m_reg_b_reg_3__7_
+<CMD> deselectInst m_reg_b_reg_3__6_
+<CMD> deselectInst m_reg_b_reg_2__7_
+<CMD> deselectInst m_reg_b_reg_3__0_
+<CMD> deselectInst m_reg_b_reg_2__6_
+<CMD> deselectInst m_reg_b_reg_3__1_
+<CMD> deselectInst m_reg_b_reg_2__5_
+<CMD> deselectInst m_reg_b_reg_3__2_
+<CMD> deselectInst m_reg_b_reg_3__4_
+<CMD> deselectInst m_reg_b_reg_3__5_
+<CMD> deselectInst m_reg_b_reg_3__3_
+<CMD> deselectInst mem_mem3
+<CMD> deselectObject Net CTS_4
+<CMD> deselectInst m_reg_g_reg_0__1_
+<CMD> deselectInst m_reg_g_reg_0__0_
+<CMD> deselectInst m_reg_g_reg_0__2_
+<CMD> deselectInst m_reg_b_reg_0__7_
+<CMD> deselectInst m_reg_b_reg_0__6_
+<CMD> deselectInst m_reg_g_reg_0__3_
+<CMD> deselectInst m_reg_b_reg_0__5_
+<CMD> deselectInst m_reg_b_reg_0__4_
+<CMD> deselectInst m_reg_g_reg_0__4_
+<CMD> deselectInst m_reg_g_reg_1__1_
+<CMD> deselectInst m_reg_g_reg_1__3_
+<CMD> deselectInst m_reg_g_reg_1__2_
+<CMD> deselectInst m_reg_g_reg_1__0_
+<CMD> deselectInst m_reg_b_reg_0__3_
+<CMD> deselectInst m_reg_g_reg_0__6_
+<CMD> deselectInst m_reg_g_reg_0__5_
+<CMD> deselectInst img_size_r_reg_4_
+<CMD> deselectInst cstate_reg_1_
+<CMD> deselectInst cstate_reg_0_
+<CMD> deselectInst cstate_reg_2_
+<CMD> deselectInst counter_r_reg_8_
+<CMD> deselectInst census_b_reg_6_
+<CMD> deselectInst cstate_reg_3_
+<CMD> deselectInst census_b_reg_5_
+<CMD> deselectInst census_b_reg_3_
+<CMD> deselectInst ftr_cnt2_reg_0_
+<CMD> deselectInst ftr_row_reg_1_
+<CMD> deselectInst img_size_r_reg_2_
+<CMD> deselectInst ftr_row_reg_2_
+<CMD> deselectInst ftr_row_reg_0_
+<CMD> deselectInst m_reg_g_reg_1__4_
+<CMD> deselectInst ftr_cnt_reg_1_
+<CMD> deselectInst ftr_cnt2_reg_1_
+<CMD> deselectInst m_reg_g_reg_1__5_
+<CMD> deselectInst out_data_r_reg_0_
+<CMD> deselectInst mem_mem2
+<CMD> deselectInst out_data_r_reg_11_
+<CMD> deselectInst m_reg_g_reg_4__6_
+<CMD> deselectInst m_reg_g_reg_4__5_
+<CMD> deselectInst out_data_r_reg_1_
+<CMD> deselectInst m_reg_g_reg_4__4_
+<CMD> deselectInst m_reg_g_reg_4__3_
+<CMD> deselectInst out_data_r_reg_2_
+<CMD> deselectInst out_data_r_reg_6_
+<CMD> deselectInst out_data_r_reg_8_
+<CMD> deselectInst out_data_r_reg_7_
+<CMD> deselectInst out_data_r_reg_5_
+<CMD> deselectInst m_reg_g_reg_4__2_
+<CMD> deselectInst out_data_r_reg_4_
+<CMD> deselectInst out_data_r_reg_3_
+<CMD> deselectInst m_reg_g_reg_4__1_
+<CMD> deselectInst m_reg_g_reg_2__4_
+<CMD> deselectInst m_reg_g_reg_2__3_
+<CMD> deselectInst m_reg_g_reg_2__5_
+<CMD> deselectInst m_reg_g_reg_2__2_
+<CMD> deselectInst m_reg_g_reg_2__1_
+<CMD> deselectInst m_reg_g_reg_2__6_
+<CMD> deselectInst m_reg_g_reg_2__0_
+<CMD> deselectInst m_reg_g_reg_1__6_
+<CMD> deselectInst m_reg_g_reg_3__0_
+<CMD> deselectInst m_reg_g_reg_3__4_
+<CMD> deselectInst m_reg_g_reg_4__0_
+<CMD> deselectInst m_reg_g_reg_3__5_
+<CMD> deselectInst m_reg_g_reg_3__3_
+<CMD> deselectInst out_data_r_reg_9_
+<CMD> deselectInst m_reg_g_reg_3__2_
+<CMD> deselectInst m_reg_g_reg_3__1_
+<CMD> deselectInst img_origin_r_reg_5_
+<CMD> deselectInst img_origin_r_reg_3_
+<CMD> deselectInst img_origin_r_reg_4_
+<CMD> deselectInst img_origin_r_reg_6_
+<CMD> deselectInst img_origin_r_reg_2_
+<CMD> deselectInst img_origin_r_reg_7_
+<CMD> deselectInst img_origin_r_reg_1_
+<CMD> deselectInst ftr_col_reg_2_
+<CMD> deselectInst ftr_col_reg_1_
+<CMD> deselectInst ftr_zero_pad_r_reg
+<CMD> deselectInst img_size_r_reg_0_
+<CMD> deselectInst img_origin_r_reg_0_
+<CMD> deselectInst img_size_r_reg_1_
+<CMD> deselectInst m_reg_r_reg_0__1_
+<CMD> deselectInst m_reg_g_reg_4__7_
+<CMD> deselectInst m_reg_r_reg_0__0_
+<CMD> deselectInst m_reg_r_reg_0__2_
+<CMD> deselectInst m_reg_g_reg_3__7_
+<CMD> deselectInst m_reg_r_reg_0__3_
+<CMD> deselectInst m_reg_g_reg_3__6_
+<CMD> deselectInst m_reg_g_reg_0__7_
+<CMD> deselectInst img_size_r_reg_3_
+<CMD> deselectInst m_reg_g_reg_1__7_
+<CMD> deselectInst ftr_col_reg_0_
+<CMD> deselectInst m_reg_g_reg_2__7_
+<CMD> deselectInst ftr_cnt_reg_0_
+<CMD> deselectInst census_r_reg_0_
+<CMD> deselectInst census_g_reg_6_
+<CMD> deselectInst census_g_reg_7_
+<CMD> deselectInst census_r_reg_1_
+<CMD> deselectInst census_g_reg_5_
+<CMD> deselectInst census_r_reg_2_
+<CMD> deselectInst census_g_reg_4_
+<CMD> deselectInst census_g_reg_1_
+<CMD> deselectInst census_g_reg_2_
+<CMD> deselectInst census_r_reg_3_
+<CMD> deselectInst census_g_reg_3_
+<CMD> deselectInst census_r_reg_4_
+<CMD> deselectInst counter_r_reg_5_
+<CMD> deselectInst counter_r_reg_4_
+<CMD> deselectInst counter_r_reg_6_
+<CMD> deselectInst counter_r_reg_3_
+<CMD> deselectInst counter_r_reg_7_
+<CMD> deselectInst counter_r_reg_2_
+<CMD> deselectInst census_r_reg_7_
+<CMD> deselectInst census_r_reg_6_
+<CMD> deselectInst counter_r_reg_0_
+<CMD> deselectInst m_reg_r_reg_0__4_
+<CMD> deselectInst counter_r_reg_1_
+<CMD> deselectInst m_reg_r_reg_0__5_
+<CMD> deselectInst m_reg_r_reg_4__7_
+<CMD> deselectInst m_reg_r_reg_4__5_
+<CMD> deselectInst m_reg_r_reg_4__6_
+<CMD> deselectInst out_data_r_reg_10_
+<CMD> deselectInst m_reg_r_reg_4__4_
+<CMD> deselectInst out_data_r_reg_12_
+<CMD> deselectInst m_reg_r_reg_4__3_
+<CMD> deselectInst m_reg_r_reg_4__0_
+<CMD> deselectInst m_reg_r_reg_3__7_
+<CMD> deselectInst m_reg_r_reg_4__1_
+<CMD> deselectInst out_data_r_reg_13_
+<CMD> deselectInst m_reg_r_reg_4__2_
+<CMD> deselectInst out_data_r_reg_14_
+<CMD> deselectInst out_data_r_reg_22_
+<CMD> deselectInst out_data_r_reg_21_
+<CMD> deselectInst out_data_r_reg_23_
+<CMD> deselectInst out_data_r_reg_20_
+<CMD> deselectInst valid_r_reg
+<CMD> deselectInst out_data_r_reg_19_
+<CMD> deselectInst out_data_r_reg_16_
+<CMD> deselectInst out_data_r_reg_15_
+<CMD> deselectInst out_data_r_reg_17_
+<CMD> deselectInst m_reg_r_reg_3__6_
+<CMD> deselectInst out_data_r_reg_18_
+<CMD> deselectInst m_reg_r_reg_3__5_
+<CMD> deselectInst m_reg_r_reg_1__6_
+<CMD> deselectInst m_reg_r_reg_1__4_
+<CMD> deselectInst m_reg_r_reg_1__5_
+<CMD> deselectInst m_reg_r_reg_1__7_
+<CMD> deselectInst m_reg_r_reg_1__3_
+<CMD> deselectInst m_reg_r_reg_2__0_
+<CMD> deselectInst m_reg_r_reg_1__2_
+<CMD> deselectInst m_reg_r_reg_0__7_
+<CMD> deselectInst m_reg_r_reg_0__6_
+<CMD> deselectInst m_reg_r_reg_1__0_
+<CMD> deselectInst m_reg_r_reg_2__1_
+<CMD> deselectInst m_reg_r_reg_1__1_
+<CMD> deselectInst m_reg_r_reg_2__2_
+<CMD> deselectInst m_reg_r_reg_3__2_
+<CMD> deselectInst m_reg_r_reg_3__1_
+<CMD> deselectInst m_reg_r_reg_3__3_
+<CMD> deselectInst m_reg_r_reg_3__0_
+<CMD> deselectInst m_reg_r_reg_3__4_
+<CMD> deselectInst m_reg_r_reg_2__7_
+<CMD> deselectInst m_reg_r_reg_2__4_
+<CMD> deselectInst m_reg_r_reg_2__3_
+<CMD> deselectInst m_reg_r_reg_2__5_
+<CMD> deselectInst valid_rr_reg
+<CMD> deselectInst m_reg_r_reg_2__6_
+<CMD> deselectObject Net CTS_2
+<CMD> deselectInst CTS_ccl_a_buf_00021
+<CMD> deselectInst CTS_ccl_a_buf_00019
+<CMD> deselectInst CTS_ccl_a_buf_00017
+<CMD> deselectObject Net i_clk
+<CMD> deselectInst CTS_ccl_a_buf_00024
+<CMD> deselectObject IO_Pin i_clk
+<CMD> selectObject IO_Pin i_clk
+<CMD> selectInst CTS_ccl_a_buf_00024
+<CMD> selectObject Net i_clk
+<CMD> selectInst CTS_ccl_a_buf_00017
+<CMD> selectInst CTS_ccl_a_buf_00019
+<CMD> selectInst CTS_ccl_a_buf_00021
+<CMD> selectObject Net CTS_2
+<CMD> selectInst m_reg_r_reg_2__6_
+<CMD> selectInst valid_rr_reg
+<CMD> selectInst m_reg_r_reg_2__5_
+<CMD> selectInst m_reg_r_reg_2__3_
+<CMD> selectInst m_reg_r_reg_2__4_
+<CMD> selectInst m_reg_r_reg_2__7_
+<CMD> selectInst m_reg_r_reg_3__4_
+<CMD> selectInst m_reg_r_reg_3__0_
+<CMD> selectInst m_reg_r_reg_3__3_
+<CMD> selectInst m_reg_r_reg_3__1_
+<CMD> selectInst m_reg_r_reg_3__2_
+<CMD> selectInst m_reg_r_reg_2__2_
+<CMD> selectInst m_reg_r_reg_1__1_
+<CMD> selectInst m_reg_r_reg_2__1_
+<CMD> selectInst m_reg_r_reg_1__0_
+<CMD> selectInst m_reg_r_reg_0__6_
+<CMD> selectInst m_reg_r_reg_0__7_
+<CMD> selectInst m_reg_r_reg_1__2_
+<CMD> selectInst m_reg_r_reg_2__0_
+<CMD> selectInst m_reg_r_reg_1__3_
+<CMD> selectInst m_reg_r_reg_1__7_
+<CMD> selectInst m_reg_r_reg_1__5_
+<CMD> selectInst m_reg_r_reg_1__4_
+<CMD> selectInst m_reg_r_reg_1__6_
+<CMD> selectInst m_reg_r_reg_3__5_
+<CMD> selectInst out_data_r_reg_18_
+<CMD> selectInst m_reg_r_reg_3__6_
+<CMD> selectInst out_data_r_reg_17_
+<CMD> selectInst out_data_r_reg_15_
+<CMD> selectInst out_data_r_reg_16_
+<CMD> selectInst out_data_r_reg_19_
+<CMD> selectInst valid_r_reg
+<CMD> selectInst out_data_r_reg_20_
+<CMD> selectInst out_data_r_reg_23_
+<CMD> selectInst out_data_r_reg_21_
+<CMD> selectInst out_data_r_reg_22_
+<CMD> selectInst out_data_r_reg_14_
+<CMD> selectInst m_reg_r_reg_4__2_
+<CMD> selectInst out_data_r_reg_13_
+<CMD> selectInst m_reg_r_reg_4__1_
+<CMD> selectInst m_reg_r_reg_3__7_
+<CMD> selectInst m_reg_r_reg_4__0_
+<CMD> selectInst m_reg_r_reg_4__3_
+<CMD> selectInst out_data_r_reg_12_
+<CMD> selectInst m_reg_r_reg_4__4_
+<CMD> selectInst out_data_r_reg_10_
+<CMD> selectInst m_reg_r_reg_4__6_
+<CMD> selectInst m_reg_r_reg_4__5_
+<CMD> selectInst m_reg_r_reg_4__7_
+<CMD> selectInst m_reg_r_reg_0__5_
+<CMD> selectInst counter_r_reg_1_
+<CMD> selectInst m_reg_r_reg_0__4_
+<CMD> selectInst counter_r_reg_0_
+<CMD> selectInst census_r_reg_6_
+<CMD> selectInst census_r_reg_7_
+<CMD> selectInst counter_r_reg_2_
+<CMD> selectInst counter_r_reg_7_
+<CMD> selectInst counter_r_reg_3_
+<CMD> selectInst counter_r_reg_6_
+<CMD> selectInst counter_r_reg_4_
+<CMD> selectInst counter_r_reg_5_
+<CMD> selectInst census_r_reg_4_
+<CMD> selectInst census_g_reg_3_
+<CMD> selectInst census_r_reg_3_
+<CMD> selectInst census_g_reg_2_
+<CMD> selectInst census_g_reg_0_
+<CMD> selectInst census_g_reg_1_
+<CMD> selectInst census_g_reg_4_
+<CMD> selectInst census_r_reg_2_
+<CMD> selectInst census_g_reg_5_
+<CMD> selectInst census_r_reg_1_
+<CMD> selectInst census_g_reg_7_
+<CMD> selectInst census_g_reg_6_
+<CMD> selectInst census_r_reg_0_
+<CMD> selectInst ftr_cnt_reg_0_
+<CMD> selectInst m_reg_g_reg_2__7_
+<CMD> selectInst ftr_col_reg_0_
+<CMD> selectInst m_reg_g_reg_1__7_
+<CMD> selectInst img_size_r_reg_3_
+<CMD> selectInst m_reg_g_reg_0__7_
+<CMD> selectInst m_reg_g_reg_3__6_
+<CMD> selectInst m_reg_r_reg_0__3_
+<CMD> selectInst m_reg_g_reg_3__7_
+<CMD> selectInst m_reg_r_reg_0__2_
+<CMD> selectInst m_reg_r_reg_0__0_
+<CMD> selectInst m_reg_g_reg_4__7_
+<CMD> selectInst m_reg_r_reg_0__1_
+<CMD> selectInst img_size_r_reg_1_
+<CMD> selectInst img_origin_r_reg_0_
+<CMD> selectInst img_size_r_reg_0_
+<CMD> selectInst ftr_zero_pad_r_reg
+<CMD> selectInst ftr_col_reg_1_
+<CMD> selectInst ftr_col_reg_2_
+<CMD> selectInst img_origin_r_reg_1_
+<CMD> selectInst img_origin_r_reg_7_
+<CMD> selectInst img_origin_r_reg_2_
+<CMD> selectInst img_origin_r_reg_6_
+<CMD> selectInst img_origin_r_reg_4_
+<CMD> selectInst img_origin_r_reg_3_
+<CMD> selectInst img_origin_r_reg_5_
+<CMD> selectObject Net CTS_3
+<CMD> selectInst m_reg_g_reg_3__1_
+<CMD> selectInst m_reg_g_reg_3__2_
+<CMD> selectInst out_data_r_reg_9_
+<CMD> selectInst m_reg_g_reg_3__3_
+<CMD> selectInst m_reg_g_reg_3__5_
+<CMD> selectInst m_reg_g_reg_4__0_
+<CMD> selectInst m_reg_g_reg_3__4_
+<CMD> selectInst m_reg_g_reg_3__0_
+<CMD> selectInst m_reg_g_reg_1__6_
+<CMD> selectInst m_reg_g_reg_2__0_
+<CMD> selectInst m_reg_g_reg_2__6_
+<CMD> selectInst m_reg_g_reg_2__1_
+<CMD> selectInst m_reg_g_reg_2__2_
+<CMD> selectInst m_reg_g_reg_2__5_
+<CMD> selectInst m_reg_g_reg_2__3_
+<CMD> selectInst m_reg_g_reg_2__4_
+<CMD> selectInst m_reg_g_reg_4__1_
+<CMD> selectInst out_data_r_reg_3_
+<CMD> selectInst out_data_r_reg_4_
+<CMD> selectInst m_reg_g_reg_4__2_
+<CMD> selectInst out_data_r_reg_5_
+<CMD> selectInst out_data_r_reg_7_
+<CMD> selectInst out_data_r_reg_8_
+<CMD> selectInst out_data_r_reg_6_
+<CMD> selectInst out_data_r_reg_2_
+<CMD> selectInst m_reg_g_reg_4__3_
+<CMD> selectInst m_reg_g_reg_4__4_
+<CMD> selectInst out_data_r_reg_1_
+<CMD> selectInst m_reg_g_reg_4__5_
+<CMD> selectInst m_reg_g_reg_4__6_
+<CMD> selectInst out_data_r_reg_11_
+<CMD> selectInst mem_mem2
+<CMD> selectInst out_data_r_reg_0_
+<CMD> selectInst m_reg_g_reg_1__5_
+<CMD> selectInst ftr_cnt2_reg_1_
+<CMD> selectInst ftr_cnt_reg_1_
+<CMD> selectInst m_reg_g_reg_1__4_
+<CMD> selectInst ftr_row_reg_0_
+<CMD> selectInst ftr_row_reg_2_
+<CMD> selectInst img_size_r_reg_2_
+<CMD> selectInst ftr_row_reg_1_
+<CMD> selectInst ftr_cnt2_reg_0_
+<CMD> selectInst census_b_reg_3_
+<CMD> selectInst census_b_reg_5_
+<CMD> selectInst cstate_reg_3_
+<CMD> selectInst census_b_reg_6_
+<CMD> selectInst counter_r_reg_8_
+<CMD> selectInst cstate_reg_2_
+<CMD> selectInst cstate_reg_0_
+<CMD> selectInst cstate_reg_1_
+<CMD> selectInst img_size_r_reg_4_
+<CMD> selectInst m_reg_g_reg_0__5_
+<CMD> selectInst m_reg_g_reg_0__6_
+<CMD> selectInst m_reg_b_reg_0__3_
+<CMD> selectInst m_reg_g_reg_1__0_
+<CMD> selectInst m_reg_g_reg_1__2_
+<CMD> selectInst m_reg_g_reg_1__3_
+<CMD> selectInst m_reg_g_reg_1__1_
+<CMD> selectInst m_reg_g_reg_0__4_
+<CMD> selectInst m_reg_b_reg_0__4_
+<CMD> selectInst m_reg_b_reg_0__5_
+<CMD> selectInst m_reg_g_reg_0__3_
+<CMD> selectInst m_reg_b_reg_0__6_
+<CMD> selectInst m_reg_b_reg_0__7_
+<CMD> selectInst m_reg_g_reg_0__2_
+<CMD> selectInst m_reg_g_reg_0__0_
+<CMD> selectInst m_reg_g_reg_0__1_
+<CMD> selectObject Net CTS_4
+<CMD> selectInst mem_mem3
+<CMD> selectInst m_reg_b_reg_3__3_
+<CMD> selectInst m_reg_b_reg_3__5_
+<CMD> selectInst m_reg_b_reg_3__4_
+<CMD> selectInst m_reg_b_reg_3__2_
+<CMD> selectInst m_reg_b_reg_2__5_
+<CMD> selectInst m_reg_b_reg_3__1_
+<CMD> selectInst m_reg_b_reg_2__6_
+<CMD> selectInst m_reg_b_reg_3__0_
+<CMD> selectInst m_reg_b_reg_2__7_
+<CMD> selectInst m_reg_b_reg_3__6_
+<CMD> selectInst m_reg_b_reg_3__7_
+<CMD> selectInst m_reg_b_reg_4__6_
+<CMD> selectInst mem_mem1
+<CMD> selectInst m_reg_b_reg_4__7_
+<CMD> selectInst m_reg_b_reg_4__5_
+<CMD> selectInst m_reg_b_reg_4__0_
+<CMD> selectInst m_reg_b_reg_4__4_
+<CMD> selectInst m_reg_b_reg_4__1_
+<CMD> selectInst m_reg_b_reg_4__3_
+<CMD> selectInst m_reg_b_reg_4__2_
+<CMD> selectInst m_reg_b_reg_2__4_
+<CMD> selectInst m_reg_b_reg_2__3_
+<CMD> selectInst m_reg_b_reg_0__0_
+<CMD> selectInst m_reg_b_reg_0__2_
+<CMD> selectInst m_reg_b_reg_0__1_
+<CMD> selectInst census_r_reg_5_
+<CMD> selectInst census_b_reg_0_
+<CMD> selectInst census_b_reg_7_
+<CMD> selectInst census_b_reg_1_
+<CMD> selectInst census_b_reg_4_
+<CMD> selectInst census_b_reg_2_
+<CMD> selectInst m_reg_b_reg_1__0_
+<CMD> selectInst m_reg_b_reg_1__1_
+<CMD> selectInst m_reg_b_reg_2__0_
+<CMD> selectInst m_reg_b_reg_2__2_
+<CMD> selectInst m_reg_b_reg_2__1_
+<CMD> selectInst m_reg_b_reg_1__7_
+<CMD> selectInst m_reg_b_reg_1__2_
+<CMD> selectInst m_reg_b_reg_1__6_
+<CMD> selectInst m_reg_b_reg_1__3_
+<CMD> selectInst m_reg_b_reg_1__5_
+<CMD> selectInst m_reg_b_reg_1__4_
+<CMD> selectObject Net CTS_1
+<CMD> zoomSelected
+<CMD> deselectAll
+<CMD> getFillerMode -quiet
+<CMD> addFiller -cell FILL1 FILL2 FILL4 FILL8 FILL16 FILL32 FILL64 -prefix FILLER
+**WARN: (IMPSP-5217):	addFiller command is running on a postRoute database. It is recommended to be followed by ecoRoute -target command to make the DRC clean.
+Type 'man IMPSP-5217' for more detail.
+Estimated cell power/ground rail width = 0.577 um
+*INFO: Adding fillers to top-module.
+*INFO:   Added 0 filler inst of any cell-type.
+<CMD> check_timing
+Starting SI iteration 1 using Infinite Timing Windows
+#################################################################################
+# Design Stage: PostRoute
+# Design Name: ipdc
+# Design Mode: 130nm
+# Analysis Mode: MMMC Non-OCV 
+# Parasitics Mode: SPEF/RCDB
+# Signoff Settings: SI On 
+#################################################################################
+AAE_INFO: 1 threads acquired from CTE.
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1351.88)
+Total number of fetched objects 1875
+AAE_INFO-618: Total number of nets in the design is 1831,  100.0 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1374.23 CPU=0:00:00.4 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1374.23 CPU=0:00:00.4 REAL=0:00:00.0)
+Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1374.2M)
+Add other clocks and setupCteToAAEClockMapping during iter 1
+Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1374.2M)
+Starting SI iteration 2
+Calculate delays in BcWc mode...
+Start delay calculation (fullDC) (1 T). (MEM=1321.23)
+Total number of fetched objects 1875
+AAE_INFO-618: Total number of nets in the design is 1831,  0.4 percent of the nets selected for SI analysis
+End delay calculation. (MEM=1364.92 CPU=0:00:00.0 REAL=0:00:00.0)
+End delay calculation (fullDC). (MEM=1364.92 CPU=0:00:00.0 REAL=0:00:00.0)
+     +------------------------------------------------------------------------------+ 
+     |                             TIMING CHECK SUMMARY                             | 
+     |------------------------------------------------------------------------------| 
+     |       Warning        |            Warning Description             |  Number  | 
+     |                      |                                            |    of    | 
+     |                      |                                            | Warnings | 
+     |----------------------+--------------------------------------------+----------| 
+     | ideal_clock_waveform | Clock waveform is ideal                    |        1 | 
+     | no_drive             | No drive assertion                         |       32 | 
+     | uncons_endpoint      | Unconstrained signal arriving at end point |        7 | 
+     +------------------------------------------------------------------------------+ 
+<CMD> report_timing
+Path 1: MET Setup Check with Pin mem_mem2/CLK 
+Endpoint:   mem_mem2/A[7]    (^) checked with  leading edge of 'i_clk'
+Beginpoint: ftr_row_reg_0_/Q (^) triggered by  leading edge of 'i_clk'
+Path Groups: {reg2reg}
+Analysis View: av_func_mode_max
+Other End Arrival Time         -0.005
+- Setup                         0.539
++ Phase Shift                   6.800
++ CPPR Adjustment               0.000
+= Required Time                 6.256
+- Arrival Time                  5.619
+= Slack Time                    0.636
+     Clock Rise Edge                 0.000
+     + Clock Network Latency (Prop)  -0.013
+     = Beginpoint Arrival Time       -0.013
+     +-------------------------------------------------------------------------+ 
+     |    Instance    |     Arc      |    Cell    | Delay | Arrival | Required | 
+     |                |              |            |       |  Time   |   Time   | 
+     |----------------+--------------+------------+-------+---------+----------| 
+     | ftr_row_reg_0_ | CK ^         |            |       |  -0.013 |    0.623 | 
+     | ftr_row_reg_0_ | CK ^ -> Q ^  | DFFQX1     | 0.548 |   0.535 |    1.171 | 
+     | U1303          | A ^ -> S ^   | ADDHXL     | 0.332 |   0.867 |    1.503 | 
+     | U1072          | A ^ -> Y v   | CLKINVX1   | 0.178 |   1.044 |    1.681 | 
+     | U1233          | A1 v -> Y ^  | OAI22XL    | 0.236 |   1.280 |    1.916 | 
+     | U1215          | A ^ -> S ^   | ADDHXL     | 0.286 |   1.566 |    2.202 | 
+     | U1079          | A ^ -> Y ^   | AND2X1     | 0.197 |   1.763 |    2.399 | 
+     | U1722          | B ^ -> CO ^  | ADDFXL     | 0.673 |   2.436 |    3.072 | 
+     | U1276          | CI ^ -> S v  | ADDFXL     | 0.290 |   2.726 |    3.363 | 
+     | U1588          | B v -> CO v  | ADDFXL     | 0.661 |   3.387 |    4.023 | 
+     | U1270          | CI v -> CO v | ADDFXL     | 0.408 |   3.795 |    4.432 | 
+     | U1268          | CI v -> S ^  | ADDFXL     | 0.484 |   4.279 |    4.915 | 
+     | U1748          | B ^ -> Y ^   | OR2X1      | 0.237 |   4.515 |    5.152 | 
+     | U1020          | A ^ -> Y v   | NAND2X1    | 0.072 |   4.587 |    5.224 | 
+     | U1256          | A1 v -> Y ^  | OAI21XL    | 0.336 |   4.923 |    5.559 | 
+     | U1720          | A0 ^ -> Y v  | AOI21X1    | 0.151 |   5.074 |    5.710 | 
+     | U1721          | A v -> Y ^   | XOR2X1     | 0.149 |   5.223 |    5.859 | 
+     | U1719          | A0 ^ -> Y ^  | AO22X4     | 0.394 |   5.617 |    6.254 | 
+     | mem_mem2       | A[7] ^       | sram_256x8 | 0.002 |   5.619 |    6.256 | 
+     +-------------------------------------------------------------------------+ 
+
+invalid command name "report_bottleneck"
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix ipdc_postRoute -outDir timingReports
+
+**ERROR: (IMPOPT-7027):	The analysis mode needs to be set to 'OCV' in post route stage for post route timing & optimization. To avoid this message & allow post route steps to proceed set 'setAnalysisMode -analysisType onChipVariation'. It is also recommended to set '-cppr both' alongside this to remove clock re-convergence pessimism for both setup and hold modes.
+
+<CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+<CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix ipdc_postRoute -outDir timingReports
+
+**ERROR: (IMPOPT-7027):	The analysis mode needs to be set to 'OCV' in post route stage for post route timing & optimization. To avoid this message & allow post route steps to proceed set 'setAnalysisMode -analysisType onChipVariation'. It is also recommended to set '-cppr both' alongside this to remove clock re-convergence pessimism for both setup and hold modes.
+
+
+--------------------------------------------------------------------------------
+Exiting Innovus on Wed Dec 29 00:24:40 2021
+  Total CPU time:     0:03:28
+  Total real time:    0:38:35
+  Peak memory (main): 1014.59MB
+
+
+*** Memory Usage v#1 (Current mem = 1364.918M, initial mem = 274.973M) ***
+*** Message Summary: 1152 warning(s), 3 error(s)
+
+--- Ending "Innovus" (totcpu=0:03:26, real=0:38:33, mem=1364.9M) ---

@@ -1,0 +1,103 @@
+allowed orientation symmetry
+LAYER H V H V H V H V 
+LAYERPITCH 820 920 820 920 820 920 1230 2300 
+  _inst_term_layer_ 0 sram_256x8
+	Q[7] 3 PGPtL 4 3 2 1
+	Q[6] 3 PtL 4 3 2 1
+	Q[5] 3 PtL 4 3 2 1
+	Q[4] 3 PtL 4 3 2 1
+	Q[3] 3 PtL 4 3 2 1
+	Q[2] 3 PtL 4 3 2 1
+	Q[1] 3 PtL 4 3 2 1
+	Q[0] 3 PtL 4 3 2 1
+	CLK 1 PtL 4 3 2 1
+	CEN 4 PtL 4 3 2 1
+	WEN 4 PtL 4 3 2 1
+	A[7] 4 PtL 4 3 2 1
+	A[6] 4 PtL 4 3 2 1
+	A[5] 4 PtL 4 3 2 1
+	A[4] 4 PtL 4 3 2 1
+	A[3] 4 PtL 4 3 2 1
+	A[2] 4 PtL 4 3 2 1
+	A[1] 4 PtL 4 3 2 1
+	A[0] 4 PtL 4 3 2 1
+	D[7] 4 PtL 4 3 2 1
+	D[6] 4 PtL 4 3 2 1
+	D[5] 4 PtL 4 3 2 1
+	D[4] 4 PtL 4 3 2 1
+	D[3] 4 PtL 4 3 2 1
+	D[2] 4 PtL 4 3 2 1
+	D[1] 4 PtL 4 3 2 1
+	D[0] 4 PtL 4 3 2 1
+	VSS 8 PGPtL 4 4 3 3 4 3
+	   pgbox 0 0 306490 271590 306490 271590 4000 4000
+	VDD 7 PGPtL 4 4 3 3 4 3
+	   pgbox 0 0 306490 271590 306490 271590 4000 4000
+	END _inst_term_layer_
+  _inst_term_layer_ 1 sram_256x8
+	Q[7] 3 PGPtL 4 3 2 1
+	Q[6] 3 PtL 4 3 2 1
+	Q[5] 3 PtL 4 3 2 1
+	Q[4] 3 PtL 4 3 2 1
+	Q[3] 3 PtL 4 3 2 1
+	Q[2] 3 PtL 4 3 2 1
+	Q[1] 3 PtL 4 3 2 1
+	Q[0] 3 PtL 4 3 2 1
+	CLK 1 PtL 4 3 2 1
+	CEN 4 PtL 4 3 2 1
+	WEN 4 PtL 4 3 2 1
+	A[7] 4 PtL 4 3 2 1
+	A[6] 4 PtL 4 3 2 1
+	A[5] 4 PtL 4 3 2 1
+	A[4] 4 PtL 4 3 2 1
+	A[3] 4 PtL 4 3 2 1
+	A[2] 4 PtL 4 3 2 1
+	A[1] 4 PtL 4 3 2 1
+	A[0] 4 PtL 4 3 2 1
+	D[7] 4 PtL 4 3 2 1
+	D[6] 4 PtL 4 3 2 1
+	D[5] 4 PtL 4 3 2 1
+	D[4] 4 PtL 4 3 2 1
+	D[3] 4 PtL 4 3 2 1
+	D[2] 4 PtL 4 3 2 1
+	D[1] 4 PtL 4 3 2 1
+	D[0] 4 PtL 4 3 2 1
+	VSS 8 PGPtL 4 4 3 3 4 3
+	   pgbox 0 0 306490 271590 306490 271590 4000 4000
+	VDD 7 PGPtL 4 4 3 3 4 3
+	   pgbox 0 0 306490 271590 306490 271590 4000 4000
+	END _inst_term_layer_
+  _inst_term_layer_ 2 sram_256x8
+	Q[7] 3 PGPtL 4 3 2 1
+	Q[6] 3 PtL 4 3 2 1
+	Q[5] 3 PtL 4 3 2 1
+	Q[4] 3 PtL 4 3 2 1
+	Q[3] 3 PtL 4 3 2 1
+	Q[2] 3 PtL 4 3 2 1
+	Q[1] 3 PtL 4 3 2 1
+	Q[0] 3 PtL 4 3 2 1
+	CLK 1 PtL 4 3 2 1
+	CEN 4 PtL 4 3 2 1
+	WEN 4 PtL 4 3 2 1
+	A[7] 4 PtL 4 3 2 1
+	A[6] 4 PtL 4 3 2 1
+	A[5] 4 PtL 4 3 2 1
+	A[4] 4 PtL 4 3 2 1
+	A[3] 4 PtL 4 3 2 1
+	A[2] 4 PtL 4 3 2 1
+	A[1] 4 PtL 4 3 2 1
+	A[0] 4 PtL 4 3 2 1
+	D[7] 4 PtL 4 3 2 1
+	D[6] 4 PtL 4 3 2 1
+	D[5] 4 PtL 4 3 2 1
+	D[4] 4 PtL 4 3 2 1
+	D[3] 4 PtL 4 3 2 1
+	D[2] 4 PtL 4 3 2 1
+	D[1] 4 PtL 4 3 2 1
+	D[0] 4 PtL 4 3 2 1
+	VSS 8 PGPtL 4 4 3 3 4 3
+	   pgbox 0 0 306490 271590 306490 271590 4000 4000
+	VDD 7 PGPtL 4 4 3 3 4 3
+	   pgbox 0 0 306490 271590 306490 271590 4000 4000
+	END _inst_term_layer_
+2000

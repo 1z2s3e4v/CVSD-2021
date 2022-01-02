@@ -1,0 +1,1 @@
+/home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc_syn_cts.sdc

@@ -1,0 +1,16 @@
+s1(07Dec2021:03:16:05):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb0 
+s2(07Dec2021:03:16:38):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb1 
+s3(07Dec2021:03:16:48):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb2 
+s4(07Dec2021:03:16:57):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s5(28Dec2021:16:18:48):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s6(28Dec2021:16:25:16):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s7(28Dec2021:16:43:57):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s8(28Dec2021:17:05:56):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s9(28Dec2021:17:06:23):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s10(28Dec2021:17:13:36):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s11(28Dec2021:17:16:27):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s12(28Dec2021:17:17:44):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s13(28Dec2021:17:21:23):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb3 
+s14(28Dec2021:17:21:45):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb0 
+s15(28Dec2021:17:21:57):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb1 
+s16(28Dec2021:17:22:13):  ncverilog -f rtl_03.f +ncmaxdelays +access+r +define+SDF+tb2 

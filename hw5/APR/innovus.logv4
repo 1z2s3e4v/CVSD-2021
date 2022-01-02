@@ -1,0 +1,815 @@
+[12/29 00:24:43      0s] 
+[12/29 00:24:43      0s] Cadence Innovus(TM) Implementation System.
+[12/29 00:24:43      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/29 00:24:43      0s] 
+[12/29 00:24:43      0s] Version:	v20.10-p004_1, built Thu May 7 20:02:41 PDT 2020
+[12/29 00:24:43      0s] Options:	
+[12/29 00:24:43      0s] Date:		Wed Dec 29 00:24:43 2021
+[12/29 00:24:43      0s] Host:		cad29 (x86_64 w/Linux 2.6.32-754.27.1.el6.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+[12/29 00:24:43      0s] OS:		CentOS release 6.10 (Final)
+[12/29 00:24:43      0s] 
+[12/29 00:24:43      0s] License:
+[12/29 00:24:43      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[12/29 00:24:43      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/29 00:25:12     14s] **WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+[12/29 00:25:13     16s] @(#)CDS: Innovus v20.10-p004_1 (64bit) 05/07/2020 20:02 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/29 00:25:13     16s] @(#)CDS: NanoRoute 20.10-p004_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+[12/29 00:25:13     16s] @(#)CDS: AAE 20.10-p005 (64bit) 05/07/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/29 00:25:13     16s] @(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+[12/29 00:25:13     16s] @(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+[12/29 00:25:13     16s] @(#)CDS: CPE v20.10-p006
+[12/29 00:25:13     16s] @(#)CDS: IQuantus/TQuantus 19.1.3-s155 (64bit) Sun Nov 3 18:26:52 PST 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/29 00:25:13     16s] @(#)CDS: OA 22.60-p028 Tue Dec  3 14:08:48 2019
+[12/29 00:25:13     16s] @(#)CDS: SGN 19.10-d001 (24-May-2019) (64 bit executable, Qt5.9.0)
+[12/29 00:25:13     16s] @(#)CDS: RCDB 11.15.0
+[12/29 00:25:13     16s] @(#)CDS: STYLUS 20.10-p002_1 (03/12/2020 10:11 PDT)
+[12/29 00:25:13     16s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_115698_cad29_d10013_G6PZe8.
+
+[12/29 00:25:13     16s] Change the soft stacksize limit to 0.2%RAM (677 mbytes). Set global soft_stack_size_limit to change the value.
+[12/29 00:25:15     16s] 
+[12/29 00:25:15     16s] **INFO:  MMMC transition support version v31-84 
+[12/29 00:25:15     16s] 
+[12/29 00:25:15     17s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/29 00:25:15     17s] <CMD> suppressMessage ENCEXT-2799
+[12/29 00:25:15     17s] <CMD> win
+[12/29 00:25:28     18s] <CMD> encMessage warning 0
+[12/29 00:25:28     18s] Suppress "**WARN ..." messages.
+[12/29 00:25:28     18s] <CMD> encMessage debug 0
+[12/29 00:25:28     18s] <CMD> encMessage info 0
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'sram_256x8' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL7' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'METAL8' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'VIA12' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'VIA23' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'VIA34' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'VIA45' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'VIA56' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'VIA67' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-119):	LAYER 'VIA78' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/29 00:25:29     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDC0102CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDC0204CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDC0408CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDC1216CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDS0102CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDS0204CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDS0408CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PDS1216CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRC0102CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRC0204CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRC0408CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRC1216CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRS0102CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRS0204CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRS0408CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PRS1216CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PVDD1CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PVSS1CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (IMPLF-44):	Macro 'PVSS3CDG' has no SIZE statement or a zero SIZE
+[12/29 00:25:29     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/29 00:25:29     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/29 00:25:29     19s] is not loaded in the Innovus database and cannot be used in the
+[12/29 00:25:29     19s] netlist.
+[12/29 00:25:29     19s] **WARN: (EMS-27):	Message (IMPLF-44) has exceeded the current message display limit of 20.
+[12/29 00:25:29     19s] To increase the message display limit, refer to the product command reference manual.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[0]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[1]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[2]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[3]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[4]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[5]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[6]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A[7]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'CEN' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'CLK' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[0]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[1]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[2]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[3]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[4]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[5]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[6]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'D[7]' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[0]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[1]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[2]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[3]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[4]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[5]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[6]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-201):	Pin 'Q[7]' in macro 'sram_256x8' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'WEN' in macro 'sram_256x8' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM1 GENERATE.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM2 GENERATE.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM3 GENERATE.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM4 GENERATE.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM5 GENERATE.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM6 GENERATE.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM7 GENERATE.
+[12/29 00:25:29     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM8 GENERATE.
+[12/29 00:25:29     19s] Loading view definition file from /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/viewDefinition.tcl
+[12/29 00:25:30     19s] **WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/hw5/APR/library/lib/slow.lib)
+[12/29 00:25:30     19s] *** End library_loading (cpu=0.01min, real=0.02min, mem=14.5M, fe_cpu=0.33min, fe_real=0.78min, fe_mem=879.3M) ***
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+[12/29 00:25:30     19s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[12/29 00:25:30     19s] To increase the message display limit, refer to the product command reference manual.
+[12/29 00:25:30     20s] *** Netlist is unique.
+[12/29 00:25:37     26s] Loading preference file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/gui.pref.tcl ...
+[12/29 00:25:37     26s] **WARN: (IMPOPT-3602):	The specified path group name reg2reg is not defined.
+[12/29 00:25:37     26s] **WARN: (IMPOPT-3602):	The specified path group name reg2out is not defined.
+[12/29 00:25:37     26s] **WARN: (IMPOPT-3602):	The specified path group name in2reg is not defined.
+[12/29 00:25:37     26s] **WARN: (IMPOPT-3602):	The specified path group name in2out is not defined.
+[12/29 00:25:37     26s] **WARN: (IMPTCM-77):	Option "-drouteStartIteration" for command setNanoRouteMode is obsolete and will be removed in a future release. The obsolete option still works in this release but to avoid this warning and to ensure compatibility with future releases, remove the obsolete option from your script.
+[12/29 00:25:38     27s] Loading place ...
+[12/29 00:25:39     27s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[12/29 00:25:39     27s] {RT RC_corner 0 8 8 {7 0} 1}
+[12/29 00:25:41     29s] **WARN: (IMPESI-3505):	setDelayCalMode -eng_copyNetPropToNewNet true (default=false) will be obsoleted along with its sgs2set equivalent.  This parameter will continue to be supported in the current release, but will be removed in the next major release of the software.
+[12/29 00:25:41     29s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.10-p004_1. They will be removed in the next release. 
+[12/29 00:25:41     29s] timing_enable_default_delay_arc
+[12/29 00:25:44     30s] <CMD> setDrawView place
+[12/29 00:25:48     30s] <CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+[12/29 00:25:48     30s] <CMD> timeDesign -postRoute -pathReports -drvReports -slackReports -numPaths 50 -prefix ipdc_postRoute -outDir timingReports
+[12/29 00:25:48     30s]  Reset EOS DB
+[12/29 00:25:48     30s] Ignoring AAE DB Resetting ...
+[12/29 00:25:48     30s] Extraction called for design 'ipdc' of instances=5042 and nets=1831 using extraction engine 'postRoute' at effort level 'low' .
+[12/29 00:25:48     30s] PostRoute (effortLevel low) RC Extraction called for design ipdc.
+[12/29 00:25:48     30s] RC Extraction called in multi-corner(1) mode.
+[12/29 00:25:48     30s] Process corner(s) are loaded.
+[12/29 00:25:48     30s]  Corner: RC_corner
+[12/29 00:25:48     30s] extractDetailRC Option : -outfile /tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d  -extended
+[12/29 00:25:48     30s] RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+[12/29 00:25:48     30s]       RC Corner Indexes            0   
+[12/29 00:25:48     30s] Capacitance Scaling Factor   : 1.00000 
+[12/29 00:25:48     30s] Coupling Cap. Scaling Factor : 1.00000 
+[12/29 00:25:48     30s] Resistance Scaling Factor    : 1.00000 
+[12/29 00:25:48     30s] Clock Cap. Scaling Factor    : 1.00000 
+[12/29 00:25:48     30s] Clock Res. Scaling Factor    : 1.00000 
+[12/29 00:25:48     30s] Shrink Factor                : 1.00000
+[12/29 00:25:48     30s] LayerId::1 widthSet size::4
+[12/29 00:25:48     30s] LayerId::2 widthSet size::4
+[12/29 00:25:48     30s] LayerId::3 widthSet size::4
+[12/29 00:25:48     30s] LayerId::4 widthSet size::4
+[12/29 00:25:48     30s] LayerId::5 widthSet size::4
+[12/29 00:25:48     30s] LayerId::6 widthSet size::4
+[12/29 00:25:48     30s] LayerId::7 widthSet size::5
+[12/29 00:25:48     30s] LayerId::8 widthSet size::3
+[12/29 00:25:48     30s] Initializing multi-corner capacitance tables ... 
+[12/29 00:25:48     30s] Initializing multi-corner resistance tables ...
+[12/29 00:25:48     30s] Preroute length aware model : LLS: 2-3 ; HLS: 3-5 ; rDens: 0.237418 ; uaWl: 1.000000 ; uaWlH: 0.255951 ; aWlH: 0.000000 ; Pmax: 0.828000 ; wcR: 0.686400 ; newSi: 0.095200 ; pMod: 80 ; 
+[12/29 00:25:48     30s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1229.8M)
+[12/29 00:25:48     30s] Creating parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for storing RC.
+[12/29 00:25:48     30s] Extracted 10.0085% (CPU Time= 0:00:00.1  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 20.011% (CPU Time= 0:00:00.1  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 30.0073% (CPU Time= 0:00:00.1  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 40.0098% (CPU Time= 0:00:00.1  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 50.0122% (CPU Time= 0:00:00.1  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 60.0085% (CPU Time= 0:00:00.1  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 70.011% (CPU Time= 0:00:00.1  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 80.0073% (CPU Time= 0:00:00.2  MEM= 1306.4M)
+[12/29 00:25:48     30s] Extracted 90.0098% (CPU Time= 0:00:00.2  MEM= 1306.4M)
+[12/29 00:25:49     30s] Extracted 100% (CPU Time= 0:00:00.2  MEM= 1306.4M)
+[12/29 00:25:49     30s] Number of Extracted Resistors     : 29066
+[12/29 00:25:49     30s] Number of Extracted Ground Cap.   : 29398
+[12/29 00:25:49     30s] Number of Extracted Coupling Cap. : 51184
+[12/29 00:25:49     30s] Opening parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for reading (mem: 1274.340M)
+[12/29 00:25:49     30s] Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.4fF, relative_c_threshold=1, and total_c_threshold=0fF.
+[12/29 00:25:49     30s]  Corner: RC_corner
+[12/29 00:25:49     30s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1274.3M)
+[12/29 00:25:49     30s] Creating parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb_Filter.rcdb.d' for storing RC.
+[12/29 00:25:49     30s] Closing parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d': 1812 access done (mem: 1282.340M)
+[12/29 00:25:49     30s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1282.340M)
+[12/29 00:25:49     30s] Opening parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for reading (mem: 1282.340M)
+[12/29 00:25:49     30s] processing rcdb (/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d) for hinst (top) of cell (ipdc);
+[12/29 00:25:49     31s] Closing parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d': 0 access done (mem: 1282.340M)
+[12/29 00:25:49     31s] Lumped Parasitic Loading Completed (total cpu=0:00:00.4, real=0:00:00.0, current mem=1282.340M)
+[12/29 00:25:49     31s] PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:00.7  Real Time: 0:00:01.0  MEM: 1282.340M)
+[12/29 00:25:49     31s] Starting delay calculation for Setup views
+[12/29 00:25:49     31s] Starting SI iteration 1 using Infinite Timing Windows
+[12/29 00:25:49     31s] #################################################################################
+[12/29 00:25:49     31s] # Design Stage: PostRoute
+[12/29 00:25:49     31s] # Design Name: ipdc
+[12/29 00:25:49     31s] # Design Mode: 130nm
+[12/29 00:25:49     31s] # Analysis Mode: MMMC OCV 
+[12/29 00:25:49     31s] # Parasitics Mode: SPEF/RCDB
+[12/29 00:25:49     31s] # Signoff Settings: SI On 
+[12/29 00:25:49     31s] #################################################################################
+[12/29 00:25:51     32s] AAE_INFO: 1 threads acquired from CTE.
+[12/29 00:25:51     32s] Setting infinite Tws ...
+[12/29 00:25:51     32s] First Iteration Infinite Tw... 
+[12/29 00:25:51     32s] Calculate early delays in OCV mode...
+[12/29 00:25:51     32s] Calculate late delays in OCV mode...
+[12/29 00:25:51     32s] Topological Sorting (REAL = 0:00:00.0, MEM = 1282.3M, InitMEM = 1282.3M)
+[12/29 00:25:51     32s] Start delay calculation (fullDC) (1 T). (MEM=1282.34)
+[12/29 00:25:51     32s] LayerId::1 widthSet size::4
+[12/29 00:25:51     32s] LayerId::2 widthSet size::4
+[12/29 00:25:51     32s] LayerId::3 widthSet size::4
+[12/29 00:25:51     32s] LayerId::4 widthSet size::4
+[12/29 00:25:51     32s] LayerId::5 widthSet size::4
+[12/29 00:25:51     32s] LayerId::6 widthSet size::4
+[12/29 00:25:51     32s] LayerId::7 widthSet size::5
+[12/29 00:25:51     32s] LayerId::8 widthSet size::3
+[12/29 00:25:51     32s] Initializing multi-corner capacitance tables ... 
+[12/29 00:25:51     32s] Initializing multi-corner resistance tables ...
+[12/29 00:25:51     32s] Preroute length aware model : LLS: 2-3 ; HLS: 3-5 ; rDens: 0.237418 ; uaWl: 1.000000 ; uaWlH: 0.255951 ; aWlH: 0.000000 ; Pmax: 0.828000 ; wcR: 0.686400 ; newSi: 0.095200 ; pMod: 80 ; 
+[12/29 00:25:51     32s] AAE_INFO: Number of noise libraries( CDBs ) loaded = 1
+[12/29 00:25:51     32s] AAE_INFO: Cdb files are: 
+[12/29 00:25:51     32s]  	/home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB
+[12/29 00:25:51     32s]  
+[12/29 00:25:51     32s] Start AAE Lib Loading. (MEM=1298.64)
+[12/29 00:25:52     33s] **WARN: (IMPESI-3083):	CDB cell FILL1 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+[12/29 00:25:52     33s] **WARN: (IMPESI-3083):	CDB cell FILL16 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+[12/29 00:25:52     33s] **WARN: (IMPESI-3083):	CDB cell FILL2 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+[12/29 00:25:52     33s] **WARN: (IMPESI-3083):	CDB cell FILL32 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+[12/29 00:25:52     33s] **WARN: (IMPESI-3083):	CDB cell FILL4 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+[12/29 00:25:52     33s] **WARN: (IMPESI-3083):	CDB cell FILL64 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+[12/29 00:25:52     33s] **WARN: (IMPESI-3083):	CDB cell FILL8 does not have a corresponding model in any timing library file. Skipping the characterized noise model from cdb file /home/raid7_1/userd/d10013/CVSD/hw5/APR/ipdc/final.dat/libs/mmmc/slow.cdB.
+[12/29 00:25:52     33s] End AAE Lib Loading. (MEM=1366.28 CPU=0:00:00.3 Real=0:00:01.0)
+[12/29 00:25:52     33s] End AAE Lib Interpolated Model. (MEM=1366.28 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/29 00:25:52     33s] Opening parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for reading (mem: 1366.277M)
+[12/29 00:25:52     33s] RC Database In Completed (CPU Time= 0:00:00.0  Real Time=0:00:00.0  MEM= 1366.3M)
+[12/29 00:25:52     33s] **WARN: (IMPESI-3086):	The cell 'sram_256x8' does not have characterized noise model(s) for 'sram_256x8' lib(s). Missing noise information could compromise the accuracy of analysis.
+[12/29 00:25:52     33s] Type 'man IMPESI-3086' for more detail.
+[12/29 00:25:52     33s] Total number of fetched objects 1875
+[12/29 00:25:52     33s] AAE_INFO-618: Total number of nets in the design is 1831,  100.0 percent of the nets selected for SI analysis
+[12/29 00:25:52     33s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/29 00:25:52     33s] End delay calculation. (MEM=1372.88 CPU=0:00:00.6 REAL=0:00:00.0)
+[12/29 00:25:52     33s] End delay calculation (fullDC). (MEM=1345.8 CPU=0:00:01.1 REAL=0:00:01.0)
+[12/29 00:25:52     33s] *** CDM Built up (cpu=0:00:02.7  real=0:00:03.0  mem= 1345.8M) ***
+[12/29 00:25:53     34s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1345.8M)
+[12/29 00:25:53     34s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[12/29 00:25:53     34s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1345.8M)
+[12/29 00:25:53     34s] Starting SI iteration 2
+[12/29 00:25:53     34s] Calculate early delays in OCV mode...
+[12/29 00:25:53     34s] Calculate late delays in OCV mode...
+[12/29 00:25:53     34s] Start delay calculation (fullDC) (1 T). (MEM=1273.92)
+[12/29 00:25:53     34s] End AAE Lib Interpolated Model. (MEM=1273.92 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/29 00:25:53     34s] Glitch Analysis: View av_func_mode_max -- Total Number of Nets Skipped = 0. 
+[12/29 00:25:53     34s] Glitch Analysis: View av_func_mode_max -- Total Number of Nets Analyzed = 1875. 
+[12/29 00:25:53     34s] Total number of fetched objects 1875
+[12/29 00:25:53     34s] AAE_INFO-618: Total number of nets in the design is 1831,  0.4 percent of the nets selected for SI analysis
+[12/29 00:25:53     34s] End delay calculation. (MEM=1317.61 CPU=0:00:00.0 REAL=0:00:00.0)
+[12/29 00:25:53     34s] End delay calculation (fullDC). (MEM=1317.61 CPU=0:00:00.0 REAL=0:00:00.0)
+[12/29 00:25:53     34s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1317.6M) ***
+[12/29 00:25:53     34s] *** Done Building Timing Graph (cpu=0:00:03.0 real=0:00:04.0 totSessionCpu=0:00:34.2 mem=1317.6M)
+[12/29 00:25:53     34s] OPERPROF: Starting spInitSiteArr at level 1, MEM:1278.6M
+[12/29 00:25:53     34s] OPERPROF:   Starting spiInitFpSiteArr at level 2, MEM:1278.6M
+[12/29 00:25:53     34s] Use non-trimmed site array because memory saving is not enough.
+[12/29 00:25:53     34s] OPERPROF:     Starting RoutingBlockageFromWireViaStBox at level 3, MEM:1313.3M
+[12/29 00:25:53     34s] OPERPROF:     Finished RoutingBlockageFromWireViaStBox at level 3, CPU:0.000, REAL:0.003, MEM:1313.3M
+[12/29 00:25:53     34s] OPERPROF:   Finished spiInitFpSiteArr at level 2, CPU:0.020, REAL:0.028, MEM:1313.3M
+[12/29 00:25:53     34s] OPERPROF: Finished spInitSiteArr at level 1, CPU:0.030, REAL:0.031, MEM:1313.3M
+[12/29 00:25:53     34s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1313.3M
+[12/29 00:25:53     34s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:1313.3M
+[12/29 00:25:55     34s] 
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Setup views included:
+ av_func_mode_max 
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Setup mode     |   all   | reg2reg | in2reg  | reg2out | in2out  | default |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):|  0.651  |  0.957  |  2.048  |  0.651  |   N/A   |  0.000  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |  0.000  |   N/A   |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |    0    |   N/A   |    0    |
+|          All Paths:|   481   |   231   |   247   |   26    |   N/A   |    0    |
++--------------------+---------+---------+---------+---------+---------+---------+
+
++----------------+-------------------------------+------------------+
+|                |              Real             |       Total      |
+|    DRVs        +------------------+------------+------------------|
+|                |  Nr nets(terms)  | Worst Vio  |  Nr nets(terms)  |
++----------------+------------------+------------+------------------+
+|   max_cap      |      0 (0)       |   0.000    |      0 (0)       |
+|   max_tran     |      0 (0)       |   0.000    |      0 (0)       |
+|   max_fanout   |      0 (0)       |     0      |      0 (0)       |
+|   max_length   |      0 (0)       |     0      |      0 (0)       |
++----------------+------------------+------------+------------------+
+
+Density: 14.658%
+       (100.000% with Fillers)
+Total number of glitch violations: 0
+------------------------------------------------------------
+Reported timing to dir timingReports
+[12/29 00:25:55     34s] Total CPU time: 4.18 sec
+[12/29 00:25:55     34s] Total Real time: 7.0 sec
+[12/29 00:25:55     34s] Total Memory Usage: 1315.269531 Mbytes
+[12/29 00:25:55     34s] Info: pop threads available for lower-level modules during optimization.
+[12/29 00:25:55     34s] Reset AAE Options
+[12/29 00:25:55     34s] 
+[12/29 00:25:55     34s] =============================================================================================
+[12/29 00:25:55     34s]  Final TAT Report for timeDesign
+[12/29 00:25:55     34s] =============================================================================================
+[12/29 00:25:55     34s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[12/29 00:25:55     34s] ---------------------------------------------------------------------------------------------
+[12/29 00:25:55     34s] [ ViewPruning            ]      1   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[12/29 00:25:55     34s] [ ExtractRC              ]      1   0:00:01.1  (  15.9 % )     0:00:01.1 /  0:00:00.7    0.6
+[12/29 00:25:55     34s] [ TimingUpdate           ]      2   0:00:00.1  (   1.1 % )     0:00:03.4 /  0:00:03.0    0.9
+[12/29 00:25:55     34s] [ FullDelayCalc          ]      1   0:00:03.3  (  50.2 % )     0:00:03.3 /  0:00:02.9    0.9
+[12/29 00:25:55     34s] [ OptSummaryReport       ]      1   0:00:00.2  (   2.4 % )     0:00:02.1 /  0:00:00.5    0.2
+[12/29 00:25:55     34s] [ TimingReport           ]      1   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    1.3
+[12/29 00:25:55     34s] [ DrvReport              ]      1   0:00:01.5  (  23.0 % )     0:00:01.8 /  0:00:00.1    0.0
+[12/29 00:25:55     34s] [ GenerateReports        ]      1   0:00:00.2  (   2.9 % )     0:00:00.2 /  0:00:00.2    0.9
+[12/29 00:25:55     34s] [ ReportTranViolation    ]      1   0:00:00.0  (   0.2 % )     0:00:00.0 /  0:00:00.0    0.9
+[12/29 00:25:55     34s] [ ReportCapViolation     ]      1   0:00:00.0  (   0.1 % )     0:00:00.0 /  0:00:00.0    1.2
+[12/29 00:25:55     34s] [ ReportFanoutViolation  ]      1   0:00:00.0  (   0.1 % )     0:00:00.0 /  0:00:00.0    2.0
+[12/29 00:25:55     34s] [ ReportLenViolation     ]      2   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[12/29 00:25:55     34s] [ ReportGlitchViolation  ]      1   0:00:00.2  (   2.6 % )     0:00:00.2 /  0:00:00.0    0.0
+[12/29 00:25:55     34s] [ GenerateDrvReportData  ]      1   0:00:00.0  (   0.4 % )     0:00:00.0 /  0:00:00.0    1.0
+[12/29 00:25:55     34s] [ ReportAnalysisSummary  ]      2   0:00:00.0  (   0.4 % )     0:00:00.0 /  0:00:00.0    1.3
+[12/29 00:25:55     34s] [ MISC                   ]          0:00:00.0  (   0.7 % )     0:00:00.0 /  0:00:00.0    0.4
+[12/29 00:25:55     34s] ---------------------------------------------------------------------------------------------
+[12/29 00:25:55     34s]  timeDesign TOTAL                   0:00:06.7  ( 100.0 % )     0:00:06.7 /  0:00:04.2    0.6
+[12/29 00:25:55     34s] ---------------------------------------------------------------------------------------------
+[12/29 00:25:55     34s] 
+[12/29 00:26:42     38s] <CMD> redirect -quiet {set honorDomain [getAnalysisMode -honorClockDomains]} > /dev/null
+[12/29 00:26:42     38s] <CMD> timeDesign -postRoute -hold -pathReports -slackReports -numPaths 50 -prefix ipdc_postRoute -outDir timingReports
+[12/29 00:26:42     38s]  Reset EOS DB
+[12/29 00:26:42     38s] Ignoring AAE DB Resetting ...
+[12/29 00:26:42     38s] Closing parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d': 1812 access done (mem: 1319.363M)
+[12/29 00:26:42     38s] Extraction called for design 'ipdc' of instances=5042 and nets=1831 using extraction engine 'postRoute' at effort level 'low' .
+[12/29 00:26:42     38s] PostRoute (effortLevel low) RC Extraction called for design ipdc.
+[12/29 00:26:42     38s] RC Extraction called in multi-corner(1) mode.
+[12/29 00:26:42     38s] Process corner(s) are loaded.
+[12/29 00:26:42     38s]  Corner: RC_corner
+[12/29 00:26:42     38s] extractDetailRC Option : -outfile /tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d -maxResLength 200  -extended
+[12/29 00:26:42     38s] RC Mode: PostRoute -effortLevel low [Extended CapTable, RC Table Resistances]
+[12/29 00:26:42     38s]       RC Corner Indexes            0   
+[12/29 00:26:42     38s] Capacitance Scaling Factor   : 1.00000 
+[12/29 00:26:42     38s] Coupling Cap. Scaling Factor : 1.00000 
+[12/29 00:26:42     38s] Resistance Scaling Factor    : 1.00000 
+[12/29 00:26:42     38s] Clock Cap. Scaling Factor    : 1.00000 
+[12/29 00:26:42     38s] Clock Res. Scaling Factor    : 1.00000 
+[12/29 00:26:42     38s] Shrink Factor                : 1.00000
+[12/29 00:26:42     38s] LayerId::1 widthSet size::4
+[12/29 00:26:42     38s] LayerId::2 widthSet size::4
+[12/29 00:26:42     38s] LayerId::3 widthSet size::4
+[12/29 00:26:42     38s] LayerId::4 widthSet size::4
+[12/29 00:26:42     38s] LayerId::5 widthSet size::4
+[12/29 00:26:42     38s] LayerId::6 widthSet size::4
+[12/29 00:26:42     38s] LayerId::7 widthSet size::5
+[12/29 00:26:42     38s] LayerId::8 widthSet size::3
+[12/29 00:26:42     38s] Initializing multi-corner capacitance tables ... 
+[12/29 00:26:42     38s] Initializing multi-corner resistance tables ...
+[12/29 00:26:42     38s] Preroute length aware model : LLS: 2-3 ; HLS: 3-5 ; rDens: 0.237418 ; uaWl: 1.000000 ; uaWlH: 0.255951 ; aWlH: 0.000000 ; Pmax: 0.828000 ; wcR: 0.686400 ; newSi: 0.095200 ; pMod: 80 ; 
+[12/29 00:26:42     38s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1313.4M)
+[12/29 00:26:42     38s] Creating parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for storing RC.
+[12/29 00:26:42     38s] Extracted 10.0085% (CPU Time= 0:00:00.1  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 20.011% (CPU Time= 0:00:00.1  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 30.0073% (CPU Time= 0:00:00.1  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 40.0098% (CPU Time= 0:00:00.1  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 50.0122% (CPU Time= 0:00:00.1  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 60.0085% (CPU Time= 0:00:00.2  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 70.011% (CPU Time= 0:00:00.2  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 80.0073% (CPU Time= 0:00:00.2  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 90.0098% (CPU Time= 0:00:00.2  MEM= 1379.9M)
+[12/29 00:26:42     38s] Extracted 100% (CPU Time= 0:00:00.3  MEM= 1379.9M)
+[12/29 00:26:44     40s] Number of Extracted Resistors     : 29066
+[12/29 00:26:44     40s] Number of Extracted Ground Cap.   : 29398
+[12/29 00:26:44     40s] Number of Extracted Coupling Cap. : 51184
+[12/29 00:26:44     40s] Opening parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for reading (mem: 1335.867M)
+[12/29 00:26:44     40s] Filtering XCap in 'relativeAndCoupling' mode using values coupling_c_threshold=0.4fF, relative_c_threshold=1, and total_c_threshold=0fF.
+[12/29 00:26:44     40s]  Corner: RC_corner
+[12/29 00:26:44     40s] Checking LVS Completed (CPU Time= 0:00:00.0  MEM= 1335.9M)
+[12/29 00:26:44     40s] Creating parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb_Filter.rcdb.d' for storing RC.
+[12/29 00:26:45     41s] Closing parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d': 1812 access done (mem: 1343.867M)
+[12/29 00:26:45     41s] Lumped Parasitic Loading Started (total cpu=0:00:00.0, real=0:00:00.0, current mem=1343.867M)
+[12/29 00:26:45     41s] Opening parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for reading (mem: 1343.867M)
+[12/29 00:26:45     41s] processing rcdb (/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d) for hinst (top) of cell (ipdc);
+[12/29 00:26:45     41s] Closing parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d': 0 access done (mem: 1343.867M)
+[12/29 00:26:45     41s] Lumped Parasitic Loading Completed (total cpu=0:00:00.4, real=0:00:00.0, current mem=1343.867M)
+[12/29 00:26:45     41s] PostRoute (effortLevel low) RC Extraction DONE (CPU Time: 0:00:02.9  Real Time: 0:00:03.0  MEM: 1343.867M)
+[12/29 00:26:45     41s] All LLGs are deleted
+[12/29 00:26:45     41s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1270.5M
+[12/29 00:26:45     41s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:1270.5M
+[12/29 00:26:45     41s] OPERPROF: Starting spInitSiteArr at level 1, MEM:1270.5M
+[12/29 00:26:45     41s] OPERPROF:   Starting spiInitFpSiteArr at level 2, MEM:1270.5M
+[12/29 00:26:45     41s] Fast DP-INIT is on for default
+[12/29 00:26:45     41s] OPERPROF:   Finished spiInitFpSiteArr at level 2, CPU:0.020, REAL:0.026, MEM:1272.4M
+[12/29 00:26:45     41s] OPERPROF: Finished spInitSiteArr at level 1, CPU:0.020, REAL:0.028, MEM:1272.4M
+[12/29 00:26:45     41s] OPERPROF: Starting spSiteCleanup(true) at level 1, MEM:1272.4M
+[12/29 00:26:45     41s] OPERPROF: Finished spSiteCleanup(true) at level 1, CPU:0.000, REAL:0.000, MEM:1272.4M
+[12/29 00:26:45     41s] Starting delay calculation for Hold views
+[12/29 00:26:45     41s] Starting SI iteration 1 using Infinite Timing Windows
+[12/29 00:26:46     41s] #################################################################################
+[12/29 00:26:46     41s] # Design Stage: PostRoute
+[12/29 00:26:46     41s] # Design Name: ipdc
+[12/29 00:26:46     41s] # Design Mode: 130nm
+[12/29 00:26:46     41s] # Analysis Mode: MMMC OCV 
+[12/29 00:26:46     41s] # Parasitics Mode: SPEF/RCDB
+[12/29 00:26:46     41s] # Signoff Settings: SI On 
+[12/29 00:26:46     41s] #################################################################################
+[12/29 00:26:46     41s] AAE_INFO: 1 threads acquired from CTE.
+[12/29 00:26:46     41s] Setting infinite Tws ...
+[12/29 00:26:46     41s] First Iteration Infinite Tw... 
+[12/29 00:26:46     41s] Calculate late delays in OCV mode...
+[12/29 00:26:46     41s] Calculate early delays in OCV mode...
+[12/29 00:26:46     41s] Topological Sorting (REAL = 0:00:00.0, MEM = 1280.0M, InitMEM = 1280.0M)
+[12/29 00:26:46     41s] Start delay calculation (fullDC) (1 T). (MEM=1279.98)
+[12/29 00:26:46     41s] LayerId::1 widthSet size::4
+[12/29 00:26:46     41s] LayerId::2 widthSet size::4
+[12/29 00:26:46     41s] LayerId::3 widthSet size::4
+[12/29 00:26:46     41s] LayerId::4 widthSet size::4
+[12/29 00:26:46     41s] LayerId::5 widthSet size::4
+[12/29 00:26:46     41s] LayerId::6 widthSet size::4
+[12/29 00:26:46     41s] LayerId::7 widthSet size::5
+[12/29 00:26:46     41s] LayerId::8 widthSet size::3
+[12/29 00:26:46     41s] Initializing multi-corner capacitance tables ... 
+[12/29 00:26:46     41s] Initializing multi-corner resistance tables ...
+[12/29 00:26:46     41s] Preroute length aware model : LLS: 2-3 ; HLS: 3-5 ; rDens: 0.237418 ; uaWl: 1.000000 ; uaWlH: 0.255951 ; aWlH: 0.000000 ; Pmax: 0.828000 ; wcR: 0.686400 ; newSi: 0.095200 ; pMod: 80 ; 
+[12/29 00:26:48     44s] End AAE Lib Interpolated Model. (MEM=1296.28 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/29 00:26:48     44s] Opening parasitic data file '/tmp/innovus_temp_115698_cad29_d10013_G6PZe8/ipdc_115698_xUEvhP.rcdb.d' for reading (mem: 1296.277M)
+[12/29 00:26:49     45s] RC Database In Completed (CPU Time= 0:00:01.3  Real Time=0:00:01.0  MEM= 1296.3M)
+[12/29 00:26:53     48s] Total number of fetched objects 1875
+[12/29 00:26:53     48s] AAE_INFO-618: Total number of nets in the design is 1831,  100.0 percent of the nets selected for SI analysis
+[12/29 00:26:53     48s] End Timing Check Calculation. (CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/29 00:26:53     48s] End delay calculation. (MEM=1319.5 CPU=0:00:00.7 REAL=0:00:01.0)
+[12/29 00:26:53     48s] End delay calculation (fullDC). (MEM=1319.5 CPU=0:00:07.0 REAL=0:00:07.0)
+[12/29 00:26:53     48s] *** CDM Built up (cpu=0:00:07.1  real=0:00:07.0  mem= 1319.5M) ***
+[12/29 00:26:53     48s] Loading CTE timing window with TwFlowType 0...(CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1319.5M)
+[12/29 00:26:53     48s] Add other clocks and setupCteToAAEClockMapping during iter 1
+[12/29 00:26:53     48s] Loading CTE timing window is completed (CPU = 0:00:00.0, REAL = 0:00:00.0, MEM = 1319.5M)
+[12/29 00:26:53     48s] Starting SI iteration 2
+[12/29 00:26:53     48s] Calculate late delays in OCV mode...
+[12/29 00:26:53     48s] Calculate early delays in OCV mode...
+[12/29 00:26:53     48s] Start delay calculation (fullDC) (1 T). (MEM=1289.61)
+[12/29 00:26:53     48s] End AAE Lib Interpolated Model. (MEM=1289.61 CPU Time=0:00:00.0, Real Time=0:00:00.0)
+[12/29 00:26:53     48s] Glitch Analysis: View av_func_mode_max -- Total Number of Nets Skipped = 0. 
+[12/29 00:26:53     48s] Glitch Analysis: View av_func_mode_max -- Total Number of Nets Analyzed = 1875. 
+[12/29 00:26:53     48s] Total number of fetched objects 1875
+[12/29 00:26:53     48s] AAE_INFO-618: Total number of nets in the design is 1831,  0.3 percent of the nets selected for SI analysis
+[12/29 00:26:53     48s] End delay calculation. (MEM=1332.29 CPU=0:00:00.0 REAL=0:00:00.0)
+[12/29 00:26:53     48s] End delay calculation (fullDC). (MEM=1332.29 CPU=0:00:00.0 REAL=0:00:00.0)
+[12/29 00:26:53     48s] *** CDM Built up (cpu=0:00:00.0  real=0:00:00.0  mem= 1332.3M) ***
+[12/29 00:26:53     48s] *** Done Building Timing Graph (cpu=0:00:07.4 real=0:00:08.0 totSessionCpu=0:00:49.0 mem=1332.3M)
+[12/29 00:26:53     49s] 
+------------------------------------------------------------
+          timeDesign Summary                             
+------------------------------------------------------------
+
+Hold  views included:
+ av_func_mode_max 
+
++--------------------+---------+---------+---------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | in2reg  | reg2out | in2out  | default |
++--------------------+---------+---------+---------+---------+---------+---------+
+|           WNS (ns):|  0.816  |  0.816  |  3.402  |  4.572  |   N/A   |  0.000  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |  0.000  |   N/A   |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |    0    |   N/A   |    0    |
+|          All Paths:|   481   |   231   |   247   |   26    |   N/A   |    0    |
++--------------------+---------+---------+---------+---------+---------+---------+
+
+Density: 14.658%
+       (100.000% with Fillers)
+------------------------------------------------------------
+Reported timing to dir timingReports
+[12/29 00:26:53     49s] Total CPU time: 10.72 sec
+[12/29 00:26:53     49s] Total Real time: 11.0 sec
+[12/29 00:26:53     49s] Total Memory Usage: 1248.878906 Mbytes
+[12/29 00:26:53     49s] Reset AAE Options
+[12/29 00:26:53     49s] 
+[12/29 00:26:53     49s] =============================================================================================
+[12/29 00:26:53     49s]  Final TAT Report for timeDesign
+[12/29 00:26:53     49s] =============================================================================================
+[12/29 00:26:53     49s]  Step Name                  Count        Real  (       % )      Step Total Real / CPU  Scale
+[12/29 00:26:53     49s] ---------------------------------------------------------------------------------------------
+[12/29 00:26:53     49s] [ ViewPruning            ]      2   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.0
+[12/29 00:26:53     49s] [ ExtractRC              ]      1   0:00:03.3  (  29.7 % )     0:00:03.3 /  0:00:03.0    0.9
+[12/29 00:26:53     49s] [ TimingUpdate           ]      1   0:00:00.1  (   0.6 % )     0:00:07.4 /  0:00:07.4    1.0
+[12/29 00:26:53     49s] [ FullDelayCalc          ]      1   0:00:07.3  (  66.2 % )     0:00:07.3 /  0:00:07.3    1.0
+[12/29 00:26:53     49s] [ OptSummaryReport       ]      1   0:00:00.0  (   0.4 % )     0:00:07.7 /  0:00:07.7    1.0
+[12/29 00:26:53     49s] [ TimingReport           ]      1   0:00:00.0  (   0.0 % )     0:00:00.0 /  0:00:00.0    0.8
+[12/29 00:26:53     49s] [ GenerateReports        ]      1   0:00:00.2  (   2.1 % )     0:00:00.2 /  0:00:00.2    1.0
+[12/29 00:26:53     49s] [ ReportAnalysisSummary  ]      2   0:00:00.0  (   0.2 % )     0:00:00.0 /  0:00:00.0    0.8
+[12/29 00:26:53     49s] [ MISC                   ]          0:00:00.1  (   0.6 % )     0:00:00.1 /  0:00:00.1    1.0
+[12/29 00:26:53     49s] ---------------------------------------------------------------------------------------------
+[12/29 00:26:53     49s]  timeDesign TOTAL                   0:00:11.0  ( 100.0 % )     0:00:11.0 /  0:00:10.7    1.0
+[12/29 00:26:53     49s] ---------------------------------------------------------------------------------------------
+[12/29 00:26:53     49s] 
+[12/29 00:27:24     51s] <CMD> verify_drc
+[12/29 00:27:24     51s]  *** Starting Verify DRC (MEM: 1253.0) ***
+[12/29 00:27:24     51s] 
+[12/29 00:27:24     51s] #create default rule from bind_ndr_rule rule=0x7fc2006b68a0 0x7fc2034f2018
+[12/29 00:27:24     52s] ### import design signature (2): route=1 flt_obj=0 vio=1905142130 swire=1 shield_wire=1 net_attr=1 dirty_area=0, del_dirty_area=0 cell=0 placement=0 pin_access=1
+[12/29 00:27:24     52s]   VERIFY DRC ...... Starting Verification
+[12/29 00:27:24     52s]   VERIFY DRC ...... Initializing
+[12/29 00:27:24     52s]   VERIFY DRC ...... Deleting Existing Violations
+[12/29 00:27:24     52s]   VERIFY DRC ...... Creating Sub-Areas
+[12/29 00:27:24     52s]   VERIFY DRC ...... Using new threading
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {0.000 0.000 165.920 163.200} 1 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 1 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {165.920 0.000 331.840 163.200} 2 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 2 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {331.840 0.000 497.760 163.200} 3 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 3 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {497.760 0.000 653.660 163.200} 4 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {0.000 163.200 165.920 326.400} 5 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 5 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {165.920 163.200 331.840 326.400} 6 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 6 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {331.840 163.200 497.760 326.400} 7 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 7 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {497.760 163.200 653.660 326.400} 8 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 8 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {0.000 326.400 165.920 489.600} 9 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 9 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {165.920 326.400 331.840 489.600} 10 of 16
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area : 10 complete 0 Viols.
+[12/29 00:27:24     52s]   VERIFY DRC ...... Sub-Area: {331.840 326.400 497.760 489.600} 11 of 16
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area : 11 complete 0 Viols.
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area: {497.760 326.400 653.660 489.600} 12 of 16
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area : 12 complete 0 Viols.
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area: {0.000 489.600 165.920 647.800} 13 of 16
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area : 13 complete 0 Viols.
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area: {165.920 489.600 331.840 647.800} 14 of 16
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area : 14 complete 0 Viols.
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area: {331.840 489.600 497.760 647.800} 15 of 16
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area : 15 complete 0 Viols.
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area: {497.760 489.600 653.660 647.800} 16 of 16
+[12/29 00:27:25     52s]   VERIFY DRC ...... Sub-Area : 16 complete 0 Viols.
+[12/29 00:27:25     52s] 
+[12/29 00:27:25     52s]   Verification Complete : 0 Viols.
+[12/29 00:27:25     52s] 
+[12/29 00:27:25     52s]  *** End Verify DRC (CPU: 0:00:00.5  ELAPSED TIME: 1.00  MEM: 18.0M) ***
+[12/29 00:27:25     52s] 
+[12/29 00:27:54     55s] <CMD> getMultiCpuUsage -localCpu
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -disable_rules -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -quiet -area
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -quiet -layer_range
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -check_ndr_spacing -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -check_only -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -check_same_via_cell -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -exclude_pg_net -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -ignore_trial_route -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -max_wrong_way_halo -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -use_min_spacing_on_block_obs -quiet
+[12/29 00:27:54     55s] <CMD> get_verify_drc_mode -limit -quiet
+[12/29 00:28:01     55s] <CMD> set_verify_drc_mode -disable_rules {} -check_ndr_spacing auto -check_only default -check_same_via_cell false -exclude_pg_net false -ignore_trial_route false -ignore_cell_blockage false -use_min_spacing_on_block_obs auto -report ipdc.drc.rpt -limit 1000
+[12/29 00:28:01     55s] <CMD> verify_drc
+[12/29 00:28:01     55s] #-check_ndr_spacing auto                 # enums={true false auto}, default=auto,  user setting
+[12/29 00:28:01     55s] #-report ipdc.drc.rpt                    # string, default="", user setting
+[12/29 00:28:01     55s]  *** Starting Verify DRC (MEM: 1285.1) ***
+[12/29 00:28:01     55s] 
+[12/29 00:28:01     55s]   VERIFY DRC ...... Starting Verification
+[12/29 00:28:01     55s]   VERIFY DRC ...... Initializing
+[12/29 00:28:01     55s]   VERIFY DRC ...... Deleting Existing Violations
+[12/29 00:28:01     55s]   VERIFY DRC ...... Creating Sub-Areas
+[12/29 00:28:01     55s]   VERIFY DRC ...... Using new threading
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area: {0.000 0.000 165.920 163.200} 1 of 16
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area : 1 complete 0 Viols.
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area: {165.920 0.000 331.840 163.200} 2 of 16
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area : 2 complete 0 Viols.
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area: {331.840 0.000 497.760 163.200} 3 of 16
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area : 3 complete 0 Viols.
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area: {497.760 0.000 653.660 163.200} 4 of 16
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area: {0.000 163.200 165.920 326.400} 5 of 16
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area : 5 complete 0 Viols.
+[12/29 00:28:01     55s]   VERIFY DRC ...... Sub-Area: {165.920 163.200 331.840 326.400} 6 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 6 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {331.840 163.200 497.760 326.400} 7 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 7 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {497.760 163.200 653.660 326.400} 8 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 8 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {0.000 326.400 165.920 489.600} 9 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 9 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {165.920 326.400 331.840 489.600} 10 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 10 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {331.840 326.400 497.760 489.600} 11 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 11 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {497.760 326.400 653.660 489.600} 12 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 12 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {0.000 489.600 165.920 647.800} 13 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 13 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {165.920 489.600 331.840 647.800} 14 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 14 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {331.840 489.600 497.760 647.800} 15 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 15 complete 0 Viols.
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area: {497.760 489.600 653.660 647.800} 16 of 16
+[12/29 00:28:02     56s]   VERIFY DRC ...... Sub-Area : 16 complete 0 Viols.
+[12/29 00:28:02     56s] 
+[12/29 00:28:02     56s]   Verification Complete : 0 Viols.
+[12/29 00:28:02     56s] 
+[12/29 00:28:02     56s]  *** End Verify DRC (CPU: 0:00:00.6  ELAPSED TIME: 1.00  MEM: 1.0M) ***
+[12/29 00:28:02     56s] 
+[12/29 00:28:02     56s] <CMD> set_verify_drc_mode -area {0 0 0 0}
+[12/29 00:29:00     61s] <CMD> verifyConnectivity -type all -error 1000 -warning 50
+[12/29 00:29:00     61s] VERIFY_CONNECTIVITY use new engine.
+[12/29 00:29:00     61s] 
+[12/29 00:29:00     61s] ******** Start: VERIFY CONNECTIVITY ********
+[12/29 00:29:00     61s] Start Time: Wed Dec 29 00:29:00 2021
+[12/29 00:29:00     61s] 
+[12/29 00:29:00     61s] Design Name: ipdc
+[12/29 00:29:00     61s] Database Units: 2000
+[12/29 00:29:00     61s] Design Boundary: (0.0000, 0.0000) (653.6600, 647.8000)
+[12/29 00:29:00     61s] Error Limit = 1000; Warning Limit = 50
+[12/29 00:29:00     61s] Check all nets
+[12/29 00:29:00     61s] 
+[12/29 00:29:00     61s] Begin Summary 
+[12/29 00:29:00     61s]   Found no problems or warnings.
+[12/29 00:29:00     61s] End Summary
+[12/29 00:29:00     61s] 
+[12/29 00:29:00     61s] End Time: Wed Dec 29 00:29:00 2021
+[12/29 00:29:00     61s] Time Elapsed: 0:00:00.0
+[12/29 00:29:00     61s] 
+[12/29 00:29:00     61s] ******** End: VERIFY CONNECTIVITY ********
+[12/29 00:29:00     61s]   Verification Complete : 0 Viols.  0 Wrngs.
+[12/29 00:29:00     61s]   (CPU Time: 0:00:00.1  MEM: 0.000M)
+[12/29 00:29:00     61s] 
+[12/29 00:29:29     63s] <CMD> verify_drc
+[12/29 00:29:29     63s] #-check_ndr_spacing auto                 # enums={true false auto}, default=auto,  user setting
+[12/29 00:29:29     63s] #-report ipdc.drc.rpt                    # string, default="", user setting
+[12/29 00:29:29     63s]  *** Starting Verify DRC (MEM: 1291.3) ***
+[12/29 00:29:29     63s] 
+[12/29 00:29:29     63s]   VERIFY DRC ...... Starting Verification
+[12/29 00:29:29     63s]   VERIFY DRC ...... Initializing
+[12/29 00:29:29     63s]   VERIFY DRC ...... Deleting Existing Violations
+[12/29 00:29:29     63s]   VERIFY DRC ...... Creating Sub-Areas
+[12/29 00:29:29     63s]   VERIFY DRC ...... Using new threading
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {0.000 0.000 165.920 163.200} 1 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 1 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {165.920 0.000 331.840 163.200} 2 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 2 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {331.840 0.000 497.760 163.200} 3 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 3 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {497.760 0.000 653.660 163.200} 4 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 4 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {0.000 163.200 165.920 326.400} 5 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 5 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {165.920 163.200 331.840 326.400} 6 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 6 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {331.840 163.200 497.760 326.400} 7 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 7 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {497.760 163.200 653.660 326.400} 8 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 8 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {0.000 326.400 165.920 489.600} 9 of 16
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area : 9 complete 0 Viols.
+[12/29 00:29:29     63s]   VERIFY DRC ...... Sub-Area: {165.920 326.400 331.840 489.600} 10 of 16
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area : 10 complete 0 Viols.
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area: {331.840 326.400 497.760 489.600} 11 of 16
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area : 11 complete 0 Viols.
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area: {497.760 326.400 653.660 489.600} 12 of 16
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area : 12 complete 0 Viols.
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area: {0.000 489.600 165.920 647.800} 13 of 16
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area : 13 complete 0 Viols.
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area: {165.920 489.600 331.840 647.800} 14 of 16
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area : 14 complete 0 Viols.
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area: {331.840 489.600 497.760 647.800} 15 of 16
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area : 15 complete 0 Viols.
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area: {497.760 489.600 653.660 647.800} 16 of 16
+[12/29 00:29:29     64s]   VERIFY DRC ...... Sub-Area : 16 complete 0 Viols.
+[12/29 00:29:29     64s] 
+[12/29 00:29:29     64s]   Verification Complete : 0 Viols.
+[12/29 00:29:29     64s] 
+[12/29 00:29:29     64s]  *** End Verify DRC (CPU: 0:00:00.5  ELAPSED TIME: 0.00  MEM: 1.0M) ***
+[12/29 00:29:29     64s] 
+[12/29 00:47:21    152s] ambiguous command name "q": queryDensityInBox queryFPlanObject queryPinDensity query_objects query_power_data
+[12/29 14:03:18   3963s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Wed Dec 29 14:03:18 2021
+  Total CPU time:     1:06:08
+  Total real time:    13:38:36
+  Peak memory (main): 974.41MB
+
+[12/29 14:03:18   3963s] 
+[12/29 14:03:18   3963s] *** Memory Usage v#1 (Current mem = 1291.273M, initial mem = 274.973M) ***
+[12/29 14:03:18   3963s] 
+[12/29 14:03:18   3963s] *** Summary of all messages that are not suppressed in this session:
+[12/29 14:03:18   3963s] Severity  ID               Count  Summary                                  
+[12/29 14:03:18   3963s] WARNING   IMPLF-44            22  Macro '%s' has no SIZE statement or a ze...
+[12/29 14:03:18   3963s] WARNING   IMPLF-200           20  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[12/29 14:03:18   3963s] WARNING   IMPLF-201            8  Pin '%s' in macro '%s' has no ANTENNADIF...
+[12/29 14:03:18   3963s] WARNING   IMPLF-119           15  LAYER '%s' has been found in the databas...
+[12/29 14:03:18   3963s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[12/29 14:03:18   3963s] WARNING   IMPVL-159         1056  Pin '%s' of cell '%s' is defined in LEF ...
+[12/29 14:03:18   3963s] WARNING   IMPESI-3083          7  CDB cell %s does not have a correspondin...
+[12/29 14:03:18   3963s] WARNING   IMPESI-3086          1  The cell '%s' does not have characterize...
+[12/29 14:03:18   3963s] WARNING   IMPESI-3505          1  setDelayCalMode -eng_%s (default=%s) wil...
+[12/29 14:03:18   3963s] WARNING   IMPPP-557            8  A single-layer VIARULE GENERATE for turn...
+[12/29 14:03:18   3963s] WARNING   IMPOPT-3602          4  The specified path group name %s is not ...
+[12/29 14:03:18   3963s] WARNING   IMPOPT-801           1  Genus executable not found in PATH%s. In...
+[12/29 14:03:18   3963s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[12/29 14:03:18   3963s] WARNING   IMPTCM-77            1  Option "%s" for command %s is obsolete a...
+[12/29 14:03:18   3963s] WARNING   TECHLIB-302          1  No function defined for cell '%s'. The c...
+[12/29 14:03:18   3963s] *** Message Summary: 1147 warning(s), 0 error(s)
+[12/29 14:03:18   3963s] 
+[12/29 14:03:18   3963s] --- Ending "Innovus" (totcpu=1:06:04, real=13:38:35, mem=1291.3M) ---

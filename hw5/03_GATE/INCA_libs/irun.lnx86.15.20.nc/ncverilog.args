@@ -1,0 +1,9 @@
+//
+// File created by:  ncverilog
+// Do not modify this file
+//
+-f
+rtl_03.f
++ncmaxdelays
++access+r
++define+SDF+tb2

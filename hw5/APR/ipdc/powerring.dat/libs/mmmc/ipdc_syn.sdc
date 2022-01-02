@@ -1,0 +1,1 @@
+/home/raid7_1/userd/d10013/CVSD/hw5/02_SYN/Netlist/ipdc_syn.sdc

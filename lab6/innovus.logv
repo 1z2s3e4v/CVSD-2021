@@ -1,0 +1,50 @@
+[12/28 20:34:37      0s] 
+[12/28 20:34:37      0s] Cadence Innovus(TM) Implementation System.
+[12/28 20:34:37      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/28 20:34:37      0s] 
+[12/28 20:34:37      0s] Version:	v20.10-p004_1, built Thu May 7 20:02:41 PDT 2020
+[12/28 20:34:37      0s] Options:	
+[12/28 20:34:37      0s] Date:		Tue Dec 28 20:34:37 2021
+[12/28 20:34:37      0s] Host:		cad29 (x86_64 w/Linux 2.6.32-754.27.1.el6.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+[12/28 20:34:37      0s] OS:		CentOS release 6.10 (Final)
+[12/28 20:34:37      0s] 
+[12/28 20:34:37      0s] License:
+[12/28 20:34:38      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[12/28 20:34:38      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/28 20:35:10     18s] **WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+[12/28 20:35:11     20s] @(#)CDS: Innovus v20.10-p004_1 (64bit) 05/07/2020 20:02 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/28 20:35:11     20s] @(#)CDS: NanoRoute 20.10-p004_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+[12/28 20:35:11     20s] @(#)CDS: AAE 20.10-p005 (64bit) 05/07/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/28 20:35:11     20s] @(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+[12/28 20:35:11     20s] @(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+[12/28 20:35:11     20s] @(#)CDS: CPE v20.10-p006
+[12/28 20:35:11     20s] @(#)CDS: IQuantus/TQuantus 19.1.3-s155 (64bit) Sun Nov 3 18:26:52 PST 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/28 20:35:11     20s] @(#)CDS: OA 22.60-p028 Tue Dec  3 14:08:48 2019
+[12/28 20:35:11     20s] @(#)CDS: SGN 19.10-d001 (24-May-2019) (64 bit executable, Qt5.9.0)
+[12/28 20:35:11     20s] @(#)CDS: RCDB 11.15.0
+[12/28 20:35:11     20s] @(#)CDS: STYLUS 20.10-p002_1 (03/12/2020 10:11 PDT)
+[12/28 20:35:11     20s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_118373_cad29_d10013_I74tZN.
+
+[12/28 20:35:11     20s] Change the soft stacksize limit to 0.2%RAM (677 mbytes). Set global soft_stack_size_limit to change the value.
+[12/28 20:35:13     21s] 
+[12/28 20:35:13     21s] **INFO:  MMMC transition support version v31-84 
+[12/28 20:35:13     21s] 
+[12/28 20:35:13     21s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/28 20:35:13     21s] <CMD> suppressMessage ENCEXT-2799
+[12/28 20:35:13     21s] <CMD> win
+[12/28 20:35:30     22s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Dec 28 20:35:30 2021
+  Total CPU time:     0:00:26
+  Total real time:    0:00:56
+  Peak memory (main): 567.59MB
+
+[12/28 20:35:30     22s] 
+[12/28 20:35:30     22s] *** Memory Usage v#1 (Current mem = 849.188M, initial mem = 274.973M) ***
+[12/28 20:35:30     22s] 
+[12/28 20:35:30     22s] *** Summary of all messages that are not suppressed in this session:
+[12/28 20:35:30     22s] Severity  ID               Count  Summary                                  
+[12/28 20:35:30     22s] WARNING   IMPOPT-801           1  Genus executable not found in PATH%s. In...
+[12/28 20:35:30     22s] *** Message Summary: 1 warning(s), 0 error(s)
+[12/28 20:35:30     22s] 
+[12/28 20:35:30     22s] --- Ending "Innovus" (totcpu=0:00:24.8, real=0:00:53.0, mem=849.2M) ---

@@ -1,0 +1,322 @@
+Design 160080 160720 1147240 1134880
+   DEFAULTWIRE 400 420
+   Inst BEGIN
+      Group _top_mem_mem3 656761 700042 1083251 1091632 0.0 -1.0 
+         Macro mem_mem3 716761 760042 R0 306490 271590  60000 60000 60000 60000 
+          MAlias mem_mem3
+            OVERLAP
+               RECT 667161 710442 1072851 1081232
+            END OVERLAP
+            Q[7] 331710 71060 O
+            Q[6] 325950 71060 O
+            Q[5] 289150 71060 O
+            Q[4] 283390 71060 O
+            Q[3] 143100 71060 O
+            Q[2] 137340 71060 O
+            Q[1] 100540 71060 O
+            Q[0] 94780 71060 O
+            CLK 263300 71060 I
+            CEN 243810 71060 I
+            WEN 255900 71060 I
+            A[7] 170980 71060 I
+            A[6] 177020 71060 I
+            A[5] 189260 71060 I
+            A[4] 195460 71060 I
+            A[3] 201500 71060 I
+            A[2] 213740 71060 I
+            A[1] 219940 71060 I
+            A[0] 232180 71060 I
+            D[7] 336870 71060 I
+            D[6] 320790 71060 I
+            D[5] 294310 71060 I
+            D[4] 278230 71060 I
+            D[3] 148260 71060 I
+            D[2] 132180 71060 I
+            D[1] 105700 71060 I
+            D[0] 89620 71060 I
+         END Macro
+      END Group
+      Group _top_mem_mem2 189506 225040 581096 651530 0.0 -1.0 
+         Macro mem_mem2 249506 285040 R90 306490 271590  60000 60000 60000 60000 
+          MAlias mem_mem2
+            OVERLAP
+               RECT 199906 235440 570696 641130
+            END OVERLAP
+            Q[7] 331710 71060 O
+            Q[6] 325950 71060 O
+            Q[5] 289150 71060 O
+            Q[4] 283390 71060 O
+            Q[3] 143100 71060 O
+            Q[2] 137340 71060 O
+            Q[1] 100540 71060 O
+            Q[0] 94780 71060 O
+            CLK 263300 71060 I
+            CEN 243810 71060 I
+            WEN 255900 71060 I
+            A[7] 170980 71060 I
+            A[6] 177020 71060 I
+            A[5] 189260 71060 I
+            A[4] 195460 71060 I
+            A[3] 201500 71060 I
+            A[2] 213740 71060 I
+            A[1] 219940 71060 I
+            A[0] 232180 71060 I
+            D[7] 336870 71060 I
+            D[6] 320790 71060 I
+            D[5] 294310 71060 I
+            D[4] 278230 71060 I
+            D[3] 148260 71060 I
+            D[2] 132180 71060 I
+            D[1] 105700 71060 I
+            D[0] 89620 71060 I
+         END Macro
+      END Group
+      Group _top_mem_mem1 673536 200913 1100026 592503 0.0 -1.0 
+         Macro mem_mem1 733536 260913 MX 306490 271590  60000 60000 60000 60000 
+          MAlias mem_mem1
+            OVERLAP
+               RECT 683936 211313 1089626 582103
+            END OVERLAP
+            Q[7] 331710 71060 O
+            Q[6] 325950 71060 O
+            Q[5] 289150 71060 O
+            Q[4] 283390 71060 O
+            Q[3] 143100 71060 O
+            Q[2] 137340 71060 O
+            Q[1] 100540 71060 O
+            Q[0] 94780 71060 O
+            CLK 263300 71060 I
+            CEN 243810 71060 I
+            WEN 255900 71060 I
+            A[7] 170980 71060 I
+            A[6] 177020 71060 I
+            A[5] 189260 71060 I
+            A[4] 195460 71060 I
+            A[3] 201500 71060 I
+            A[2] 213740 71060 I
+            A[1] 219940 71060 I
+            A[0] 232180 71060 I
+            D[7] 336870 71060 I
+            D[6] 320790 71060 I
+            D[5] 294310 71060 I
+            D[4] 278230 71060 I
+            D[3] 148260 71060 I
+            D[2] 132180 71060 I
+            D[1] 105700 71060 I
+            D[0] 89620 71060 I
+         END Macro
+      END Group
+      Cluster _top_cell 0 0 R0 7.64713e+10
+            t_0 0 0 B
+            t_1 0 0 B
+            t_2 0 0 B
+            t_3 0 0 B
+            t_4 0 0 B
+            t_5 0 0 B
+            t_6 0 0 B
+            t_7 0 0 B
+            t_8 0 0 B
+            t_9 0 0 B
+            t_10 0 0 B
+            t_11 0 0 B
+            t_12 0 0 B
+            t_13 0 0 B
+            t_14 0 0 B
+            t_15 0 0 B
+            t_16 0 0 B
+            t_17 0 0 B
+            t_18 0 0 B
+            t_19 0 0 B
+            t_20 0 0 B
+            t_21 0 0 B
+            t_22 0 0 B
+            t_23 0 0 B
+            t_24 0 0 B
+            t_25 0 0 B
+            t_26 0 0 B
+            t_27 0 0 B
+            t_28 0 0 B
+            t_29 0 0 B
+            t_30 0 0 B
+            t_31 0 0 B
+            t_32 0 0 B
+      END Cluster
+      IO i_clk 0 0
+      END IO 
+      IO i_rst_n 0 0
+      END IO 
+      IO i_op_valid 0 0
+      END IO 
+      IO i_op_mode[3] 0 0
+      END IO 
+      IO i_op_mode[2] 0 0
+      END IO 
+      IO i_op_mode[1] 0 0
+      END IO 
+      IO i_op_mode[0] 0 0
+      END IO 
+      IO o_op_ready 0 0
+      END IO 
+      IO i_in_valid 0 0
+      END IO 
+      IO i_in_data[23] 0 0
+      END IO 
+      IO i_in_data[22] 0 0
+      END IO 
+      IO i_in_data[21] 0 0
+      END IO 
+      IO i_in_data[20] 0 0
+      END IO 
+      IO i_in_data[19] 0 0
+      END IO 
+      IO i_in_data[18] 0 0
+      END IO 
+      IO i_in_data[17] 0 0
+      END IO 
+      IO i_in_data[16] 0 0
+      END IO 
+      IO i_in_data[15] 0 0
+      END IO 
+      IO i_in_data[14] 0 0
+      END IO 
+      IO i_in_data[13] 0 0
+      END IO 
+      IO i_in_data[12] 0 0
+      END IO 
+      IO i_in_data[11] 0 0
+      END IO 
+      IO i_in_data[10] 0 0
+      END IO 
+      IO i_in_data[9] 0 0
+      END IO 
+      IO i_in_data[8] 0 0
+      END IO 
+      IO i_in_data[7] 0 0
+      END IO 
+      IO i_in_data[6] 0 0
+      END IO 
+      IO i_in_data[5] 0 0
+      END IO 
+      IO i_in_data[4] 0 0
+      END IO 
+      IO i_in_data[3] 0 0
+      END IO 
+      IO i_in_data[2] 0 0
+      END IO 
+      IO i_in_data[1] 0 0
+      END IO 
+      IO i_in_data[0] 0 0
+      END IO 
+      IO o_in_ready 0 0
+      END IO 
+      IO o_out_valid 0 0
+      END IO 
+      IO o_out_data[23] 0 0
+      END IO 
+      IO o_out_data[22] 0 0
+      END IO 
+      IO o_out_data[21] 0 0
+      END IO 
+      IO o_out_data[20] 0 0
+      END IO 
+      IO o_out_data[19] 0 0
+      END IO 
+      IO o_out_data[18] 0 0
+      END IO 
+      IO o_out_data[17] 0 0
+      END IO 
+      IO o_out_data[16] 0 0
+      END IO 
+      IO o_out_data[15] 0 0
+      END IO 
+      IO o_out_data[14] 0 0
+      END IO 
+      IO o_out_data[13] 0 0
+      END IO 
+      IO o_out_data[12] 0 0
+      END IO 
+      IO o_out_data[11] 0 0
+      END IO 
+      IO o_out_data[10] 0 0
+      END IO 
+      IO o_out_data[9] 0 0
+      END IO 
+      IO o_out_data[8] 0 0
+      END IO 
+      IO o_out_data[7] 0 0
+      END IO 
+      IO o_out_data[6] 0 0
+      END IO 
+      IO o_out_data[5] 0 0
+      END IO 
+      IO o_out_data[4] 0 0
+      END IO 
+      IO o_out_data[3] 0 0
+      END IO 
+      IO o_out_data[2] 0 0
+      END IO 
+      IO o_out_data[1] 0 0
+      END IO 
+      IO o_out_data[0] 0 0
+      END IO 
+   END Inst
+   Net BEGIN
+      i_in_data[23] 2 i_in_data[23] mem_mem1 D[7] 
+      i_in_data[22] 2 i_in_data[22] mem_mem1 D[6] 
+      i_in_data[21] 2 i_in_data[21] mem_mem1 D[5] 
+      i_in_data[20] 2 i_in_data[20] mem_mem1 D[4] 
+      i_in_data[19] 2 i_in_data[19] mem_mem1 D[3] 
+      i_in_data[18] 2 i_in_data[18] mem_mem1 D[2] 
+      i_in_data[17] 2 i_in_data[17] mem_mem1 D[1] 
+      i_in_data[16] 2 i_in_data[16] mem_mem1 D[0] 
+      i_in_data[15] 2 i_in_data[15] mem_mem2 D[7] 
+      i_in_data[14] 2 i_in_data[14] mem_mem2 D[6] 
+      i_in_data[13] 2 i_in_data[13] mem_mem2 D[5] 
+      i_in_data[12] 2 i_in_data[12] mem_mem2 D[4] 
+      i_in_data[11] 2 i_in_data[11] mem_mem2 D[3] 
+      i_in_data[10] 2 i_in_data[10] mem_mem2 D[2] 
+      i_in_data[9] 2 i_in_data[9] mem_mem2 D[1] 
+      i_in_data[8] 2 i_in_data[8] mem_mem2 D[0] 
+      i_in_data[7] 2 i_in_data[7] mem_mem3 D[7] 
+      i_in_data[6] 2 i_in_data[6] mem_mem3 D[6] 
+      i_in_data[5] 2 i_in_data[5] mem_mem3 D[5] 
+      i_in_data[4] 2 i_in_data[4] mem_mem3 D[4] 
+      i_in_data[3] 2 i_in_data[3] mem_mem3 D[3] 
+      i_in_data[2] 2 i_in_data[2] mem_mem3 D[2] 
+      i_in_data[1] 2 i_in_data[1] mem_mem3 D[1] 
+      i_in_data[0] 2 i_in_data[0] mem_mem3 D[0] 
+      n786 2 _top_cell t_0 mem_mem1 WEN mem_mem2 WEN mem_mem3 WEN 
+      img_data[23] 2 _top_cell t_1 mem_mem1 Q[7] 
+      img_data[22] 2 _top_cell t_2 mem_mem1 Q[6] 
+      img_data[21] 2 _top_cell t_3 mem_mem1 Q[5] 
+      img_data[20] 2 _top_cell t_4 mem_mem1 Q[4] 
+      img_data[19] 2 _top_cell t_5 mem_mem1 Q[3] 
+      img_data[18] 2 _top_cell t_6 mem_mem1 Q[2] 
+      img_data[17] 2 _top_cell t_7 mem_mem1 Q[1] 
+      img_data[16] 2 _top_cell t_8 mem_mem1 Q[0] 
+      img_data[15] 2 _top_cell t_9 mem_mem2 Q[7] 
+      img_data[14] 2 _top_cell t_10 mem_mem2 Q[6] 
+      img_data[13] 2 _top_cell t_11 mem_mem2 Q[5] 
+      img_data[12] 2 _top_cell t_12 mem_mem2 Q[4] 
+      img_data[11] 2 _top_cell t_13 mem_mem2 Q[3] 
+      img_data[10] 2 _top_cell t_14 mem_mem2 Q[2] 
+      img_data[9] 2 _top_cell t_15 mem_mem2 Q[1] 
+      img_data[8] 2 _top_cell t_16 mem_mem2 Q[0] 
+      img_data[7] 2 _top_cell t_17 mem_mem3 Q[7] 
+      img_data[6] 2 _top_cell t_18 mem_mem3 Q[6] 
+      img_data[5] 2 _top_cell t_19 mem_mem3 Q[5] 
+      img_data[4] 2 _top_cell t_20 mem_mem3 Q[4] 
+      img_data[3] 2 _top_cell t_21 mem_mem3 Q[3] 
+      img_data[2] 2 _top_cell t_22 mem_mem3 Q[2] 
+      img_data[1] 2 _top_cell t_23 mem_mem3 Q[1] 
+      img_data[0] 2 _top_cell t_24 mem_mem3 Q[0] 
+      mem_addr[7] 2 _top_cell t_25 mem_mem1 A[7] mem_mem2 A[7] mem_mem3 A[7] 
+      mem_addr[6] 2 _top_cell t_26 mem_mem1 A[6] mem_mem2 A[6] mem_mem3 A[6] 
+      mem_addr[5] 2 _top_cell t_27 mem_mem1 A[5] mem_mem2 A[5] mem_mem3 A[5] 
+      mem_addr[4] 2 _top_cell t_28 mem_mem1 A[4] mem_mem2 A[4] mem_mem3 A[4] 
+      mem_addr[3] 2 _top_cell t_29 mem_mem1 A[3] mem_mem2 A[3] mem_mem3 A[3] 
+      mem_addr[2] 2 _top_cell t_30 mem_mem1 A[2] mem_mem2 A[2] mem_mem3 A[2] 
+      mem_addr[1] 2 _top_cell t_31 mem_mem1 A[1] mem_mem2 A[1] mem_mem3 A[1] 
+      mem_addr[0] 2 _top_cell t_32 mem_mem1 A[0] mem_mem2 A[0] mem_mem3 A[0] 
+   END Net
+END Design

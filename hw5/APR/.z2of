@@ -1,0 +1,210 @@
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem3, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem2, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem1, R0, R180, MX, MY, R90, R270, MX90, MY90
+mem_mem3
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem2
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000
+mem_mem1
+	Macro2Core 0
+	UserSpacingL 60000
+	UserSpacingB 60000
+	UserSpacingR 60000
+	UserSpacingT 60000

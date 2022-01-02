@@ -1,0 +1,303 @@
+[12/28 20:35:39      0s] 
+[12/28 20:35:39      0s] Cadence Innovus(TM) Implementation System.
+[12/28 20:35:39      0s] Copyright 2020 Cadence Design Systems, Inc. All rights reserved worldwide.
+[12/28 20:35:39      0s] 
+[12/28 20:35:39      0s] Version:	v20.10-p004_1, built Thu May 7 20:02:41 PDT 2020
+[12/28 20:35:39      0s] Options:	
+[12/28 20:35:39      0s] Date:		Tue Dec 28 20:35:39 2021
+[12/28 20:35:39      0s] Host:		cad29 (x86_64 w/Linux 2.6.32-754.27.1.el6.x86_64) (10cores*40cpus*Intel(R) Xeon(R) CPU E5-2650 v3 @ 2.30GHz 25600KB)
+[12/28 20:35:39      0s] OS:		CentOS release 6.10 (Final)
+[12/28 20:35:39      0s] 
+[12/28 20:35:39      0s] License:
+[12/28 20:35:39      0s] 		invs	Innovus Implementation System	20.1	checkout succeeded
+[12/28 20:35:39      0s] 		8 CPU jobs allowed with the current license(s). Use setMultiCpuUsage to set your required CPU count.
+[12/28 20:36:08     14s] **WARN: (IMPOPT-801):	Genus executable not found in PATH. Install Genus, add the path to the genus executable in the PATH variable and rerun Innovus.
+[12/28 20:36:10     15s] @(#)CDS: Innovus v20.10-p004_1 (64bit) 05/07/2020 20:02 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/28 20:36:10     15s] @(#)CDS: NanoRoute 20.10-p004_1 NR200413-0234/20_10-UB (database version 18.20.505) {superthreading v1.69}
+[12/28 20:36:10     15s] @(#)CDS: AAE 20.10-p005 (64bit) 05/07/2020 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/28 20:36:10     15s] @(#)CDS: CTE 20.10-p005_1 () Apr 14 2020 09:14:28 ( )
+[12/28 20:36:10     15s] @(#)CDS: SYNTECH 20.10-b004_1 () Mar 12 2020 22:18:21 ( )
+[12/28 20:36:10     15s] @(#)CDS: CPE v20.10-p006
+[12/28 20:36:10     15s] @(#)CDS: IQuantus/TQuantus 19.1.3-s155 (64bit) Sun Nov 3 18:26:52 PST 2019 (Linux 2.6.32-431.11.2.el6.x86_64)
+[12/28 20:36:10     15s] @(#)CDS: OA 22.60-p028 Tue Dec  3 14:08:48 2019
+[12/28 20:36:10     15s] @(#)CDS: SGN 19.10-d001 (24-May-2019) (64 bit executable, Qt5.9.0)
+[12/28 20:36:10     15s] @(#)CDS: RCDB 11.15.0
+[12/28 20:36:10     15s] @(#)CDS: STYLUS 20.10-p002_1 (03/12/2020 10:11 PDT)
+[12/28 20:36:10     15s] Create and set the environment variable TMPDIR to /tmp/innovus_temp_119689_cad29_d10013_55i0K4.
+
+[12/28 20:36:10     15s] Change the soft stacksize limit to 0.2%RAM (677 mbytes). Set global soft_stack_size_limit to change the value.
+[12/28 20:36:12     16s] 
+[12/28 20:36:12     16s] **INFO:  MMMC transition support version v31-84 
+[12/28 20:36:12     16s] 
+[12/28 20:36:12     16s] <CMD> set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+[12/28 20:36:12     16s] <CMD> suppressMessage ENCEXT-2799
+[12/28 20:36:12     16s] <CMD> win
+[12/28 20:36:36     19s] <CMD> encMessage warning 0
+[12/28 20:36:36     19s] Suppress "**WARN ..." messages.
+[12/28 20:36:36     19s] <CMD> encMessage debug 0
+[12/28 20:36:36     19s] <CMD> encMessage info 0
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL1' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL2' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL3' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL4' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL5' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL6' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL7' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'METAL8' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'VIA12' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'VIA23' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'VIA34' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'VIA45' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'VIA56' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'VIA67' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-119):	LAYER 'VIA78' has been found in the database. Its content except ANTENNA* data will be ignored.
+[12/28 20:36:37     19s] Review the LEF files specified in the init_lef_file variable and remove redundant definitions.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDC0102CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDC0204CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDC0408CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDC1216CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDS0102CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDS0204CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDS0408CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PDS1216CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRC0102CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRC0204CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRC0408CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRC1216CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRS0102CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRS0204CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRS0408CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PRS1216CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PVDD1CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PVSS1CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PVSS3CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (IMPLF-44):	Macro 'PXOE1CDG' has no SIZE statement or a zero SIZE
+[12/28 20:36:37     19s] statement and it is a class CORE macro so it needs a correct SIZE. There
+[12/28 20:36:37     19s] is no SITE statement, so a useful SIZE cannot be computed, so this macro
+[12/28 20:36:37     19s] is not loaded in the Innovus database and cannot be used in the
+[12/28 20:36:37     19s] netlist.
+[12/28 20:36:37     19s] **WARN: (EMS-27):	Message (IMPLF-44) has exceeded the current message display limit of 20.
+[12/28 20:36:37     19s] To increase the message display limit, refer to the product command reference manual.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AA[0]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AA[1]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AA[2]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AA[3]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AA[4]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AA[5]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AB[0]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AB[1]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AB[2]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AB[3]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AB[4]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'AB[5]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'CENA' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'CENB' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'CLKA' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'CLKB' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'DB[0]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'DB[10]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'DB[11]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-200):	Pin 'DB[12]' in macro 'RF2SH64x16' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (EMS-27):	Message (IMPLF-200) has exceeded the current message display limit of 20.
+[12/28 20:36:37     19s] To increase the message display limit, refer to the product command reference manual.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[0]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[10]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[11]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[12]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[13]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[14]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[15]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[1]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[2]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[3]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[4]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[5]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[6]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[7]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[8]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'QA[9]' in macro 'RF2SH64x16' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'PAD' in macro 'PRUW24DGZ' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'C' in macro 'PRUW24DGZ' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'PAD' in macro 'PRUW16DGZ' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (IMPLF-201):	Pin 'C' in macro 'PRUW16DGZ' has no ANTENNADIFFAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+[12/28 20:36:37     19s] **WARN: (EMS-27):	Message (IMPLF-201) has exceeded the current message display limit of 20.
+[12/28 20:36:37     19s] To increase the message display limit, refer to the product command reference manual.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM1 GENERATE.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM2 GENERATE.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM3 GENERATE.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM4 GENERATE.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM5 GENERATE.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM6 GENERATE.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM7 GENERATE.
+[12/28 20:36:37     19s] **WARN: (IMPPP-557):	A single-layer VIARULE GENERATE for turn-vias is obsolete and is being ignored. Remove this statement from the technology file: VIARULE TURNM8 GENERATE.
+[12/28 20:36:37     19s] Loading view definition file from /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/DBS/floorplan.dat/viewDefinition.tcl
+[12/28 20:36:37     20s] **WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/slow.lib)
+[12/28 20:36:37     20s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS3DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3wc.lib)
+[12/28 20:36:37     20s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS2DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3wc.lib)
+[12/28 20:36:37     20s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS1DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3wc.lib)
+[12/28 20:36:37     20s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD2POC'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3wc.lib)
+[12/28 20:36:37     20s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD2DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3wc.lib)
+[12/28 20:36:37     20s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD1DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3wc.lib)
+[12/28 20:36:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'HOLDX1'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/fast.lib)
+[12/28 20:36:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS3DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3lt.lib)
+[12/28 20:36:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS2DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3lt.lib)
+[12/28 20:36:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVSS1DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3lt.lib)
+[12/28 20:36:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD2POC'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3lt.lib)
+[12/28 20:36:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD2DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3lt.lib)
+[12/28 20:36:38     21s] **WARN: (TECHLIB-302):	No function defined for cell 'PVDD1DGZ'. The cell will only be used for analysis. (File /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/library/lib/tpz013g3lt.lib)
+[12/28 20:36:38     21s] *** End library_loading (cpu=0.03min, real=0.02min, mem=13.4M, fe_cpu=0.36min, fe_real=0.98min, fe_mem=878.2M) ***
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3XL' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X4' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X2' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR3X1' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2XL' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X4' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X2' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XOR2X1' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3XL' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VSS' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (IMPVL-159):	Pin 'VDD' of cell 'XNOR3X4' is defined in LEF but not in the timing library.
+[12/28 20:36:38     21s] **WARN: (EMS-27):	Message (IMPVL-159) has exceeded the current message display limit of 20.
+[12/28 20:36:38     21s] To increase the message display limit, refer to the product command reference manual.
+[12/28 20:36:39     22s] *** Netlist is unique.
+[12/28 20:36:39     22s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/28 20:36:39     22s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/28 20:36:45     28s] Loading preference file /home/raid7_1/userd/d10013/CVSD/lab6/Lab6/DBS/floorplan.dat/gui.pref.tcl ...
+[12/28 20:36:46     28s] **WARN: (IMPFP-3961):	The techSite 'corner' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/28 20:36:46     28s] **WARN: (IMPFP-3961):	The techSite 'pad' has no related standard cells in LEF/OA library. Cannot make calculations for this site type unless standard cell models of this type exist in the LEF/OA library. If the SITE is not used by the library you can ignore this warning or remove the SITE definition from the LEF/OA to avoid this message.
+[12/28 20:36:47     29s] Loading place ...
+[12/28 20:36:47     29s] **WARN: (IMPEXT-6202):	In addition to the technology file, the capacitance table file is specified for all the RC corners. If the technology file  is already specified for all the RC corners, the capacitance table file is not required for preRoute and postRoute extraction. In a new session, the capacitance table files can be removed from the create_rc_corner command to enable the technology file to be used for preRoute and postRoute (effort level medium/high/signoff) extraction engines.
+[12/28 20:36:48     29s] {RT RC_corner 0 8 8 {7 0} 1}
+[12/28 20:36:51     32s] **WARN: (IMPCTE-107):	The following globals have been obsoleted since version 20.10-p004_1. They will be removed in the next release. 
+[12/28 20:36:51     32s] timing_enable_default_delay_arc
+[12/28 20:37:47     37s] <CMD> zoomBox -324.62900 -211.57800 1475.76850 1400.16200
+[12/28 20:37:48     37s] <CMD> zoomBox -261.04450 -132.97050 1269.29350 1237.00850
+[12/28 20:37:49     37s] <CMD> zoomBox -207.29450 -67.04500 1093.49250 1097.43700
+[12/28 20:37:50     37s] <CMD> zoomBox -272.03200 -126.14000 1258.30550 1243.83850
+[12/28 20:37:50     37s] <CMD> zoomBox -182.64700 -43.58500 1118.14000 1120.89700
+[12/28 20:37:51     37s] <CMD> zoomBox -82.43750 21.79050 1023.23150 1011.60050
+[12/28 20:37:59     38s] 
+--------------------------------------------------------------------------------
+Exiting Innovus on Tue Dec 28 20:37:59 2021
+  Total CPU time:     0:00:40
+  Total real time:    0:02:21
+  Peak memory (main): 882.92MB
+
+[12/28 20:37:59     38s] 
+[12/28 20:37:59     38s] *** Memory Usage v#1 (Current mem = 1201.727M, initial mem = 274.973M) ***
+[12/28 20:37:59     38s] 
+[12/28 20:37:59     38s] *** Summary of all messages that are not suppressed in this session:
+[12/28 20:37:59     38s] Severity  ID               Count  Summary                                  
+[12/28 20:37:59     38s] WARNING   IMPLF-44            21  Macro '%s' has no SIZE statement or a ze...
+[12/28 20:37:59     38s] WARNING   IMPLF-200          355  Pin '%s' in macro '%s' has no ANTENNAGAT...
+[12/28 20:37:59     38s] WARNING   IMPLF-201          225  Pin '%s' in macro '%s' has no ANTENNADIF...
+[12/28 20:37:59     38s] WARNING   IMPLF-119           15  LAYER '%s' has been found in the databas...
+[12/28 20:37:59     38s] WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+[12/28 20:37:59     38s] WARNING   IMPEXT-6202          1  In addition to the technology file, the ...
+[12/28 20:37:59     38s] WARNING   IMPVL-159         1056  Pin '%s' of cell '%s' is defined in LEF ...
+[12/28 20:37:59     38s] WARNING   IMPPP-557            8  A single-layer VIARULE GENERATE for turn...
+[12/28 20:37:59     38s] WARNING   IMPOPT-801           1  Genus executable not found in PATH%s. In...
+[12/28 20:37:59     38s] WARNING   IMPCTE-107           1  The following globals have been obsolete...
+[12/28 20:37:59     38s] WARNING   TECHLIB-302         14  No function defined for cell '%s'. The c...
+[12/28 20:37:59     38s] *** Message Summary: 1701 warning(s), 0 error(s)
+[12/28 20:37:59     38s] 
+[12/28 20:37:59     38s] --- Ending "Innovus" (totcpu=0:00:38.3, real=0:02:20, mem=1201.7M) ---
