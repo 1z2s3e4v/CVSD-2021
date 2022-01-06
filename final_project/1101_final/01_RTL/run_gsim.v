@@ -13,7 +13,7 @@ output	[ 511:0] o_x; // 16 * 32-bit
 reg	[ 31:0]	o_x_w[0:15], o_x_r[0:15];
 reg			o_done_w, o_done_r;
 reg	[255:0]	A[0:15], A_next[0:15];
-reg	[255:0] B, B_next;
+reg	[ 15:0] B[0:15], B_next[0:15];
 reg	[ 31:0] X[0:15], X_next[0:15];
 reg	[ 47:0] AX[0:15], AX_next[0:15]; // (ax) in each round, S31.16 --> S15.16
 reg	[ 36:0] SUM[0:15], SUM_next[0:15]; // (b - 15*ax), S20.16 --> S15.16
@@ -66,14 +66,17 @@ always@(*) begin
 			end
 		end
 		S_EX: begin
-			if(iter == 3'd15) begin
+			if(iter == 4'd15) begin
 				next_state	= S_HOLD;
 				o_done_w	= 1;
 			end else begin
 				next_state	= S_EX;
-				if(round == 4'd17) begin
+				if(round == 5'd18) begin
 					iter_next	= iter + 1;
 					round_next	= 0;
+					for(i=0;i<=15;i=i+1) begin
+						SUM_next[i]	= 0;
+					end
 				end else begin
 					round_next  = round + 1;
 				end
@@ -91,19 +94,20 @@ end
 
 // set A and B
 always@(*) begin
-	for(i=0;i<=15;i=i+1)
+	for(i=0;i<=15;i=i+1) begin
 		A_next[i]	= A[i];
-	B_next		= B;
+		B_next[i]	= B[i];
+	end
 	o_done_w	= o_done_r;
 	// Set A and B when i_module_en 0->1
 	if(cur_state == S_WAIT && i_module_en) begin
 		for(i=0;i<=15;i=i+1) begin
 			for(j=0;j<=15;j=j+1) begin
-				//A_next[i][j*16:j*16+15]	= i_a[j*256+i*16:j*256+i*16+15];
-				A_next[i][(j<<4):(j<<4)+15]	= i_a[(j<<8)+(i<<4):(j<<8)+(i<<4)+15];
+				A_next[i][j*16+15 -:16]	= i_a[j*256+i*16+15 -:16];
 			end
+			B_next[i]	= i_b[i*16+15 -:16];
+			X_next[i]	= i_b[i*16+15 -:16] * i_a[i*256+i*16+15 -:16];
 		end
-		B_next	= i_b;
 	end
 end
 
@@ -111,30 +115,46 @@ end
 always@(*) begin
 	// compute X for 16 iteration
 	if(cur_state == S_EX) begin
-		if(iter == 3'd000) begin
+		if(iter == 4'd0) begin
 			for(i=0;i<=15;i=i+1) begin
-				X0[i] = B[i*16:i*16+15] * A[i][i*16:i*16+15];
 			end
-			
 		end else begin
-			/*for(i=0;i<=15;i=i+1) begin
-				for(j=0;j<=15;j=j+1) begin
-					b = B[i*16:i*16+15];
+			// x0~x16
+			for(i=0;i<=15;i=i+1) begin
+				if(round == 5'd18) begin // Set X(S15.16) = newX(S17.30)
+					if(0) begin // overflow, newX = (max|min) of S15.16
+						X_next[i]	= {newX[i][47], {31{~newX[i][47]}}}; // (011....11 | 100...00)
+					end else begin
+						X_next[i]	= newX[i][45:14]; // S17.30 --> S15.16
+					end
+				end // else, compute xi
+				else if(round == 5'd17) begin // X(S17.30) = 1/A(S1.14) * SUM(S15.16)
+					if(0) begin // overflow, SUM = (max|min) of S15.16
+						newX_next[i]	= {{32{A[i][i*16+15]}}, A[i][i*16+15 -:16]} * {SUM[i][36], {31{~SUM[i][36]}}}; // (01..1 | 10..0)
+					end else begin
+						newX_next[i]	= {{32{A[i][i*16+15]}}, A[i][i*16+15 -:16]} * {{16{SUM[i][31]}}, SUM[i][31:0]};
+					end
+				end else if(round <= 5'd16) begin
+					// Compute SUM
+					if(round == 0) begin // SUM(S20.16) = SUM + B(S15)
+						SUM_next[i] = SUM[i] + {{5{B[i][15]}}, B[i], {16{1'b0}}};
+					end else if(round-1 != i) begin // SUM(S20.16) = SUM + -AX(S15.16)
+						if(0) begin // overflow, AX = (max|min) of S15.16
+							SUM_next[i] = SUM[i] - {{6{AX[i][47]}}, {31{~AX[i][47]}}}; // (011....11 | 100...00)
+						end else begin
+							SUM_next[i] = SUM[i] - {{5{AX[i][31]}}, AX[i][31:0]};
+						end
+					end
+					// Compute AX
+					if(round < 5'd16) begin // AX(S31.16) = A(S15) * X(S15.16)
+						AX_next[i]	= {{32{A[i][(round<<4)+15]}}, A[i][(round<<4)+15 -:16]} * {{16{X[i][31]}}, X[i]};
+					end
 				end
-				X_next[i] = A[i][i*16:i*16+15] * (B[i*16:i*16+15] - )
-			end*/
-			X_next[0] = A[0] * (B[0] - A[0][16:31]*X[1] - A[0][32:47]*X[2] - A[0][48:63]*X[3] 
-									- A[0][64:79]*X[4] - A[0][80:95]*X[5] - A[0][96:111]*X[6] - A[0][112:127]*X[7]
-								   	- A[0][128:143]*X[8] - A[0][144:159]*X[9] - A[0][160:175]*X[10] - A[0][176:191]*X[11]
-								   	- A[0][192:217]*X[12] - A[0][208:223]*X[13] - A[0][224:239]*X[14] - A[0][240:255]*X[15])
-/*			X_next[0] = A[0] * (B[0] - A[0][0:15]*X[0] - A[0][16:31]*X[1] - A[0][32:47]*X[2] - A[0][48:63]*X[3] 
-									- A[0][64:79]*X[4] - A[0][80:95]*X[5] - A[0][96:111]*X[6] - A[0][112:127]*X[7]
-								   	- A[0][128:143]*X[8] - A[0][144:159]*X[9] - A[0][160:175]*X[10] - A[0][176:191]*X[11]
-								   	- A[0][192:217]*X[12] - A[0][208:223]*X[13] - A[0][224:239]*X[14] - A[0][240:255]*X[15]) */
-
+			end
 		end
 	end
 end
+
 // ---------------------------------------------------------------------------
 // Sequential Block
 // ---------------------------------------------------------------------------
@@ -144,8 +164,11 @@ always@(posedge i_clk or posedge i_reset) begin
 		for(i=0;i<=15;i=i+1) begin
 			X[i]		<= 0;
 			A[i]		<= 0;
+			B[i]		<= 0;
+			AX[i]		<= 0;
+			SUM[i]		<= 0;
+			newX[i]		<= 0;
 		end
-		B			<= 0;
 
 		cur_state	<= S_IDLE;
 		iter		<= 0;
@@ -154,8 +177,11 @@ always@(posedge i_clk or posedge i_reset) begin
 		for(i=0;i<=15;i=i+1) begin
 			X[i]		<= X_next[i];
 			A[i]		<= A_next[i];
+			B[i]		<= B_next[i];
+			AX[i]		<= AX_next[i];
+			SUM[i]		<= SUM_next[i];
+			newX[i]		<= newX_next[i];
 		end
-		B			<= B_next;
 
 		cur_state	<= next_state;
 		iter		<= iter_next;
