@@ -1,3 +1,4 @@
+//`include "run_gsim.v"
 module GSIM (                       //Don't modify interface
 	input          i_clk,
 	input          i_reset,
@@ -119,7 +120,6 @@ always@(*) begin
 			if(i_run_gsim_done) begin // X done
 				count_load_next	= count_load + 1;
 				next_state		= S_OUT;
-				count_out_next	= 0;
 			end else begin
 				next_state		= S_WAIT_X;
 			end
@@ -167,11 +167,11 @@ always@(*) begin
 			o_mem_rreq_w	= 1;
 			o_mem_addr_w	= count_load*17 + count_data; 
 		end
-		if(i_mem_dout_vld && (~read_en)) begin
+		if(i_mem_dout_vld && i_mem_rrdy && (~read_en)) begin
 			read_en_next	= 1;
 		end
 
-		if(read_en && i_mem_dout_vld && count_data <=5'd16) begin // get data
+		if(read_en && i_mem_dout_vld && i_mem_rrdy && count_data <=5'd16) begin // get data
 			if(count_data <= 5'd15) begin // A[0~15]
 				A_next[(count_data<<8)+255 -:256]	= i_mem_dout;
 				mA_next[count_data]					= i_mem_dout;
@@ -194,6 +194,7 @@ always@(*) begin
 	o_x_wen_w		= 0;
 	o_x_addr_w		= o_x_addr_r;
 	o_x_data_w		= o_x_data_r;
+	count_out_next	= count_out;
 	if(cur_state == S_OUT) begin
 		o_x_wen_w		= 1;
 		o_x_addr_w		= ((round-1)<<4) + count_out;
