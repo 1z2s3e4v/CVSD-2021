@@ -30,6 +30,7 @@ reg	[  8:0]	o_x_addr_r, o_x_addr_w;
 reg	[ 31:0] o_x_data_r, o_x_data_w;
 // run_gsim
 reg	[4095:0] A, A_next;
+reg	[ 255:0] mA[0:15], mA_next[0:15];
 reg	[ 255:0] B, B_next;
 wire	[ 511:0] X;
 // vars
@@ -51,6 +52,7 @@ parameter S_WAIT_X		= 3'b011; // Waiting for X computaiton finished
 parameter S_OUT			= 3'b100; // Output X to S-Memery
 parameter S_END			= 3'b111; // End
 
+integer i;
 // ---------------------------------------------------------------------------
 // Continuous Assignment
 // ---------------------------------------------------------------------------
@@ -153,6 +155,8 @@ always@(*) begin
 	B_next			= B;
 	count_data_next	= count_data;
 	read_en_next	= 0;
+	for(i=0;i<=15;i=i+1)
+		mA_next[i]	= mA[i];
 
 	if(load_en)begin
 		if(count_data >= 5'd17) begin // load_done (delay one cycle)
@@ -167,16 +171,17 @@ always@(*) begin
 			read_en_next	= 1;
 		end
 
-		if(read_en && count_data <=5'd16) begin // get data
+		if(read_en && i_mem_dout_vld && count_data <=5'd16) begin // get data
 			if(count_data <= 5'd15) begin // A[0~15]
 				A_next[(count_data<<8)+255 -:256]	= i_mem_dout;
+				mA_next[count_data]					= i_mem_dout;
 			end else if(count_data == 5'd16) begin // B
 				B_next	= i_mem_dout;
 			end
 			count_data_next	= count_data + 1;
 			o_mem_addr_w	= count_load*17 + count_data+1; 
 			read_en_next	= 0;
-		end
+		end 
 	end
 	if(cur_state == S_START_EX || cur_state==S_IDLE) begin // start, reset data_counter
 		count_data_next		= 0;
@@ -224,6 +229,8 @@ always@(posedge i_clk or posedge i_reset) begin
 		load_done		<= 0;
 		out_done		<= 0;
 		cur_state		<= 0;
+		for(i=0;i<=15;i=i+1)
+			mA[i]			<= 0;
 	end	else begin
 		o_proc_done_r	<= o_proc_done_w;
 		o_mem_rreq_r	<= o_mem_rreq_w;
@@ -245,6 +252,8 @@ always@(posedge i_clk or posedge i_reset) begin
 		out_done		<= out_done_next;
 		
 		cur_state		<= next_state;
+		for(i=0;i<=15;i=i+1)
+			mA[i]			<= mA_next[i];
 	end
 end
 endmodule
