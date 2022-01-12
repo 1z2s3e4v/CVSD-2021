@@ -36,6 +36,7 @@ reg          reset;
 reg          module_en;
 reg  [  4:0] matrix_num;
 wire         proc_done;
+wire         run_done;
 
 // matrix memory
 wire         mem_rreq;
@@ -93,22 +94,14 @@ end
 initial $readmemh (`INFILE, u_matrix_mem.mem_r);
 initial $readmemh (`GOLDEN, x_golden);
 
-GSIM u_GSIM(
+GSIM u_run_gsim(
 	.i_clk(clk),
 	.i_reset(reset),
-	.i_module_en(module_en),
-    .i_matrix_num(matrix_num),
-	.o_proc_done(proc_done),
-
-    .o_mem_rreq(mem_rreq),
-	.o_mem_addr(mem_addr),
-	.i_mem_rrdy(mem_rrdy),
-    .i_mem_dout(mem_dout),
-    .i_mem_dout_vld(mem_dout_vld),
-
-    .o_x_wen(x_wen),
-	.o_x_addr(x_addr),
-	.o_x_data(x_data)  
+	.i_module_en(run_module_en),
+	.o_done(run_done),
+	.i_a(m_a),
+	.i_b(m_b),
+	.o_x(x_data)  
 );
 
 matrix_mem u_matrix_mem(
@@ -129,6 +122,7 @@ initial begin
     fail = 0;
     reset = 0;
     module_en = 0;
+    run_module_en = 0;
     matrix_num = 0;
     mem_rrdy =1;
     mem_dout_vld = 0;
