@@ -59,6 +59,7 @@ always@(*) begin
 	iter_next	= iter;
 	i_x_next	= i_x;
 	round_next	= round;
+	next_state	= cur_state;
 	case(cur_state)
 		S_IDLE: begin
 			next_state	= S_WAIT;

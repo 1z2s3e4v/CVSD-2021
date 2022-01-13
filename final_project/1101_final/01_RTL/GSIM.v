@@ -1,4 +1,4 @@
-//`include "run_gsim.v"
+`include "run_gsim.v"
 module GSIM (                       //Don't modify interface
 	input          i_clk,
 	input          i_reset,

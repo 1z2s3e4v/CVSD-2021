@@ -1,0 +1,1 @@
+../../02_SYN/Netlist_eps/GSIM_syn.sdc
