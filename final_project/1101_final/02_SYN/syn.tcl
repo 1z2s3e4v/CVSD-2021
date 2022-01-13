@@ -14,6 +14,7 @@ set default_schematic_options {-size infinite}
 
 
 # Import Design
+#set DESIGN "GSIM"
 set DESIGN "GSIM"
 
 set hdlin_translate_off_skip_text "TRUE"
@@ -41,7 +42,9 @@ check_timing > Report/check_timing.txt
 
 uniquify
 set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
-compile
+#compile
+compile_ultra -self_gating
+optimize_netlist -area
 
 # Report Output
 current_design [get_designs ${DESIGN}]

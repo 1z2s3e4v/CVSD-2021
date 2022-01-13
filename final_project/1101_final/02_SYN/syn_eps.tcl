@@ -51,7 +51,8 @@ source eps_phy_cons.tcl
 
 uniquify
 set_fix_multiple_port_nets -all -buffer_constants [get_designs *]
-compile_ultra
+compile_ultra -spg -self_gating
+optimize_netlist -area
 
 # Report Output
 current_design [get_designs ${DESIGN}]
